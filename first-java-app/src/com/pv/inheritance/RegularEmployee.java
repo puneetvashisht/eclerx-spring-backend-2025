@@ -12,10 +12,17 @@ public class RegularEmployee extends Employee {
     public String toString() {
         return "RegularEmployee{salary=" + salary + ", id=" + id + ", name='" + name + "'}";
     }
-
-     public void incrementSalary(double percentage) {
+    @Override
+     public void incrementSalary(int percentage) {
         // Not applicable
         this.salary *=  percentage;
     }
+    @Override
+    public void foodCoupons() {
+       System.out.println("Food coupons for Regular Employee");
+    }
+   
+     
+   
     
 }

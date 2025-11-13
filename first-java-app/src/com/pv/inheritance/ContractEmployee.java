@@ -19,6 +19,11 @@ public class ContractEmployee extends Employee {
         this.payPerDay += amount;
     }
 
+    @Override
+    public void foodCoupons() {
+        System.out.println("Food coupons for Contract Employee");
+    }
+
     
 
 }

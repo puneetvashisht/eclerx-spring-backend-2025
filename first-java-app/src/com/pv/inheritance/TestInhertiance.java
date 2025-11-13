@@ -10,8 +10,10 @@ public class TestInhertiance {
         System.out.println(ce.toString());
         employees[0] = ce;
 
+        // Employee e1 = ce;
+
         RegularEmployee re = new RegularEmployee(102, "Jane", 60000);
-        re.incrementSalary(1.1);
+        re.incrementSalary(1);
         System.out.println(re.toString());
         employees[1] = re;
 
@@ -19,6 +21,8 @@ public class TestInhertiance {
         for(Employee e : employees) {
             System.out.println(e);
             e.incrementSalary(10);
+            e.foodCoupons();
+            e.healthInsurance();    
             System.out.println("After increment: " + e);
         }   
     }

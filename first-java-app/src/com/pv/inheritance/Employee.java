@@ -1,8 +1,8 @@
 package com.pv.inheritance;
 
-public class Employee {
-    int id;
-    String name;
+public abstract class Employee implements Perks {
+    public int id;
+    public String name;
 
     public Employee() {
     }
@@ -11,8 +11,15 @@ public class Employee {
         this.name = name;
     }
 
-    public void incrementSalary(int amount) {
-        // Default implementation (can be overridden)
+    // public void incrementSalary(int amount) {
+    //     // Default implementation (can be overridden)
+    // }
+
+    public abstract void incrementSalary(int value);
+
+     @Override
+    public void healthInsurance() {
+        System.out.println("Health insurance for Employee");
     }
 
     @Override
