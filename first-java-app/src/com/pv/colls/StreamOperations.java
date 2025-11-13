@@ -87,6 +87,12 @@ public class StreamOperations {
 
     private static void slice(List<Book> books) {
         System.out.println("\nSlice ... ");
+        books.stream()
+        .filter(b -> b.getRating() > 4.5)
+        .distinct()
+        .limit(5)
+        .skip(0)
+        .forEach(System.out::println);
 
         // Print at most 5 DISTINCT books with rating >= 4.5
         // DB world: select distinct (ISBN) from book where rating >= 4.5 limit 0, 5;
@@ -108,16 +114,42 @@ public class StreamOperations {
     // (c) Check if none of books have bad rating (2.0)?
     private static void match(List<Book> books) {
 
+        // find any highly rated inexpensive book
+        boolean isPresent = books.stream()
+        .anyMatch(b -> b.getRating() >= 4.8 && b.getPrice() <= 50.0);
+        System.out.println("Is there any highly rated inexpensive book? " + isPresent);
+
+        // do all books have rating >= 4.0
+        boolean allHighRated = books.stream()
+        .allMatch(b -> b.getRating() >= 4.0);
+        System.out.println("Do all books have rating >= 4.0? " + allHighRated);
+
+        // none of the books have bad rating (2.0)
+        boolean noneBadRated = books.stream()
+        .noneMatch(b -> b.getRating() <= 2.0);
+        System.out.println("Do none of the books have bad rating (<=2.0)? " + noneBadRated);
+
     }
 
     // Find the lowest priced book with a rating > 4.5
     private static void reduce(List<Book> books) {
-
+        // reduction operation
+        books.stream()
+        .filter(b -> b.getRating() > 4.5)
+        .map(b -> b.getPrice())
+        .min(Double::compareTo)
+        .ifPresent(p -> System.out.println("Lowest price among books with rating > 4.5 is: " + p)); 
     }
 
     // collect into different collections
     private static void collectToCollection(List<Book> books) {
+        // collect to list
+        List<Book> highRatedBooks = books.parallelStream()
+        .filter(b -> b.getRating() > 4.5)
+        .toList(); // Java 16+
 
+        System.out.println("\nHigh rated books (>4.5): ");
+        highRatedBooks.forEach(System.out::println);
     }
 
     private static void collectToMap(List<Book> books) {
@@ -131,11 +163,11 @@ public class StreamOperations {
         books.addAll(DataExtractor.getFromAmazon("java"));
         books.addAll(DataExtractor.getFromBarnesAndNoble("java"));
 
-        slice(books);
+        // slice(books);
         // match(books);
         // find(books);
         // reduce(books);
-        // collectToCollection(books);
+        collectToCollection(books);
     }
 
 }
