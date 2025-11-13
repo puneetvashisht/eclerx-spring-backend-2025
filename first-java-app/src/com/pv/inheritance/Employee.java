@@ -1,7 +1,7 @@
 package com.pv.inheritance;
 
 public abstract class Employee implements Perks {
-    public int id;
+    public Integer id;
     public String name;
 
     public Employee() {
