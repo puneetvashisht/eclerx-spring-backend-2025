@@ -12183,3 +12183,40 @@ Caused by: java.lang.IllegalStateException: Ambiguous @ExceptionHandler method m
 	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
 	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
 
+2025-11-17 16:26:03 - o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - INFO - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-11-17 16:26:03 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-17 16:26:09 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Graceful shutdown complete
+2025-11-17 16:26:09 - o.s.o.j.LocalContainerEntityManagerFactoryBean - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-17 16:26:09 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-35 - Shutdown initiated...
+2025-11-17 16:26:10 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-35 - Shutdown completed.
+2025-11-17 16:26:16 - c.p.r.RestApiAppApplication - INFO - Starting RestApiAppApplication using Java 17.0.10 with PID 13708 (D:\work\trainings\eclerx-spring-backend-2025\rest-api-app\target\classes started by punee in D:\work\trainings\eclerx-spring-backend-2025\rest-api-app)
+2025-11-17 16:26:16 - c.p.r.RestApiAppApplication - DEBUG - Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-17 16:26:16 - c.p.r.RestApiAppApplication - INFO - No active profile set, falling back to 1 default profile: "default"
+2025-11-17 16:26:17 - o.s.d.r.c.RepositoryConfigurationDelegate - INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-17 16:26:17 - o.s.d.r.c.RepositoryConfigurationDelegate - INFO - Finished Spring Data repository scanning in 141 ms. Found 2 JPA repository interfaces.
+2025-11-17 16:26:20 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat initialized with port 9090 (http)
+2025-11-17 16:26:20 - o.a.catalina.core.StandardService - INFO - Starting service [Tomcat]
+2025-11-17 16:26:20 - o.a.catalina.core.StandardEngine - INFO - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-17 16:26:20 - o.a.c.c.C.[Tomcat-1].[localhost].[/] - INFO - Initializing Spring embedded WebApplicationContext
+2025-11-17 16:26:20 - o.s.b.w.s.c.ServletWebServerApplicationContext - INFO - Root WebApplicationContext: initialization completed in 3745 ms
+2025-11-17 16:26:20 - o.h.jpa.internal.util.LogHelper - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-17 16:26:20 - o.h.c.i.RegionFactoryInitiator - INFO - HHH000026: Second-level cache disabled
+2025-11-17 16:26:21 - o.s.o.j.p.SpringPersistenceUnitInfo - INFO - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-17 16:26:21 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-36 - Starting...
+2025-11-17 16:26:21 - com.zaxxer.hikari.pool.HikariPool - INFO - HikariPool-36 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2669bec3
+2025-11-17 16:26:21 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-36 - Start completed.
+2025-11-17 16:26:21 - o.hibernate.orm.connections.pooling - INFO - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-36)']
+	Database driver: undefined/unknown
+	Database version: 8.0.29
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-17 16:26:21 - o.h.e.t.j.p.i.JtaPlatformInitiator - INFO - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-17 16:26:21 - o.s.o.j.LocalContainerEntityManagerFactoryBean - INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-17 16:26:22 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-17 16:26:22 - o.s.b.d.a.OptionalLiveReloadServer - INFO - LiveReload server is running on port 35729
+2025-11-17 16:26:22 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat started on port 9090 (http) with context path '/'
+2025-11-17 16:26:22 - c.p.r.RestApiAppApplication - INFO - Started RestApiAppApplication in 7.137 seconds (process running for 7978.038)
+2025-11-17 16:26:22 - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - INFO - Condition evaluation unchanged
