@@ -12220,3 +12220,6 @@ Caused by: java.lang.IllegalStateException: Ambiguous @ExceptionHandler method m
 2025-11-17 16:26:22 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat started on port 9090 (http) with context path '/'
 2025-11-17 16:26:22 - c.p.r.RestApiAppApplication - INFO - Started RestApiAppApplication in 7.137 seconds (process running for 7978.038)
 2025-11-17 16:26:22 - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - INFO - Condition evaluation unchanged
+2025-11-17 16:27:03 - o.a.c.c.C.[Tomcat-1].[localhost].[/] - INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-17 16:27:03 - o.s.web.servlet.DispatcherServlet - INFO - Initializing Servlet 'dispatcherServlet'
+2025-11-17 16:27:04 - o.s.web.servlet.DispatcherServlet - INFO - Completed initialization in 382 ms
