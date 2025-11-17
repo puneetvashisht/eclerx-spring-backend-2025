@@ -1,11 +1,11 @@
 package com.pv.rest_api_app.controllers;
 
+import java.time.LocalDate;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.DeleteMapping;
-import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PatchMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -39,6 +39,16 @@ public class TripController {
     public Trip getTripById(@PathVariable int id) {
         return TripRepository.findById(id)
             .orElseThrow(() -> new TripNotFoundException("Trip with id " + id + " not found"));
+    }
+    
+    @GetMapping("/trips/destination/{destination}")
+    public Trip getTripByDestination(@PathVariable String destination) {
+        return TripRepository.findByDestination(destination);
+    }
+
+    @GetMapping("/trips/startDate/upcoming")
+    public Trip getTripByStartDateAfter() {
+        return TripRepository.findByStartDateAfter(LocalDate.now());
     }
 
     @PostMapping("/trips")
@@ -92,9 +102,5 @@ public class TripController {
     }
 
 
-    @ExceptionHandler
-    @ResponseStatus(HttpStatus.NOT_FOUND)
-    public String handleTripNotFoundException(TripNotFoundException ex) {
-        return ex.getMessage();
-    }  
+    
 }
