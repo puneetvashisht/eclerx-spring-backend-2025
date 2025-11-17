@@ -15,11 +15,16 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
 import org.springframework.web.bind.annotation.RestController;
+
+import com.pv.rest_api_app.entities.Itinerary;
 import com.pv.rest_api_app.entities.Trip;
 import com.pv.rest_api_app.repositories.TripRepository;
 import com.pv.rest_api_app.utils.TripNotFoundException;
 
+import lombok.extern.slf4j.Slf4j;
+
 @RestController
+@Slf4j
 @RequestMapping("/api")
 public class TripController {
      @Autowired
@@ -57,11 +62,33 @@ public class TripController {
         Trip existingEmp = TripRepository.findById(id)
             .orElseThrow(() -> new TripNotFoundException("Trip with id " + id + " not found"));
         
+        log.debug("Existing Trip: {}", existingEmp);
+
         if (updatedEmp.getStartDate() != null) {
             existingEmp.setStartDate(updatedEmp.getStartDate());
         }
 
         TripRepository.save(existingEmp);
+    }
+
+    @PostMapping("/trips/{id}/itinerary")
+    @ResponseStatus(HttpStatus.CREATED)
+    public void addItineraryToTrip(@PathVariable int id, @RequestBody Itinerary itinerary) {
+        Trip trip = TripRepository.findById(id)
+            .orElseThrow(() -> new TripNotFoundException("Trip with id " + id + " not found"));
+        
+        log.debug("Adding Itinerary to Trip: {}", trip);
+
+        trip.getItineraries().add(itinerary);
+        TripRepository.save(trip);
+    }
+
+    @GetMapping("/trips/{id}/itinerary")
+    public List<Itinerary> getItinerariesByTripId(@PathVariable int id) {
+        Trip trip = TripRepository.findById(id)
+            .orElseThrow(() -> new TripNotFoundException("Trip with id " + id + " not found"));
+        
+        return trip.getItineraries();
     }
 
 
