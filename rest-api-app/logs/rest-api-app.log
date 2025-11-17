@@ -10343,3 +10343,336 @@ Unconditional classes:
 2025-11-17 12:13:28 - o.s.b.a.ApplicationAvailabilityBean - DEBUG - Application availability state LivenessState changed to CORRECT
 2025-11-17 12:13:29 - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - INFO - Condition evaluation unchanged
 2025-11-17 12:13:29 - o.s.b.a.ApplicationAvailabilityBean - DEBUG - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2025-11-17 12:13:37 - o.a.c.c.C.[Tomcat].[localhost].[/] - INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-17 12:13:37 - o.s.web.servlet.DispatcherServlet - INFO - Initializing Servlet 'dispatcherServlet'
+2025-11-17 12:13:37 - o.s.web.servlet.DispatcherServlet - DEBUG - Detected StandardServletMultipartResolver
+2025-11-17 12:13:37 - o.s.web.servlet.DispatcherServlet - DEBUG - Detected AcceptHeaderLocaleResolver
+2025-11-17 12:13:37 - o.s.web.servlet.DispatcherServlet - DEBUG - Detected FixedThemeResolver
+2025-11-17 12:13:37 - o.s.web.servlet.DispatcherServlet - DEBUG - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6beaf0ba
+2025-11-17 12:13:37 - o.s.web.servlet.DispatcherServlet - DEBUG - Detected org.springframework.web.servlet.support.SessionFlashMapManager@61db62c4
+2025-11-17 12:13:37 - o.s.web.servlet.DispatcherServlet - DEBUG - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-11-17 12:13:37 - o.s.web.servlet.DispatcherServlet - INFO - Completed initialization in 24 ms
+2025-11-17 12:13:37 - o.s.web.servlet.DispatcherServlet - DEBUG - GET "/api/trips/1/itinerary", parameters={}
+2025-11-17 12:13:37 - o.s.w.s.m.m.a.RequestMappingHandlerMapping - DEBUG - Mapped to com.pv.rest_api_app.controllers.TripController#getItinerariesByTripId(int)
+2025-11-17 12:13:37 - o.s.o.j.s.OpenEntityManagerInViewInterceptor - DEBUG - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-11-17 12:13:37 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Found thread-bound EntityManager [SessionImpl(1167692791<open>)] for JPA transaction
+2025-11-17 12:13:37 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findById]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2025-11-17 12:13:37 - o.s.jdbc.datasource.DataSourceUtils - DEBUG - Setting JDBC Connection [HikariProxyConnection@793442642 wrapping com.mysql.cj.jdbc.ConnectionImpl@6f369a47] read-only
+2025-11-17 12:13:37 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@3ba374ac]
+2025-11-17 12:13:37 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Initiating transaction commit
+2025-11-17 12:13:37 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Committing JPA transaction on EntityManager [SessionImpl(1167692791<open>)]
+2025-11-17 12:13:37 - o.s.jdbc.datasource.DataSourceUtils - DEBUG - Resetting read-only flag of JDBC Connection [HikariProxyConnection@793442642 wrapping com.mysql.cj.jdbc.ConnectionImpl@6f369a47]
+2025-11-17 12:13:37 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Not closing pre-bound JPA EntityManager after transaction
+2025-11-17 12:13:37 - o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - DEBUG - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-11-17 12:13:37 - o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - DEBUG - Writing [[Itinerary(id=1, activity=Paragliding, location=Okinawa, time=10:10:10)]]
+2025-11-17 12:13:38 - o.s.o.j.s.OpenEntityManagerInViewInterceptor - DEBUG - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-11-17 12:13:38 - o.s.web.servlet.DispatcherServlet - DEBUG - Completed 200 OK
+2025-11-17 12:14:20 - o.s.web.servlet.DispatcherServlet - DEBUG - POST "/api/trips/1/itinerary", parameters={}
+2025-11-17 12:14:20 - o.s.w.s.m.m.a.RequestMappingHandlerMapping - DEBUG - Mapped to com.pv.rest_api_app.controllers.TripController#addItineraryToTrip(int, Itinerary)
+2025-11-17 12:14:20 - o.s.o.j.s.OpenEntityManagerInViewInterceptor - DEBUG - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-11-17 12:14:20 - o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - DEBUG - Read "application/json;charset=UTF-8" to [Itinerary(id=0, activity=Swim on Beach, location=Yugawara, time=11:00:00)]
+2025-11-17 12:14:20 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Found thread-bound EntityManager [SessionImpl(1810286313<open>)] for JPA transaction
+2025-11-17 12:14:20 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findById]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2025-11-17 12:14:20 - o.s.jdbc.datasource.DataSourceUtils - DEBUG - Setting JDBC Connection [HikariProxyConnection@1696675301 wrapping com.mysql.cj.jdbc.ConnectionImpl@6f369a47] read-only
+2025-11-17 12:14:20 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@611ead99]
+2025-11-17 12:14:20 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Initiating transaction commit
+2025-11-17 12:14:20 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Committing JPA transaction on EntityManager [SessionImpl(1810286313<open>)]
+2025-11-17 12:14:20 - o.s.jdbc.datasource.DataSourceUtils - DEBUG - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1696675301 wrapping com.mysql.cj.jdbc.ConnectionImpl@6f369a47]
+2025-11-17 12:14:20 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Not closing pre-bound JPA EntityManager after transaction
+2025-11-17 12:14:20 - c.p.r.controllers.TripController - DEBUG - Adding Itinerary to Trip: Trip(id=1, destination=Tokyo, startDate=2025-12-02, endDate=2025-12-12, itineraries=[Itinerary(id=1, activity=Paragliding, location=Okinawa, time=10:10:10)])
+2025-11-17 12:14:20 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Found thread-bound EntityManager [SessionImpl(1810286313<open>)] for JPA transaction
+2025-11-17 12:14:20 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-11-17 12:14:20 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@78a070ab]
+2025-11-17 12:14:20 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Initiating transaction commit
+2025-11-17 12:14:20 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Committing JPA transaction on EntityManager [SessionImpl(1810286313<open>)]
+2025-11-17 12:14:20 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Not closing pre-bound JPA EntityManager after transaction
+2025-11-17 12:14:20 - o.s.o.j.s.OpenEntityManagerInViewInterceptor - DEBUG - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-11-17 12:14:20 - o.s.web.servlet.DispatcherServlet - DEBUG - Completed 201 CREATED
+2025-11-17 12:14:25 - o.s.web.servlet.DispatcherServlet - DEBUG - GET "/api/trips/1/itinerary", parameters={}
+2025-11-17 12:14:25 - o.s.w.s.m.m.a.RequestMappingHandlerMapping - DEBUG - Mapped to com.pv.rest_api_app.controllers.TripController#getItinerariesByTripId(int)
+2025-11-17 12:14:25 - o.s.o.j.s.OpenEntityManagerInViewInterceptor - DEBUG - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-11-17 12:14:25 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Found thread-bound EntityManager [SessionImpl(2110811968<open>)] for JPA transaction
+2025-11-17 12:14:25 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findById]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2025-11-17 12:14:25 - o.s.jdbc.datasource.DataSourceUtils - DEBUG - Setting JDBC Connection [HikariProxyConnection@1930927754 wrapping com.mysql.cj.jdbc.ConnectionImpl@6f369a47] read-only
+2025-11-17 12:14:25 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@77280430]
+2025-11-17 12:14:25 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Initiating transaction commit
+2025-11-17 12:14:25 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Committing JPA transaction on EntityManager [SessionImpl(2110811968<open>)]
+2025-11-17 12:14:25 - o.s.jdbc.datasource.DataSourceUtils - DEBUG - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1930927754 wrapping com.mysql.cj.jdbc.ConnectionImpl@6f369a47]
+2025-11-17 12:14:25 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Not closing pre-bound JPA EntityManager after transaction
+2025-11-17 12:14:25 - o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - DEBUG - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-11-17 12:14:25 - o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - DEBUG - Writing [[Itinerary(id=1, activity=Paragliding, location=Okinawa, time=10:10:10), Itinerary(id=2, activity=Sw (truncated)...]
+2025-11-17 12:14:25 - o.s.o.j.s.OpenEntityManagerInViewInterceptor - DEBUG - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-11-17 12:14:25 - o.s.web.servlet.DispatcherServlet - DEBUG - Completed 200 OK
+2025-11-17 12:14:39 - o.s.web.servlet.DispatcherServlet - DEBUG - DELETE "/api/itineraries/2", parameters={}
+2025-11-17 12:14:39 - o.s.w.s.m.m.a.RequestMappingHandlerMapping - DEBUG - Mapped to com.pv.rest_api_app.controllers.ItineraryController#deleteItinerary(int)
+2025-11-17 12:14:39 - o.s.o.j.s.OpenEntityManagerInViewInterceptor - DEBUG - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-11-17 12:14:39 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Found thread-bound EntityManager [SessionImpl(1341572709<open>)] for JPA transaction
+2025-11-17 12:14:39 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.deleteById]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-11-17 12:14:39 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@413121eb]
+2025-11-17 12:14:39 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Initiating transaction commit
+2025-11-17 12:14:39 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Committing JPA transaction on EntityManager [SessionImpl(1341572709<open>)]
+2025-11-17 12:14:39 - o.h.e.jdbc.spi.SqlExceptionHelper - WARN - SQL Error: 1451, SQLState: 23000
+2025-11-17 12:14:39 - o.h.e.jdbc.spi.SqlExceptionHelper - ERROR - Cannot delete or update a parent row: a foreign key constraint fails (`eclerx_db`.`trip_itineraries`, CONSTRAINT `FKseav20k7dshjjj1t3ir6qglhf` FOREIGN KEY (`itineraries_id`) REFERENCES `itinerary` (`id`))
+2025-11-17 12:14:39 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Initiating transaction rollback after commit exception
+org.springframework.dao.DataIntegrityViolationException: could not execute statement [Cannot delete or update a parent row: a foreign key constraint fails (`eclerx_db`.`trip_itineraries`, CONSTRAINT `FKseav20k7dshjjj1t3ir6qglhf` FOREIGN KEY (`itineraries_id`) REFERENCES `itinerary` (`id`))] [delete from itinerary where id=?]; SQL [delete from itinerary where id=?]; constraint [null]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:294) ~[spring-orm-6.2.12.jar:6.2.12]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:256) ~[spring-orm-6.2.12.jar:6.2.12]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:241) ~[spring-orm-6.2.12.jar:6.2.12]
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:567) ~[spring-orm-6.2.12.jar:6.2.12]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:795) ~[spring-tx-6.2.12.jar:6.2.12]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:758) ~[spring-tx-6.2.12.jar:6.2.12]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:698) ~[spring-tx-6.2.12.jar:6.2.12]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:416) ~[spring-tx-6.2.12.jar:6.2.12]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.2.12.jar:6.2.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138) ~[spring-tx-6.2.12.jar:6.2.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165) ~[spring-data-jpa-3.5.5.jar:3.5.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223) ~[spring-aop-6.2.12.jar:6.2.12]
+	at jdk.proxy9/jdk.proxy9.$Proxy154.deleteById(Unknown Source) ~[na:na]
+	at com.pv.rest_api_app.controllers.ItineraryController.deleteItinerary(ItineraryController.java:44) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:936) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:596) ~[tomcat-embed-core-10.1.48.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.48.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement [Cannot delete or update a parent row: a foreign key constraint fails (`eclerx_db`.`trip_itineraries`, CONSTRAINT `FKseav20k7dshjjj1t3ir6qglhf` FOREIGN KEY (`itineraries_id`) REFERENCES `itinerary` (`id`))] [delete from itinerary where id=?]
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:62) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:134) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:55) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.persister.entity.mutation.AbstractDeleteCoordinator.doStaticDelete(AbstractDeleteCoordinator.java:280) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.persister.entity.mutation.AbstractDeleteCoordinator.delete(AbstractDeleteCoordinator.java:87) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.action.internal.EntityDeleteAction.execute(EntityDeleteAction.java:131) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:644) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:511) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:414) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:41) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1429) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:491) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2354) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:1978) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:439) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:169) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:267) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:563) ~[spring-orm-6.2.12.jar:6.2.12]
+	... 63 common frames omitted
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`eclerx_db`.`trip_itineraries`, CONSTRAINT `FKseav20k7dshjjj1t3ir6qglhf` FOREIGN KEY (`itineraries_id`) REFERENCES `itinerary` (`id`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109) ~[mysql-connector-j-9.4.0.jar:9.4.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114) ~[mysql-connector-j-9.4.0.jar:9.4.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988) ~[mysql-connector-j-9.4.0.jar:9.4.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1166) ~[mysql-connector-j-9.4.0.jar:9.4.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1101) ~[mysql-connector-j-9.4.0.jar:9.4.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1448) ~[mysql-connector-j-9.4.0.jar:9.4.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1084) ~[mysql-connector-j-9.4.0.jar:9.4.0]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-6.3.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-6.3.3.jar:na]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	... 83 common frames omitted
+2025-11-17 12:14:39 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Rolling back JPA transaction on EntityManager [SessionImpl(1341572709<open>)]
+2025-11-17 12:14:39 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Not closing pre-bound JPA EntityManager after transaction
+2025-11-17 12:14:39 - o.s.o.j.s.OpenEntityManagerInViewInterceptor - DEBUG - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-11-17 12:14:39 - o.s.web.servlet.DispatcherServlet - DEBUG - Failed to complete request: org.springframework.dao.DataIntegrityViolationException: could not execute statement [Cannot delete or update a parent row: a foreign key constraint fails (`eclerx_db`.`trip_itineraries`, CONSTRAINT `FKseav20k7dshjjj1t3ir6qglhf` FOREIGN KEY (`itineraries_id`) REFERENCES `itinerary` (`id`))] [delete from itinerary where id=?]; SQL [delete from itinerary where id=?]; constraint [null]
+2025-11-17 12:14:39 - o.a.c.c.C.[.[.[.[dispatcherServlet] - ERROR - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: could not execute statement [Cannot delete or update a parent row: a foreign key constraint fails (`eclerx_db`.`trip_itineraries`, CONSTRAINT `FKseav20k7dshjjj1t3ir6qglhf` FOREIGN KEY (`itineraries_id`) REFERENCES `itinerary` (`id`))] [delete from itinerary where id=?]; SQL [delete from itinerary where id=?]; constraint [null]] with root cause
+java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`eclerx_db`.`trip_itineraries`, CONSTRAINT `FKseav20k7dshjjj1t3ir6qglhf` FOREIGN KEY (`itineraries_id`) REFERENCES `itinerary` (`id`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109) ~[mysql-connector-j-9.4.0.jar:9.4.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114) ~[mysql-connector-j-9.4.0.jar:9.4.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988) ~[mysql-connector-j-9.4.0.jar:9.4.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1166) ~[mysql-connector-j-9.4.0.jar:9.4.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1101) ~[mysql-connector-j-9.4.0.jar:9.4.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1448) ~[mysql-connector-j-9.4.0.jar:9.4.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1084) ~[mysql-connector-j-9.4.0.jar:9.4.0]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-6.3.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-6.3.3.jar:na]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:134) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:55) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.persister.entity.mutation.AbstractDeleteCoordinator.doStaticDelete(AbstractDeleteCoordinator.java:280) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.persister.entity.mutation.AbstractDeleteCoordinator.delete(AbstractDeleteCoordinator.java:87) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.action.internal.EntityDeleteAction.execute(EntityDeleteAction.java:131) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:644) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:511) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:414) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:41) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1429) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:491) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2354) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:1978) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:439) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:169) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:267) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:563) ~[spring-orm-6.2.12.jar:6.2.12]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:795) ~[spring-tx-6.2.12.jar:6.2.12]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:758) ~[spring-tx-6.2.12.jar:6.2.12]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:698) ~[spring-tx-6.2.12.jar:6.2.12]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:416) ~[spring-tx-6.2.12.jar:6.2.12]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.2.12.jar:6.2.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138) ~[spring-tx-6.2.12.jar:6.2.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165) ~[spring-data-jpa-3.5.5.jar:3.5.5]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223) ~[spring-aop-6.2.12.jar:6.2.12]
+	at jdk.proxy9/jdk.proxy9.$Proxy154.deleteById(Unknown Source) ~[na:na]
+	at com.pv.rest_api_app.controllers.ItineraryController.deleteItinerary(ItineraryController.java:44) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:936) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:596) ~[tomcat-embed-core-10.1.48.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.48.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+2025-11-17 12:14:39 - o.s.web.servlet.DispatcherServlet - DEBUG - "ERROR" dispatch for DELETE "/error", parameters={}
+2025-11-17 12:14:39 - o.s.w.s.m.m.a.RequestMappingHandlerMapping - DEBUG - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2025-11-17 12:14:39 - o.s.o.j.s.OpenEntityManagerInViewInterceptor - DEBUG - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-11-17 12:14:39 - o.s.w.s.m.m.a.HttpEntityMethodProcessor - DEBUG - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-11-17 12:14:39 - o.s.w.s.m.m.a.HttpEntityMethodProcessor - DEBUG - Writing [{timestamp=Mon Nov 17 12:14:39 IST 2025, status=500, error=Internal Server Error, trace=org.springfr (truncated)...]
+2025-11-17 12:14:39 - o.s.o.j.s.OpenEntityManagerInViewInterceptor - DEBUG - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-11-17 12:14:39 - o.s.web.servlet.DispatcherServlet - DEBUG - Exiting from "ERROR" dispatch, status 500
+2025-11-17 12:15:12 - o.s.web.servlet.DispatcherServlet - DEBUG - PATCH "/api/itineraries/2", parameters={}
+2025-11-17 12:15:12 - o.s.w.s.m.m.a.RequestMappingHandlerMapping - DEBUG - Mapped to com.pv.rest_api_app.controllers.ItineraryController#updateItinerary(int, Itinerary)
+2025-11-17 12:15:12 - o.s.o.j.s.OpenEntityManagerInViewInterceptor - DEBUG - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-11-17 12:15:12 - o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - DEBUG - Read "application/json;charset=UTF-8" to [Itinerary(id=0, activity=null, location=Nihowa, time=null)]
+2025-11-17 12:15:12 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Found thread-bound EntityManager [SessionImpl(1822884305<open>)] for JPA transaction
+2025-11-17 12:15:12 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findById]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2025-11-17 12:15:12 - o.s.jdbc.datasource.DataSourceUtils - DEBUG - Setting JDBC Connection [HikariProxyConnection@1650520629 wrapping com.mysql.cj.jdbc.ConnectionImpl@6f369a47] read-only
+2025-11-17 12:15:12 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@665f6aa1]
+2025-11-17 12:15:12 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Initiating transaction commit
+2025-11-17 12:15:12 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Committing JPA transaction on EntityManager [SessionImpl(1822884305<open>)]
+2025-11-17 12:15:12 - o.s.jdbc.datasource.DataSourceUtils - DEBUG - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1650520629 wrapping com.mysql.cj.jdbc.ConnectionImpl@6f369a47]
+2025-11-17 12:15:12 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Not closing pre-bound JPA EntityManager after transaction
+2025-11-17 12:15:12 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Found thread-bound EntityManager [SessionImpl(1822884305<open>)] for JPA transaction
+2025-11-17 12:15:12 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-11-17 12:15:12 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@3242ea36]
+2025-11-17 12:15:12 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Initiating transaction commit
+2025-11-17 12:15:12 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Committing JPA transaction on EntityManager [SessionImpl(1822884305<open>)]
+2025-11-17 12:15:12 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Not closing pre-bound JPA EntityManager after transaction
+2025-11-17 12:15:12 - o.s.o.j.s.OpenEntityManagerInViewInterceptor - DEBUG - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-11-17 12:15:12 - o.s.web.servlet.DispatcherServlet - DEBUG - Completed 204 NO_CONTENT
+2025-11-17 12:15:22 - o.s.web.servlet.DispatcherServlet - DEBUG - GET "/api/trips/1/itinerary", parameters={}
+2025-11-17 12:15:22 - o.s.w.s.m.m.a.RequestMappingHandlerMapping - DEBUG - Mapped to com.pv.rest_api_app.controllers.TripController#getItinerariesByTripId(int)
+2025-11-17 12:15:22 - o.s.o.j.s.OpenEntityManagerInViewInterceptor - DEBUG - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-11-17 12:15:22 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Found thread-bound EntityManager [SessionImpl(758071415<open>)] for JPA transaction
+2025-11-17 12:15:22 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findById]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2025-11-17 12:15:22 - o.s.jdbc.datasource.DataSourceUtils - DEBUG - Setting JDBC Connection [HikariProxyConnection@602454946 wrapping com.mysql.cj.jdbc.ConnectionImpl@6f369a47] read-only
+2025-11-17 12:15:22 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@27d72b07]
+2025-11-17 12:15:22 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Initiating transaction commit
+2025-11-17 12:15:22 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Committing JPA transaction on EntityManager [SessionImpl(758071415<open>)]
+2025-11-17 12:15:22 - o.s.jdbc.datasource.DataSourceUtils - DEBUG - Resetting read-only flag of JDBC Connection [HikariProxyConnection@602454946 wrapping com.mysql.cj.jdbc.ConnectionImpl@6f369a47]
+2025-11-17 12:15:22 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Not closing pre-bound JPA EntityManager after transaction
+2025-11-17 12:15:22 - o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - DEBUG - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-11-17 12:15:22 - o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - DEBUG - Writing [[Itinerary(id=1, activity=Paragliding, location=Okinawa, time=10:10:10), Itinerary(id=2, activity=Sw (truncated)...]
+2025-11-17 12:15:22 - o.s.o.j.s.OpenEntityManagerInViewInterceptor - DEBUG - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-11-17 12:15:22 - o.s.web.servlet.DispatcherServlet - DEBUG - Completed 200 OK
+2025-11-17 12:15:32 - o.s.web.servlet.DispatcherServlet - DEBUG - GET "/api/trips/1", parameters={}
+2025-11-17 12:15:32 - o.s.w.s.m.m.a.RequestMappingHandlerMapping - DEBUG - Mapped to com.pv.rest_api_app.controllers.TripController#getTripById(int)
+2025-11-17 12:15:32 - o.s.o.j.s.OpenEntityManagerInViewInterceptor - DEBUG - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-11-17 12:15:32 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Found thread-bound EntityManager [SessionImpl(899612072<open>)] for JPA transaction
+2025-11-17 12:15:32 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findById]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2025-11-17 12:15:32 - o.s.jdbc.datasource.DataSourceUtils - DEBUG - Setting JDBC Connection [HikariProxyConnection@995689835 wrapping com.mysql.cj.jdbc.ConnectionImpl@6f369a47] read-only
+2025-11-17 12:15:32 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@3f6696d8]
+2025-11-17 12:15:32 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Initiating transaction commit
+2025-11-17 12:15:32 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Committing JPA transaction on EntityManager [SessionImpl(899612072<open>)]
+2025-11-17 12:15:32 - o.s.jdbc.datasource.DataSourceUtils - DEBUG - Resetting read-only flag of JDBC Connection [HikariProxyConnection@995689835 wrapping com.mysql.cj.jdbc.ConnectionImpl@6f369a47]
+2025-11-17 12:15:32 - o.s.orm.jpa.JpaTransactionManager - DEBUG - Not closing pre-bound JPA EntityManager after transaction
+2025-11-17 12:15:32 - o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - DEBUG - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-11-17 12:15:32 - o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - DEBUG - Writing [Trip(id=1, destination=Tokyo, startDate=2025-12-02, endDate=2025-12-12, itineraries=[Itinerary(id=1, (truncated)...]
+2025-11-17 12:15:32 - o.s.o.j.s.OpenEntityManagerInViewInterceptor - DEBUG - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2025-11-17 12:15:32 - o.s.web.servlet.DispatcherServlet - DEBUG - Completed 200 OK
