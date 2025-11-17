@@ -3,7 +3,11 @@ package com.pv.rest_api_app.controllers;
 import java.time.LocalDate;
 import java.util.List;
 
+import org.hibernate.query.Page;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.data.web.SpringDataWebProperties.Pageable;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Sort;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -12,6 +16,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
 import org.springframework.web.bind.annotation.RestController;
@@ -40,6 +45,13 @@ public class TripController {
         return TripRepository.findById(id)
             .orElseThrow(() -> new TripNotFoundException("Trip with id " + id + " not found"));
     }
+
+    // count of trips
+    @GetMapping("/trips/count")
+    public long getTripCount() {
+        return TripRepository.count();
+    }
+    
     
     @GetMapping("/trips/destination/{destination}")
     public Trip getTripByDestination(@PathVariable String destination) {
@@ -49,6 +61,12 @@ public class TripController {
     @GetMapping("/trips/startDate/upcoming")
     public Trip getTripByStartDateAfter() {
         return TripRepository.findByStartDateAfter(LocalDate.now());
+    }
+
+    @GetMapping("/trips/containing/{substring}")
+    public org.springframework.data.domain.Page<Trip> getTripsByDestinationContaining(@PathVariable String substring, @RequestParam("size") Integer size , @RequestParam("page") Integer page, @RequestParam("sort") String sort) {
+        PageRequest pageable = PageRequest.of(page, size, Sort.by(sort));
+        return TripRepository.findByDestinationContaining(substring, pageable);
     }
 
     @PostMapping("/trips")
