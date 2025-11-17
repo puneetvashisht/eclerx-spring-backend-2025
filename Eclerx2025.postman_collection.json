@@ -302,7 +302,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"location\": \"Okinawa\"\r\n}",
+							"raw": "{\r\n    \"location\": \"Nihowa\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -310,7 +310,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:9090/api/itineraries/1",
+							"raw": "http://localhost:9090/api/itineraries/2",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -319,7 +319,7 @@
 							"path": [
 								"api",
 								"itineraries",
-								"1"
+								"2"
 							]
 						}
 					},
