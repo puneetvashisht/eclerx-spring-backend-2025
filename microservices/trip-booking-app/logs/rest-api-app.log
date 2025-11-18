@@ -1,0 +1,634 @@
+2025-11-18 16:06:39 - c.p.t.TripBookingAppApplication - INFO - Starting TripBookingAppApplication using Java 17.0.8 with PID 19722 (/Users/puneetvashisht/work/trainings/eclerx-spring-backend-2025/microservices/trip-booking-app/target/classes started by puneetvashisht in /Users/puneetvashisht/work/trainings/eclerx-spring-backend-2025/microservices/trip-booking-app)
+2025-11-18 16:06:39 - c.p.t.TripBookingAppApplication - INFO - No active profile set, falling back to 1 default profile: "default"
+2025-11-18 16:06:39 - o.s.c.c.c.ConfigServerConfigDataLoader - INFO - Fetching config from server at : http://localhost:8888
+2025-11-18 16:06:39 - o.s.c.c.c.ConfigServerConfigDataLoader - INFO - Located environment: name=trip-booking-app, profiles=[default], label=null, version=a47fe9b65fdfd2defd138813f94e54886146e0c5, state=
+2025-11-18 16:06:39 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - INFO - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-18 16:06:39 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - INFO - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-18 16:06:39 - o.s.cloud.context.scope.GenericScope - INFO - BeanFactory id=43c03c69-85e2-33f8-8eca-157ca8d5deda
+2025-11-18 16:06:39 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat initialized with port 8082 (http)
+2025-11-18 16:06:39 - o.a.catalina.core.StandardService - INFO - Starting service [Tomcat]
+2025-11-18 16:06:39 - o.a.catalina.core.StandardEngine - INFO - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-18 16:06:39 - o.a.c.c.C.[Tomcat].[localhost].[/] - INFO - Initializing Spring embedded WebApplicationContext
+2025-11-18 16:06:39 - o.s.b.w.s.c.ServletWebServerApplicationContext - INFO - Root WebApplicationContext: initialization completed in 466 ms
+2025-11-18 16:06:39 - o.s.b.d.a.OptionalLiveReloadServer - WARN - Unable to start LiveReload server
+2025-11-18 16:06:39 - o.s.c.o.FeignClientFactoryBean - INFO - For 'trip-app' URL not provided. Will try picking an instance via load-balancing.
+2025-11-18 16:06:39 - o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - INFO - Eureka HTTP Client uses RestTemplate.
+2025-11-18 16:06:40 - o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - WARN - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-11-18 16:06:40 - o.s.c.n.eureka.InstanceInfoFactory - INFO - Setting initial instance status as: STARTING
+2025-11-18 16:06:40 - c.netflix.discovery.DiscoveryClient - INFO - Initializing Eureka in region us-east-1
+2025-11-18 16:06:40 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-18 16:06:40 - c.netflix.discovery.DiscoveryClient - INFO - Disable delta property : false
+2025-11-18 16:06:40 - c.netflix.discovery.DiscoveryClient - INFO - Single vip registry refresh property : null
+2025-11-18 16:06:40 - c.netflix.discovery.DiscoveryClient - INFO - Force full registry fetch : false
+2025-11-18 16:06:40 - c.netflix.discovery.DiscoveryClient - INFO - Application is null : false
+2025-11-18 16:06:40 - c.netflix.discovery.DiscoveryClient - INFO - Registered Applications size is zero : true
+2025-11-18 16:06:40 - c.netflix.discovery.DiscoveryClient - INFO - Application version is -1: true
+2025-11-18 16:06:40 - c.netflix.discovery.DiscoveryClient - INFO - Getting all instance registry info from the eureka server
+2025-11-18 16:06:40 - c.netflix.discovery.DiscoveryClient - INFO - The response status is 200
+2025-11-18 16:06:40 - c.netflix.discovery.DiscoveryClient - INFO - Starting heartbeat executor: renew interval is: 30
+2025-11-18 16:06:40 - c.n.discovery.InstanceInfoReplicator - INFO - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-11-18 16:06:40 - c.netflix.discovery.DiscoveryClient - INFO - Discovery Client initialized at timestamp 1763462200152 with initial instances count: 0
+2025-11-18 16:06:40 - o.s.c.n.e.s.EurekaServiceRegistry - INFO - Registering application TRIP-BOOKING-APP with eureka with status UP
+2025-11-18 16:06:40 - c.netflix.discovery.DiscoveryClient - INFO - Saw local status change event StatusChangeEvent [timestamp=1763462200153, current=UP, previous=STARTING]
+2025-11-18 16:06:40 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-BOOKING-APP/192.168.31.70:trip-booking-app:8082: registering service...
+2025-11-18 16:06:40 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat started on port 8082 (http) with context path '/'
+2025-11-18 16:06:40 - o.s.c.n.e.s.EurekaAutoServiceRegistration - INFO - Updating port to 8082
+2025-11-18 16:06:40 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-BOOKING-APP/192.168.31.70:trip-booking-app:8082 - registration status: 204
+2025-11-18 16:06:40 - c.p.t.TripBookingAppApplication - INFO - Started TripBookingAppApplication in 2.094 seconds (process running for 2.408)
+2025-11-18 16:06:49 - o.a.c.c.C.[Tomcat].[localhost].[/] - INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-18 16:06:49 - o.s.web.servlet.DispatcherServlet - INFO - Initializing Servlet 'dispatcherServlet'
+2025-11-18 16:06:49 - o.s.web.servlet.DispatcherServlet - INFO - Completed initialization in 1 ms
+2025-11-18 16:06:49 - o.s.c.l.core.RoundRobinLoadBalancer - WARN - No servers available for service: trip-app
+2025-11-18 16:06:49 - o.s.c.o.l.FeignBlockingLoadBalancerClient - WARN - Load balancer does not contain an instance for the service trip-app
+2025-11-18 16:06:49 - o.a.c.c.C.[.[.[.[dispatcherServlet] - ERROR - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: feign.FeignException$ServiceUnavailable: [503] during [GET] to [http://trip-app/api/trips/Tokyo] [TripProxy#getTripDetails(String)]: [Load balancer does not contain an instance for the service trip-app]] with root cause
+feign.FeignException$ServiceUnavailable: [503] during [GET] to [http://trip-app/api/trips/Tokyo] [TripProxy#getTripDetails(String)]: [Load balancer does not contain an instance for the service trip-app]
+	at feign.FeignException.serverErrorStatus(FeignException.java:287)
+	at feign.FeignException.errorStatus(FeignException.java:226)
+	at feign.FeignException.errorStatus(FeignException.java:213)
+	at feign.codec.ErrorDecoder$Default.decode(ErrorDecoder.java:103)
+	at feign.InvocationContext.decodeError(InvocationContext.java:133)
+	at feign.InvocationContext.proceed(InvocationContext.java:80)
+	at feign.ResponseHandler.handleResponse(ResponseHandler.java:69)
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:109)
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:53)
+	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:104)
+	at jdk.proxy3/jdk.proxy3.$Proxy78.getTripDetails(Unknown Source)
+	at com.pv.trip_booking_app.TripBookingController.bookTripUsingFeign(TripBookingController.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2025-11-18 16:06:53 - o.s.c.l.core.RoundRobinLoadBalancer - WARN - No servers available for service: trip-app
+2025-11-18 16:06:53 - o.s.c.o.l.FeignBlockingLoadBalancerClient - WARN - Load balancer does not contain an instance for the service trip-app
+2025-11-18 16:06:53 - o.a.c.c.C.[.[.[.[dispatcherServlet] - ERROR - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: feign.FeignException$ServiceUnavailable: [503] during [GET] to [http://trip-app/api/trips/Tokyo] [TripProxy#getTripDetails(String)]: [Load balancer does not contain an instance for the service trip-app]] with root cause
+feign.FeignException$ServiceUnavailable: [503] during [GET] to [http://trip-app/api/trips/Tokyo] [TripProxy#getTripDetails(String)]: [Load balancer does not contain an instance for the service trip-app]
+	at feign.FeignException.serverErrorStatus(FeignException.java:287)
+	at feign.FeignException.errorStatus(FeignException.java:226)
+	at feign.FeignException.errorStatus(FeignException.java:213)
+	at feign.codec.ErrorDecoder$Default.decode(ErrorDecoder.java:103)
+	at feign.InvocationContext.decodeError(InvocationContext.java:133)
+	at feign.InvocationContext.proceed(InvocationContext.java:80)
+	at feign.ResponseHandler.handleResponse(ResponseHandler.java:69)
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:109)
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:53)
+	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:104)
+	at jdk.proxy3/jdk.proxy3.$Proxy78.getTripDetails(Unknown Source)
+	at com.pv.trip_booking_app.TripBookingController.bookTripUsingFeign(TripBookingController.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2025-11-18 16:06:55 - o.s.c.l.core.RoundRobinLoadBalancer - WARN - No servers available for service: trip-app
+2025-11-18 16:06:55 - o.s.c.o.l.FeignBlockingLoadBalancerClient - WARN - Load balancer does not contain an instance for the service trip-app
+2025-11-18 16:06:55 - o.a.c.c.C.[.[.[.[dispatcherServlet] - ERROR - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: feign.FeignException$ServiceUnavailable: [503] during [GET] to [http://trip-app/api/trips/Tokyo] [TripProxy#getTripDetails(String)]: [Load balancer does not contain an instance for the service trip-app]] with root cause
+feign.FeignException$ServiceUnavailable: [503] during [GET] to [http://trip-app/api/trips/Tokyo] [TripProxy#getTripDetails(String)]: [Load balancer does not contain an instance for the service trip-app]
+	at feign.FeignException.serverErrorStatus(FeignException.java:287)
+	at feign.FeignException.errorStatus(FeignException.java:226)
+	at feign.FeignException.errorStatus(FeignException.java:213)
+	at feign.codec.ErrorDecoder$Default.decode(ErrorDecoder.java:103)
+	at feign.InvocationContext.decodeError(InvocationContext.java:133)
+	at feign.InvocationContext.proceed(InvocationContext.java:80)
+	at feign.ResponseHandler.handleResponse(ResponseHandler.java:69)
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:109)
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:53)
+	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:104)
+	at jdk.proxy3/jdk.proxy3.$Proxy78.getTripDetails(Unknown Source)
+	at com.pv.trip_booking_app.TripBookingController.bookTripUsingFeign(TripBookingController.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2025-11-18 16:07:10 - c.netflix.discovery.DiscoveryClient - INFO - Disable delta property : false
+2025-11-18 16:07:10 - c.netflix.discovery.DiscoveryClient - INFO - Single vip registry refresh property : null
+2025-11-18 16:07:10 - c.netflix.discovery.DiscoveryClient - INFO - Force full registry fetch : false
+2025-11-18 16:07:10 - c.netflix.discovery.DiscoveryClient - INFO - Application is null : false
+2025-11-18 16:07:10 - c.netflix.discovery.DiscoveryClient - INFO - Registered Applications size is zero : true
+2025-11-18 16:07:10 - c.netflix.discovery.DiscoveryClient - INFO - Application version is -1: false
+2025-11-18 16:07:10 - c.netflix.discovery.DiscoveryClient - INFO - Getting all instance registry info from the eureka server
+2025-11-18 16:07:10 - c.netflix.discovery.DiscoveryClient - INFO - The response status is 200
+2025-11-18 16:07:21 - o.s.c.n.e.s.EurekaServiceRegistry - INFO - Unregistering application TRIP-BOOKING-APP with eureka with status DOWN
+2025-11-18 16:07:21 - c.netflix.discovery.DiscoveryClient - INFO - Saw local status change event StatusChangeEvent [timestamp=1763462241763, current=DOWN, previous=UP]
+2025-11-18 16:07:21 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-BOOKING-APP/192.168.31.70:trip-booking-app:8082: registering service...
+2025-11-18 16:07:21 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-18 16:07:21 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Graceful shutdown complete
+2025-11-18 16:07:21 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-BOOKING-APP/192.168.31.70:trip-booking-app:8082 - registration status: 204
+2025-11-18 16:07:21 - c.netflix.discovery.DiscoveryClient - INFO - Shutting down DiscoveryClient ...
+2025-11-18 16:07:24 - c.netflix.discovery.DiscoveryClient - INFO - Unregistering ...
+2025-11-18 16:07:24 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-BOOKING-APP/192.168.31.70:trip-booking-app:8082 - deregister  status: 200
+2025-11-18 16:07:24 - c.netflix.discovery.DiscoveryClient - INFO - Completed shut down of DiscoveryClient
+2025-11-18 16:07:29 - c.p.t.TripBookingAppApplication - INFO - Starting TripBookingAppApplication using Java 17.0.8 with PID 20842 (/Users/puneetvashisht/work/trainings/eclerx-spring-backend-2025/microservices/trip-booking-app/target/classes started by puneetvashisht in /Users/puneetvashisht/work/trainings/eclerx-spring-backend-2025/microservices/trip-booking-app)
+2025-11-18 16:07:29 - c.p.t.TripBookingAppApplication - INFO - No active profile set, falling back to 1 default profile: "default"
+2025-11-18 16:07:29 - o.s.c.c.c.ConfigServerConfigDataLoader - INFO - Fetching config from server at : http://localhost:8888
+2025-11-18 16:07:29 - o.s.c.c.c.ConfigServerConfigDataLoader - INFO - Located environment: name=trip-booking-app, profiles=[default], label=null, version=a47fe9b65fdfd2defd138813f94e54886146e0c5, state=
+2025-11-18 16:07:29 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - INFO - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-18 16:07:29 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - INFO - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-18 16:07:29 - o.s.cloud.context.scope.GenericScope - INFO - BeanFactory id=43c03c69-85e2-33f8-8eca-157ca8d5deda
+2025-11-18 16:07:30 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat initialized with port 8082 (http)
+2025-11-18 16:07:30 - o.a.catalina.core.StandardService - INFO - Starting service [Tomcat]
+2025-11-18 16:07:30 - o.a.catalina.core.StandardEngine - INFO - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-18 16:07:30 - o.a.c.c.C.[Tomcat].[localhost].[/] - INFO - Initializing Spring embedded WebApplicationContext
+2025-11-18 16:07:30 - o.s.b.w.s.c.ServletWebServerApplicationContext - INFO - Root WebApplicationContext: initialization completed in 462 ms
+2025-11-18 16:07:30 - o.s.b.d.a.OptionalLiveReloadServer - WARN - Unable to start LiveReload server
+2025-11-18 16:07:30 - o.s.c.o.FeignClientFactoryBean - INFO - For 'trip-app' URL not provided. Will try picking an instance via load-balancing.
+2025-11-18 16:07:30 - o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - INFO - Eureka HTTP Client uses RestTemplate.
+2025-11-18 16:07:30 - o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - WARN - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-11-18 16:07:30 - o.s.c.n.eureka.InstanceInfoFactory - INFO - Setting initial instance status as: STARTING
+2025-11-18 16:07:30 - c.netflix.discovery.DiscoveryClient - INFO - Initializing Eureka in region us-east-1
+2025-11-18 16:07:30 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-18 16:07:30 - c.netflix.discovery.DiscoveryClient - INFO - Disable delta property : false
+2025-11-18 16:07:30 - c.netflix.discovery.DiscoveryClient - INFO - Single vip registry refresh property : null
+2025-11-18 16:07:30 - c.netflix.discovery.DiscoveryClient - INFO - Force full registry fetch : false
+2025-11-18 16:07:30 - c.netflix.discovery.DiscoveryClient - INFO - Application is null : false
+2025-11-18 16:07:30 - c.netflix.discovery.DiscoveryClient - INFO - Registered Applications size is zero : true
+2025-11-18 16:07:30 - c.netflix.discovery.DiscoveryClient - INFO - Application version is -1: true
+2025-11-18 16:07:30 - c.netflix.discovery.DiscoveryClient - INFO - Getting all instance registry info from the eureka server
+2025-11-18 16:07:30 - c.netflix.discovery.DiscoveryClient - INFO - The response status is 200
+2025-11-18 16:07:30 - c.netflix.discovery.DiscoveryClient - INFO - Starting heartbeat executor: renew interval is: 30
+2025-11-18 16:07:30 - c.n.discovery.InstanceInfoReplicator - INFO - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-11-18 16:07:30 - c.netflix.discovery.DiscoveryClient - INFO - Discovery Client initialized at timestamp 1763462250567 with initial instances count: 1
+2025-11-18 16:07:30 - o.s.c.n.e.s.EurekaServiceRegistry - INFO - Registering application TRIP-BOOKING-APP with eureka with status UP
+2025-11-18 16:07:30 - c.netflix.discovery.DiscoveryClient - INFO - Saw local status change event StatusChangeEvent [timestamp=1763462250568, current=UP, previous=STARTING]
+2025-11-18 16:07:30 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-BOOKING-APP/192.168.31.70:trip-booking-app:8082: registering service...
+2025-11-18 16:07:30 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat started on port 8082 (http) with context path '/'
+2025-11-18 16:07:30 - o.s.c.n.e.s.EurekaAutoServiceRegistration - INFO - Updating port to 8082
+2025-11-18 16:07:30 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-BOOKING-APP/192.168.31.70:trip-booking-app:8082 - registration status: 204
+2025-11-18 16:07:30 - c.p.t.TripBookingAppApplication - INFO - Started TripBookingAppApplication in 2.17 seconds (process running for 2.519)
+2025-11-18 16:07:35 - o.a.c.c.C.[Tomcat].[localhost].[/] - INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-18 16:07:35 - o.s.web.servlet.DispatcherServlet - INFO - Initializing Servlet 'dispatcherServlet'
+2025-11-18 16:07:35 - o.s.web.servlet.DispatcherServlet - INFO - Completed initialization in 1 ms
+2025-11-18 16:09:01 - o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - INFO - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-11-18 16:09:01 - o.s.c.n.e.s.EurekaServiceRegistry - INFO - Unregistering application TRIP-BOOKING-APP with eureka with status DOWN
+2025-11-18 16:09:01 - c.netflix.discovery.DiscoveryClient - INFO - Saw local status change event StatusChangeEvent [timestamp=1763462341533, current=DOWN, previous=UP]
+2025-11-18 16:09:01 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-BOOKING-APP/192.168.31.70:trip-booking-app:8082: registering service...
+2025-11-18 16:09:01 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-18 16:09:01 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Graceful shutdown complete
+2025-11-18 16:09:01 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-BOOKING-APP/192.168.31.70:trip-booking-app:8082 - registration status: 204
+2025-11-18 16:09:01 - c.netflix.discovery.DiscoveryClient - INFO - Shutting down DiscoveryClient ...
+2025-11-18 16:09:04 - c.netflix.discovery.DiscoveryClient - INFO - Unregistering ...
+2025-11-18 16:09:04 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-BOOKING-APP/192.168.31.70:trip-booking-app:8082 - deregister  status: 200
+2025-11-18 16:09:04 - c.netflix.discovery.DiscoveryClient - INFO - Completed shut down of DiscoveryClient
+2025-11-18 16:09:05 - c.p.t.TripBookingAppApplication - INFO - Starting TripBookingAppApplication using Java 17.0.8 with PID 20842 (/Users/puneetvashisht/work/trainings/eclerx-spring-backend-2025/microservices/trip-booking-app/target/classes started by puneetvashisht in /Users/puneetvashisht/work/trainings/eclerx-spring-backend-2025/microservices/trip-booking-app)
+2025-11-18 16:09:05 - c.p.t.TripBookingAppApplication - INFO - No active profile set, falling back to 1 default profile: "default"
+2025-11-18 16:09:05 - o.s.c.c.c.ConfigServerConfigDataLoader - INFO - Fetching config from server at : http://localhost:8888
+2025-11-18 16:09:05 - o.s.c.c.c.ConfigServerConfigDataLoader - INFO - Located environment: name=trip-booking-app, profiles=[default], label=null, version=a47fe9b65fdfd2defd138813f94e54886146e0c5, state=
+2025-11-18 16:09:05 - o.s.cloud.context.scope.GenericScope - INFO - BeanFactory id=43c03c69-85e2-33f8-8eca-157ca8d5deda
+2025-11-18 16:09:05 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat initialized with port 8082 (http)
+2025-11-18 16:09:05 - o.a.catalina.core.StandardService - INFO - Starting service [Tomcat]
+2025-11-18 16:09:05 - o.a.catalina.core.StandardEngine - INFO - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-18 16:09:05 - o.a.c.c.C.[Tomcat].[localhost].[/] - INFO - Initializing Spring embedded WebApplicationContext
+2025-11-18 16:09:05 - o.s.b.w.s.c.ServletWebServerApplicationContext - INFO - Root WebApplicationContext: initialization completed in 117 ms
+2025-11-18 16:09:05 - o.s.b.d.a.OptionalLiveReloadServer - WARN - Unable to start LiveReload server
+2025-11-18 16:09:05 - o.s.c.o.FeignClientFactoryBean - INFO - For 'trip-app' URL not provided. Will try picking an instance via load-balancing.
+2025-11-18 16:09:05 - o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - INFO - Eureka HTTP Client uses RestTemplate.
+2025-11-18 16:09:05 - o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - WARN - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-11-18 16:09:05 - o.s.c.n.eureka.InstanceInfoFactory - INFO - Setting initial instance status as: STARTING
+2025-11-18 16:09:05 - c.netflix.discovery.DiscoveryClient - INFO - Initializing Eureka in region us-east-1
+2025-11-18 16:09:05 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-18 16:09:05 - c.netflix.discovery.DiscoveryClient - INFO - Disable delta property : false
+2025-11-18 16:09:05 - c.netflix.discovery.DiscoveryClient - INFO - Single vip registry refresh property : null
+2025-11-18 16:09:05 - c.netflix.discovery.DiscoveryClient - INFO - Force full registry fetch : false
+2025-11-18 16:09:05 - c.netflix.discovery.DiscoveryClient - INFO - Application is null : false
+2025-11-18 16:09:05 - c.netflix.discovery.DiscoveryClient - INFO - Registered Applications size is zero : true
+2025-11-18 16:09:05 - c.netflix.discovery.DiscoveryClient - INFO - Application version is -1: true
+2025-11-18 16:09:05 - c.netflix.discovery.DiscoveryClient - INFO - Getting all instance registry info from the eureka server
+2025-11-18 16:09:05 - c.netflix.discovery.DiscoveryClient - INFO - The response status is 200
+2025-11-18 16:09:05 - c.netflix.discovery.DiscoveryClient - INFO - Starting heartbeat executor: renew interval is: 30
+2025-11-18 16:09:05 - c.n.discovery.InstanceInfoReplicator - INFO - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-11-18 16:09:05 - c.netflix.discovery.DiscoveryClient - INFO - Discovery Client initialized at timestamp 1763462345666 with initial instances count: 2
+2025-11-18 16:09:05 - o.s.c.n.e.s.EurekaServiceRegistry - INFO - Registering application TRIP-BOOKING-APP with eureka with status UP
+2025-11-18 16:09:05 - c.netflix.discovery.DiscoveryClient - INFO - Saw local status change event StatusChangeEvent [timestamp=1763462345667, current=UP, previous=STARTING]
+2025-11-18 16:09:05 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-BOOKING-APP/192.168.31.70:trip-booking-app:8082: registering service...
+2025-11-18 16:09:05 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat started on port 8082 (http) with context path '/'
+2025-11-18 16:09:05 - o.s.c.n.e.s.EurekaAutoServiceRegistration - INFO - Updating port to 8082
+2025-11-18 16:09:05 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-BOOKING-APP/192.168.31.70:trip-booking-app:8082 - registration status: 204
+2025-11-18 16:09:05 - c.p.t.TripBookingAppApplication - INFO - Started TripBookingAppApplication in 1.088 seconds (process running for 97.607)
+2025-11-18 16:09:05 - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - INFO - Condition evaluation unchanged
+2025-11-18 16:09:56 - o.a.c.c.C.[Tomcat].[localhost].[/] - INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-18 16:09:56 - o.s.web.servlet.DispatcherServlet - INFO - Initializing Servlet 'dispatcherServlet'
+2025-11-18 16:09:56 - o.s.web.servlet.DispatcherServlet - INFO - Completed initialization in 1 ms
+2025-11-18 16:09:56 - c.p.t.TripBookingController - INFO - Booking trip using Feign client for destination: Tokyo
+2025-11-18 16:09:56 - c.p.t.TripBookingController - INFO - Received trip details: Trip(id=2, destination=Tokyo, startDate=2025/12/12, endDate=2025/12/12, price=40000.0, port=9090)
+2025-11-18 16:10:41 - c.p.t.TripBookingController - INFO - Booking trip using Feign client for destination: Tokyo
+2025-11-18 16:10:41 - c.p.t.TripBookingController - INFO - Received trip details: Trip(id=2, destination=Tokyo, startDate=2025/12/12, endDate=2025/12/12, price=40000.0, port=9090)
+2025-11-18 16:12:41 - o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - INFO - Restarting due to 6 class path changes (0 additions, 0 deletions, 6 modifications)
+2025-11-18 16:12:41 - o.s.c.n.e.s.EurekaServiceRegistry - INFO - Unregistering application TRIP-BOOKING-APP with eureka with status DOWN
+2025-11-18 16:12:41 - c.netflix.discovery.DiscoveryClient - INFO - Saw local status change event StatusChangeEvent [timestamp=1763462561744, current=DOWN, previous=UP]
+2025-11-18 16:12:41 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-BOOKING-APP/192.168.31.70:trip-booking-app:8082: registering service...
+2025-11-18 16:12:41 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-18 16:12:41 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Graceful shutdown complete
+2025-11-18 16:12:41 - c.netflix.discovery.DiscoveryClient - INFO - Shutting down DiscoveryClient ...
+2025-11-18 16:12:41 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-BOOKING-APP/192.168.31.70:trip-booking-app:8082 - registration status: 204
+2025-11-18 16:12:41 - c.netflix.discovery.DiscoveryClient - INFO - Unregistering ...
+2025-11-18 16:12:41 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-BOOKING-APP/192.168.31.70:trip-booking-app:8082 - deregister  status: 200
+2025-11-18 16:12:41 - c.netflix.discovery.DiscoveryClient - INFO - Completed shut down of DiscoveryClient
+2025-11-18 16:12:42 - c.p.t.TripBookingAppApplication - INFO - Starting TripBookingAppApplication using Java 17.0.8 with PID 20842 (/Users/puneetvashisht/work/trainings/eclerx-spring-backend-2025/microservices/trip-booking-app/target/classes started by puneetvashisht in /Users/puneetvashisht/work/trainings/eclerx-spring-backend-2025/microservices/trip-booking-app)
+2025-11-18 16:12:42 - c.p.t.TripBookingAppApplication - INFO - No active profile set, falling back to 1 default profile: "default"
+2025-11-18 16:12:42 - o.s.c.c.c.ConfigServerConfigDataLoader - INFO - Fetching config from server at : http://localhost:8888
+2025-11-18 16:12:42 - o.s.c.c.c.ConfigServerConfigDataLoader - INFO - Located environment: name=trip-booking-app, profiles=[default], label=null, version=a47fe9b65fdfd2defd138813f94e54886146e0c5, state=
+2025-11-18 16:12:42 - o.s.cloud.context.scope.GenericScope - INFO - BeanFactory id=43c03c69-85e2-33f8-8eca-157ca8d5deda
+2025-11-18 16:12:42 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat initialized with port 8082 (http)
+2025-11-18 16:12:42 - o.a.catalina.core.StandardService - INFO - Starting service [Tomcat]
+2025-11-18 16:12:42 - o.a.catalina.core.StandardEngine - INFO - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-18 16:12:42 - o.a.c.c.C.[Tomcat].[localhost].[/] - INFO - Initializing Spring embedded WebApplicationContext
+2025-11-18 16:12:42 - o.s.b.w.s.c.ServletWebServerApplicationContext - INFO - Root WebApplicationContext: initialization completed in 89 ms
+2025-11-18 16:12:42 - o.s.b.d.a.OptionalLiveReloadServer - WARN - Unable to start LiveReload server
+2025-11-18 16:12:42 - o.s.c.o.FeignClientFactoryBean - INFO - For 'trip-app' URL not provided. Will try picking an instance via load-balancing.
+2025-11-18 16:12:42 - o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - INFO - Eureka HTTP Client uses RestTemplate.
+2025-11-18 16:12:42 - o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - WARN - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-11-18 16:12:42 - o.s.c.n.eureka.InstanceInfoFactory - INFO - Setting initial instance status as: STARTING
+2025-11-18 16:12:42 - c.netflix.discovery.DiscoveryClient - INFO - Initializing Eureka in region us-east-1
+2025-11-18 16:12:42 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-18 16:12:42 - c.netflix.discovery.DiscoveryClient - INFO - Disable delta property : false
+2025-11-18 16:12:42 - c.netflix.discovery.DiscoveryClient - INFO - Single vip registry refresh property : null
+2025-11-18 16:12:42 - c.netflix.discovery.DiscoveryClient - INFO - Force full registry fetch : false
+2025-11-18 16:12:42 - c.netflix.discovery.DiscoveryClient - INFO - Application is null : false
+2025-11-18 16:12:42 - c.netflix.discovery.DiscoveryClient - INFO - Registered Applications size is zero : true
+2025-11-18 16:12:42 - c.netflix.discovery.DiscoveryClient - INFO - Application version is -1: true
+2025-11-18 16:12:42 - c.netflix.discovery.DiscoveryClient - INFO - Getting all instance registry info from the eureka server
+2025-11-18 16:12:42 - c.netflix.discovery.DiscoveryClient - INFO - The response status is 200
+2025-11-18 16:12:42 - c.netflix.discovery.DiscoveryClient - INFO - Starting heartbeat executor: renew interval is: 30
+2025-11-18 16:12:42 - c.n.discovery.InstanceInfoReplicator - INFO - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-11-18 16:12:42 - c.netflix.discovery.DiscoveryClient - INFO - Discovery Client initialized at timestamp 1763462562828 with initial instances count: 2
+2025-11-18 16:12:42 - o.s.c.n.e.s.EurekaServiceRegistry - INFO - Registering application TRIP-BOOKING-APP with eureka with status UP
+2025-11-18 16:12:42 - c.netflix.discovery.DiscoveryClient - INFO - Saw local status change event StatusChangeEvent [timestamp=1763462562828, current=UP, previous=STARTING]
+2025-11-18 16:12:42 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-BOOKING-APP/192.168.31.70:trip-booking-app:8082: registering service...
+2025-11-18 16:12:42 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat started on port 8082 (http) with context path '/'
+2025-11-18 16:12:42 - o.s.c.n.e.s.EurekaAutoServiceRegistration - INFO - Updating port to 8082
+2025-11-18 16:12:42 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-BOOKING-APP/192.168.31.70:trip-booking-app:8082 - registration status: 204
+2025-11-18 16:12:42 - c.p.t.TripBookingAppApplication - INFO - Started TripBookingAppApplication in 1.033 seconds (process running for 314.77)
+2025-11-18 16:12:42 - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - INFO - Condition evaluation unchanged
+2025-11-18 16:12:57 - o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - INFO - Restarting due to 6 class path changes (0 additions, 6 deletions, 0 modifications)
+2025-11-18 16:12:57 - o.s.c.n.e.s.EurekaServiceRegistry - INFO - Unregistering application TRIP-BOOKING-APP with eureka with status DOWN
+2025-11-18 16:12:57 - c.netflix.discovery.DiscoveryClient - INFO - Saw local status change event StatusChangeEvent [timestamp=1763462577299, current=DOWN, previous=UP]
+2025-11-18 16:12:57 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-BOOKING-APP/192.168.31.70:trip-booking-app:8082: registering service...
+2025-11-18 16:12:57 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-18 16:12:57 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Graceful shutdown complete
+2025-11-18 16:12:57 - c.netflix.discovery.DiscoveryClient - INFO - Shutting down DiscoveryClient ...
+2025-11-18 16:12:57 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-BOOKING-APP/192.168.31.70:trip-booking-app:8082 - registration status: 204
+2025-11-18 16:12:57 - c.netflix.discovery.DiscoveryClient - INFO - Unregistering ...
+2025-11-18 16:12:57 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-BOOKING-APP/192.168.31.70:trip-booking-app:8082 - deregister  status: 200
+2025-11-18 16:12:57 - c.netflix.discovery.DiscoveryClient - INFO - Completed shut down of DiscoveryClient
+2025-11-18 16:12:57 - o.s.b.d.LoggingFailureAnalysisReporter - ERROR - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+No spring.config.import property has been defined
+
+Action:
+
+Add a spring.config.import=configserver: property to your configuration.
+	If configuration is not required add spring.config.import=optional:configserver: instead.
+	To disable this check, set spring.cloud.config.enabled=false or 
+	spring.cloud.config.import-check.enabled=false.
+
+2025-11-18 16:18:29 - c.p.t.TripBookingAppApplication - INFO - Starting TripBookingAppApplication using Java 17.0.8 with PID 20842 (/Users/puneetvashisht/work/trainings/eclerx-spring-backend-2025/microservices/trip-booking-app/target/classes started by puneetvashisht in /Users/puneetvashisht/work/trainings/eclerx-spring-backend-2025/microservices/trip-booking-app)
+2025-11-18 16:18:29 - c.p.t.TripBookingAppApplication - INFO - No active profile set, falling back to 1 default profile: "default"
+2025-11-18 16:18:29 - o.s.c.c.c.ConfigServerConfigDataLoader - INFO - Fetching config from server at : http://localhost:8888
+2025-11-18 16:18:29 - o.s.c.c.c.ConfigServerConfigDataLoader - INFO - Located environment: name=trip-booking-app, profiles=[default], label=null, version=a47fe9b65fdfd2defd138813f94e54886146e0c5, state=
+2025-11-18 16:18:29 - o.s.cloud.context.scope.GenericScope - INFO - BeanFactory id=43c03c69-85e2-33f8-8eca-157ca8d5deda
+2025-11-18 16:18:29 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat initialized with port 8082 (http)
+2025-11-18 16:18:29 - o.a.catalina.core.StandardService - INFO - Starting service [Tomcat]
+2025-11-18 16:18:29 - o.a.catalina.core.StandardEngine - INFO - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-18 16:18:29 - o.a.c.c.C.[Tomcat].[localhost].[/] - INFO - Initializing Spring embedded WebApplicationContext
+2025-11-18 16:18:29 - o.s.b.w.s.c.ServletWebServerApplicationContext - INFO - Root WebApplicationContext: initialization completed in 86 ms
+2025-11-18 16:18:29 - o.s.b.d.a.OptionalLiveReloadServer - WARN - Unable to start LiveReload server
+2025-11-18 16:18:29 - o.s.c.o.FeignClientFactoryBean - INFO - For 'trip-app' URL not provided. Will try picking an instance via load-balancing.
+2025-11-18 16:18:29 - o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - INFO - Eureka HTTP Client uses RestTemplate.
+2025-11-18 16:18:29 - o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - WARN - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-11-18 16:18:29 - o.s.c.n.eureka.InstanceInfoFactory - INFO - Setting initial instance status as: STARTING
+2025-11-18 16:18:29 - c.netflix.discovery.DiscoveryClient - INFO - Initializing Eureka in region us-east-1
+2025-11-18 16:18:29 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-18 16:18:29 - c.netflix.discovery.DiscoveryClient - INFO - Disable delta property : false
+2025-11-18 16:18:29 - c.netflix.discovery.DiscoveryClient - INFO - Single vip registry refresh property : null
+2025-11-18 16:18:29 - c.netflix.discovery.DiscoveryClient - INFO - Force full registry fetch : false
+2025-11-18 16:18:29 - c.netflix.discovery.DiscoveryClient - INFO - Application is null : false
+2025-11-18 16:18:29 - c.netflix.discovery.DiscoveryClient - INFO - Registered Applications size is zero : true
+2025-11-18 16:18:29 - c.netflix.discovery.DiscoveryClient - INFO - Application version is -1: true
+2025-11-18 16:18:29 - c.netflix.discovery.DiscoveryClient - INFO - Getting all instance registry info from the eureka server
+2025-11-18 16:18:29 - c.netflix.discovery.DiscoveryClient - INFO - The response status is 200
+2025-11-18 16:18:29 - c.netflix.discovery.DiscoveryClient - INFO - Starting heartbeat executor: renew interval is: 30
+2025-11-18 16:18:29 - c.n.discovery.InstanceInfoReplicator - INFO - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-11-18 16:18:29 - c.netflix.discovery.DiscoveryClient - INFO - Discovery Client initialized at timestamp 1763462909693 with initial instances count: 0
+2025-11-18 16:18:29 - o.s.c.n.e.s.EurekaServiceRegistry - INFO - Registering application TRIP-BOOKING-APP with eureka with status UP
+2025-11-18 16:18:29 - c.netflix.discovery.DiscoveryClient - INFO - Saw local status change event StatusChangeEvent [timestamp=1763462909694, current=UP, previous=STARTING]
+2025-11-18 16:18:29 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-BOOKING-APP/192.168.31.70:trip-booking-app:8082: registering service...
+2025-11-18 16:18:29 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat started on port 8082 (http) with context path '/'
+2025-11-18 16:18:29 - o.s.c.n.e.s.EurekaAutoServiceRegistration - INFO - Updating port to 8082
+2025-11-18 16:18:29 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-BOOKING-APP/192.168.31.70:trip-booking-app:8082 - registration status: 204
+2025-11-18 16:18:29 - c.p.t.TripBookingAppApplication - INFO - Started TripBookingAppApplication in 1.085 seconds (process running for 661.638)
+2025-11-18 16:18:29 - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - INFO - Condition evaluation unchanged
+2025-11-18 16:18:59 - c.netflix.discovery.DiscoveryClient - INFO - Disable delta property : false
+2025-11-18 16:18:59 - c.netflix.discovery.DiscoveryClient - INFO - Single vip registry refresh property : null
+2025-11-18 16:18:59 - c.netflix.discovery.DiscoveryClient - INFO - Force full registry fetch : false
+2025-11-18 16:18:59 - c.netflix.discovery.DiscoveryClient - INFO - Application is null : false
+2025-11-18 16:18:59 - c.netflix.discovery.DiscoveryClient - INFO - Registered Applications size is zero : true
+2025-11-18 16:18:59 - c.netflix.discovery.DiscoveryClient - INFO - Application version is -1: false
+2025-11-18 16:18:59 - c.netflix.discovery.DiscoveryClient - INFO - Getting all instance registry info from the eureka server
+2025-11-18 16:18:59 - c.netflix.discovery.DiscoveryClient - INFO - The response status is 200
+2025-11-18 16:19:25 - o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - INFO - Restarting due to 6 class path changes (0 additions, 0 deletions, 6 modifications)
+2025-11-18 16:19:25 - o.s.c.n.e.s.EurekaServiceRegistry - INFO - Unregistering application TRIP-BOOKING-APP with eureka with status DOWN
+2025-11-18 16:19:25 - c.netflix.discovery.DiscoveryClient - INFO - Saw local status change event StatusChangeEvent [timestamp=1763462965485, current=DOWN, previous=UP]
+2025-11-18 16:19:25 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-BOOKING-APP/192.168.31.70:trip-booking-app:8082: registering service...
+2025-11-18 16:19:25 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-18 16:19:25 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Graceful shutdown complete
+2025-11-18 16:19:25 - c.netflix.discovery.DiscoveryClient - INFO - Shutting down DiscoveryClient ...
+2025-11-18 16:19:25 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-BOOKING-APP/192.168.31.70:trip-booking-app:8082 - registration status: 204
+2025-11-18 16:19:25 - c.netflix.discovery.DiscoveryClient - INFO - Unregistering ...
+2025-11-18 16:19:25 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-BOOKING-APP/192.168.31.70:trip-booking-app:8082 - deregister  status: 200
+2025-11-18 16:19:25 - c.netflix.discovery.DiscoveryClient - INFO - Completed shut down of DiscoveryClient
+2025-11-18 16:19:26 - c.p.t.TripBookingAppApplication - INFO - Starting TripBookingAppApplication using Java 17.0.8 with PID 20842 (/Users/puneetvashisht/work/trainings/eclerx-spring-backend-2025/microservices/trip-booking-app/target/classes started by puneetvashisht in /Users/puneetvashisht/work/trainings/eclerx-spring-backend-2025/microservices/trip-booking-app)
+2025-11-18 16:19:26 - c.p.t.TripBookingAppApplication - INFO - No active profile set, falling back to 1 default profile: "default"
+2025-11-18 16:19:26 - o.s.c.c.c.ConfigServerConfigDataLoader - INFO - Fetching config from server at : http://localhost:8888
+2025-11-18 16:19:26 - o.s.c.c.c.ConfigServerConfigDataLoader - INFO - Located environment: name=trip-booking-app, profiles=[default], label=null, version=a47fe9b65fdfd2defd138813f94e54886146e0c5, state=
+2025-11-18 16:19:26 - o.s.cloud.context.scope.GenericScope - INFO - BeanFactory id=43c03c69-85e2-33f8-8eca-157ca8d5deda
+2025-11-18 16:19:26 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat initialized with port 8082 (http)
+2025-11-18 16:19:26 - o.a.catalina.core.StandardService - INFO - Starting service [Tomcat]
+2025-11-18 16:19:26 - o.a.catalina.core.StandardEngine - INFO - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-18 16:19:26 - o.a.c.c.C.[Tomcat].[localhost].[/] - INFO - Initializing Spring embedded WebApplicationContext
+2025-11-18 16:19:26 - o.s.b.w.s.c.ServletWebServerApplicationContext - INFO - Root WebApplicationContext: initialization completed in 102 ms
+2025-11-18 16:19:26 - o.s.b.d.a.OptionalLiveReloadServer - WARN - Unable to start LiveReload server
+2025-11-18 16:19:26 - o.s.c.o.FeignClientFactoryBean - INFO - For 'trip-app' URL not provided. Will try picking an instance via load-balancing.
+2025-11-18 16:19:26 - o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - INFO - Eureka HTTP Client uses RestTemplate.
+2025-11-18 16:19:26 - o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - WARN - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-11-18 16:19:26 - o.s.c.n.eureka.InstanceInfoFactory - INFO - Setting initial instance status as: STARTING
+2025-11-18 16:19:26 - c.netflix.discovery.DiscoveryClient - INFO - Initializing Eureka in region us-east-1
+2025-11-18 16:19:26 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-18 16:19:26 - c.netflix.discovery.DiscoveryClient - INFO - Disable delta property : false
+2025-11-18 16:19:26 - c.netflix.discovery.DiscoveryClient - INFO - Single vip registry refresh property : null
+2025-11-18 16:19:26 - c.netflix.discovery.DiscoveryClient - INFO - Force full registry fetch : false
+2025-11-18 16:19:26 - c.netflix.discovery.DiscoveryClient - INFO - Application is null : false
+2025-11-18 16:19:26 - c.netflix.discovery.DiscoveryClient - INFO - Registered Applications size is zero : true
+2025-11-18 16:19:26 - c.netflix.discovery.DiscoveryClient - INFO - Application version is -1: true
+2025-11-18 16:19:26 - c.netflix.discovery.DiscoveryClient - INFO - Getting all instance registry info from the eureka server
+2025-11-18 16:19:26 - c.netflix.discovery.DiscoveryClient - INFO - The response status is 200
+2025-11-18 16:19:26 - c.netflix.discovery.DiscoveryClient - INFO - Starting heartbeat executor: renew interval is: 30
+2025-11-18 16:19:26 - c.n.discovery.InstanceInfoReplicator - INFO - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-11-18 16:19:26 - c.netflix.discovery.DiscoveryClient - INFO - Discovery Client initialized at timestamp 1763462966557 with initial instances count: 2
+2025-11-18 16:19:26 - o.s.c.n.e.s.EurekaServiceRegistry - INFO - Registering application TRIP-BOOKING-APP with eureka with status UP
+2025-11-18 16:19:26 - c.netflix.discovery.DiscoveryClient - INFO - Saw local status change event StatusChangeEvent [timestamp=1763462966557, current=UP, previous=STARTING]
+2025-11-18 16:19:26 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-BOOKING-APP/192.168.31.70:trip-booking-app:8082: registering service...
+2025-11-18 16:19:26 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat started on port 8082 (http) with context path '/'
+2025-11-18 16:19:26 - o.s.c.n.e.s.EurekaAutoServiceRegistration - INFO - Updating port to 8082
+2025-11-18 16:19:26 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-BOOKING-APP/192.168.31.70:trip-booking-app:8082 - registration status: 204
+2025-11-18 16:19:26 - c.p.t.TripBookingAppApplication - INFO - Started TripBookingAppApplication in 1.042 seconds (process running for 718.502)
+2025-11-18 16:19:26 - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - INFO - Condition evaluation unchanged
+2025-11-18 16:19:41 - o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - INFO - Restarting due to 6 class path changes (0 additions, 6 deletions, 0 modifications)
+2025-11-18 16:19:41 - o.s.c.n.e.s.EurekaServiceRegistry - INFO - Unregistering application TRIP-BOOKING-APP with eureka with status DOWN
+2025-11-18 16:19:41 - c.netflix.discovery.DiscoveryClient - INFO - Saw local status change event StatusChangeEvent [timestamp=1763462981045, current=DOWN, previous=UP]
+2025-11-18 16:19:41 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-BOOKING-APP/192.168.31.70:trip-booking-app:8082: registering service...
+2025-11-18 16:19:41 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-18 16:19:41 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Graceful shutdown complete
+2025-11-18 16:19:41 - c.netflix.discovery.DiscoveryClient - INFO - Shutting down DiscoveryClient ...
+2025-11-18 16:19:41 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-BOOKING-APP/192.168.31.70:trip-booking-app:8082 - registration status: 204
+2025-11-18 16:19:41 - c.netflix.discovery.DiscoveryClient - INFO - Unregistering ...
+2025-11-18 16:19:41 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-BOOKING-APP/192.168.31.70:trip-booking-app:8082 - deregister  status: 200
+2025-11-18 16:19:41 - c.netflix.discovery.DiscoveryClient - INFO - Completed shut down of DiscoveryClient
+2025-11-18 16:19:41 - o.s.b.d.LoggingFailureAnalysisReporter - ERROR - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+No spring.config.import property has been defined
+
+Action:
+
+Add a spring.config.import=configserver: property to your configuration.
+	If configuration is not required add spring.config.import=optional:configserver: instead.
+	To disable this check, set spring.cloud.config.enabled=false or 
+	spring.cloud.config.import-check.enabled=false.
+
+2025-11-18 16:19:50 - c.p.t.TripBookingAppApplication - INFO - Starting TripBookingAppApplication using Java 17.0.8 with PID 20842 (/Users/puneetvashisht/work/trainings/eclerx-spring-backend-2025/microservices/trip-booking-app/target/classes started by puneetvashisht in /Users/puneetvashisht/work/trainings/eclerx-spring-backend-2025/microservices/trip-booking-app)
+2025-11-18 16:19:50 - c.p.t.TripBookingAppApplication - INFO - No active profile set, falling back to 1 default profile: "default"
+2025-11-18 16:19:50 - o.s.c.c.c.ConfigServerConfigDataLoader - INFO - Fetching config from server at : http://localhost:8888
+2025-11-18 16:19:50 - o.s.c.c.c.ConfigServerConfigDataLoader - INFO - Located environment: name=trip-booking-app, profiles=[default], label=null, version=a47fe9b65fdfd2defd138813f94e54886146e0c5, state=
+2025-11-18 16:19:50 - o.s.cloud.context.scope.GenericScope - INFO - BeanFactory id=43c03c69-85e2-33f8-8eca-157ca8d5deda
+2025-11-18 16:19:50 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat initialized with port 8082 (http)
+2025-11-18 16:19:50 - o.a.catalina.core.StandardService - INFO - Starting service [Tomcat]
+2025-11-18 16:19:50 - o.a.catalina.core.StandardEngine - INFO - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-18 16:19:50 - o.a.c.c.C.[Tomcat].[localhost].[/] - INFO - Initializing Spring embedded WebApplicationContext
+2025-11-18 16:19:50 - o.s.b.w.s.c.ServletWebServerApplicationContext - INFO - Root WebApplicationContext: initialization completed in 74 ms
+2025-11-18 16:19:50 - o.s.b.d.a.OptionalLiveReloadServer - WARN - Unable to start LiveReload server
+2025-11-18 16:19:50 - o.s.c.o.FeignClientFactoryBean - INFO - For 'trip-app' URL not provided. Will try picking an instance via load-balancing.
+2025-11-18 16:19:50 - o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - INFO - Eureka HTTP Client uses RestTemplate.
+2025-11-18 16:19:50 - o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - WARN - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-11-18 16:19:50 - o.s.c.n.eureka.InstanceInfoFactory - INFO - Setting initial instance status as: STARTING
+2025-11-18 16:19:50 - c.netflix.discovery.DiscoveryClient - INFO - Initializing Eureka in region us-east-1
+2025-11-18 16:19:50 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-18 16:19:50 - c.netflix.discovery.DiscoveryClient - INFO - Disable delta property : false
+2025-11-18 16:19:50 - c.netflix.discovery.DiscoveryClient - INFO - Single vip registry refresh property : null
+2025-11-18 16:19:50 - c.netflix.discovery.DiscoveryClient - INFO - Force full registry fetch : false
+2025-11-18 16:19:50 - c.netflix.discovery.DiscoveryClient - INFO - Application is null : false
+2025-11-18 16:19:50 - c.netflix.discovery.DiscoveryClient - INFO - Registered Applications size is zero : true
+2025-11-18 16:19:50 - c.netflix.discovery.DiscoveryClient - INFO - Application version is -1: true
+2025-11-18 16:19:50 - c.netflix.discovery.DiscoveryClient - INFO - Getting all instance registry info from the eureka server
+2025-11-18 16:19:50 - c.netflix.discovery.DiscoveryClient - INFO - The response status is 200
+2025-11-18 16:19:50 - c.netflix.discovery.DiscoveryClient - INFO - Starting heartbeat executor: renew interval is: 30
+2025-11-18 16:19:50 - c.n.discovery.InstanceInfoReplicator - INFO - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-11-18 16:19:50 - c.netflix.discovery.DiscoveryClient - INFO - Discovery Client initialized at timestamp 1763462990574 with initial instances count: 2
+2025-11-18 16:19:50 - o.s.c.n.e.s.EurekaServiceRegistry - INFO - Registering application TRIP-BOOKING-APP with eureka with status UP
+2025-11-18 16:19:50 - c.netflix.discovery.DiscoveryClient - INFO - Saw local status change event StatusChangeEvent [timestamp=1763462990574, current=UP, previous=STARTING]
+2025-11-18 16:19:50 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-BOOKING-APP/192.168.31.70:trip-booking-app:8082: registering service...
+2025-11-18 16:19:50 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat started on port 8082 (http) with context path '/'
+2025-11-18 16:19:50 - o.s.c.n.e.s.EurekaAutoServiceRegistration - INFO - Updating port to 8082
+2025-11-18 16:19:50 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-BOOKING-APP/192.168.31.70:trip-booking-app:8082 - registration status: 204
+2025-11-18 16:19:50 - c.p.t.TripBookingAppApplication - INFO - Started TripBookingAppApplication in 1.028 seconds (process running for 742.519)
+2025-11-18 16:19:50 - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - INFO - Condition evaluation unchanged
+2025-11-18 16:19:51 - c.p.t.TripBookingAppApplicationTests - INFO - Starting TripBookingAppApplicationTests using Java 17.0.8 with PID 37327 (started by puneetvashisht in /Users/puneetvashisht/work/trainings/eclerx-spring-backend-2025/microservices/trip-booking-app)
+2025-11-18 16:19:51 - c.p.t.TripBookingAppApplicationTests - INFO - No active profile set, falling back to 1 default profile: "default"
+2025-11-18 16:19:51 - o.s.c.c.c.ConfigServerConfigDataLoader - INFO - Fetching config from server at : http://localhost:8888
+2025-11-18 16:19:51 - o.s.c.c.c.ConfigServerConfigDataLoader - INFO - Located environment: name=trip-booking-app, profiles=[default], label=null, version=a47fe9b65fdfd2defd138813f94e54886146e0c5, state=
+2025-11-18 16:19:52 - o.s.cloud.context.scope.GenericScope - INFO - BeanFactory id=96778bd4-3e6f-37b7-a3d6-a76774bbbdae
+2025-11-18 16:19:52 - o.s.c.o.FeignClientFactoryBean - INFO - For 'trip-app' URL not provided. Will try picking an instance via load-balancing.
+2025-11-18 16:19:52 - o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - INFO - Eureka HTTP Client uses RestTemplate.
+2025-11-18 16:19:52 - o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - WARN - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-11-18 16:19:52 - o.s.b.a.e.web.EndpointLinksResolver - INFO - Exposing 1 endpoint beneath base path '/actuator'
+2025-11-18 16:19:52 - o.s.c.n.eureka.InstanceInfoFactory - INFO - Setting initial instance status as: STARTING
+2025-11-18 16:19:52 - c.netflix.discovery.DiscoveryClient - INFO - Initializing Eureka in region us-east-1
+2025-11-18 16:19:52 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-18 16:19:52 - c.netflix.discovery.DiscoveryClient - INFO - Disable delta property : false
+2025-11-18 16:19:52 - c.netflix.discovery.DiscoveryClient - INFO - Single vip registry refresh property : null
+2025-11-18 16:19:52 - c.netflix.discovery.DiscoveryClient - INFO - Force full registry fetch : false
+2025-11-18 16:19:52 - c.netflix.discovery.DiscoveryClient - INFO - Application is null : false
+2025-11-18 16:19:52 - c.netflix.discovery.DiscoveryClient - INFO - Registered Applications size is zero : true
+2025-11-18 16:19:52 - c.netflix.discovery.DiscoveryClient - INFO - Application version is -1: true
+2025-11-18 16:19:52 - c.netflix.discovery.DiscoveryClient - INFO - Getting all instance registry info from the eureka server
+2025-11-18 16:19:52 - c.netflix.discovery.DiscoveryClient - INFO - The response status is 200
+2025-11-18 16:19:52 - c.netflix.discovery.DiscoveryClient - INFO - Starting heartbeat executor: renew interval is: 30
+2025-11-18 16:19:52 - c.n.discovery.InstanceInfoReplicator - INFO - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-11-18 16:19:52 - c.netflix.discovery.DiscoveryClient - INFO - Discovery Client initialized at timestamp 1763462992885 with initial instances count: 2
+2025-11-18 16:19:52 - o.s.c.n.e.s.EurekaServiceRegistry - INFO - Registering application TRIP-BOOKING-APP with eureka with status UP
+2025-11-18 16:19:52 - c.netflix.discovery.DiscoveryClient - INFO - Saw local status change event StatusChangeEvent [timestamp=1763462992886, current=UP, previous=STARTING]
+2025-11-18 16:19:52 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-BOOKING-APP/192.168.31.70:trip-booking-app:8082: registering service...
+2025-11-18 16:19:52 - c.p.t.TripBookingAppApplicationTests - INFO - Started TripBookingAppApplicationTests in 2.422 seconds (process running for 2.899)
+2025-11-18 16:19:52 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-BOOKING-APP/192.168.31.70:trip-booking-app:8082 - registration status: 204
+2025-11-18 16:19:53 - o.s.c.n.e.s.EurekaServiceRegistry - INFO - Unregistering application TRIP-BOOKING-APP with eureka with status DOWN
+2025-11-18 16:19:53 - c.netflix.discovery.DiscoveryClient - INFO - Saw local status change event StatusChangeEvent [timestamp=1763462993273, current=DOWN, previous=UP]
+2025-11-18 16:19:53 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-BOOKING-APP/192.168.31.70:trip-booking-app:8082: registering service...
+2025-11-18 16:19:53 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-BOOKING-APP/192.168.31.70:trip-booking-app:8082 - registration status: 204
+2025-11-18 16:19:53 - c.netflix.discovery.DiscoveryClient - INFO - Shutting down DiscoveryClient ...
+2025-11-18 16:19:56 - c.netflix.discovery.DiscoveryClient - INFO - Unregistering ...
+2025-11-18 16:19:56 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-BOOKING-APP/192.168.31.70:trip-booking-app:8082 - deregister  status: 200
+2025-11-18 16:19:56 - c.netflix.discovery.DiscoveryClient - INFO - Completed shut down of DiscoveryClient
+2025-11-18 16:20:19 - o.a.c.c.C.[Tomcat].[localhost].[/] - INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-18 16:20:19 - o.s.web.servlet.DispatcherServlet - INFO - Initializing Servlet 'dispatcherServlet'
+2025-11-18 16:20:19 - o.s.web.servlet.DispatcherServlet - INFO - Completed initialization in 1 ms
+2025-11-18 16:20:19 - c.p.t.TripBookingController - INFO - Booking trip using Feign client for destination: Tokyo
+2025-11-18 16:20:19 - c.p.t.TripBookingController - INFO - Received trip details: Trip(id=2, destination=Tokyo, startDate=2025/12/12, endDate=2025/12/12, price=40000.0, port=9090)
+2025-11-18 16:20:20 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-BOOKING-APP/192.168.31.70:trip-booking-app:8082 - Re-registering apps/TRIP-BOOKING-APP
+2025-11-18 16:20:20 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-BOOKING-APP/192.168.31.70:trip-booking-app:8082: registering service...
+2025-11-18 16:20:20 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-BOOKING-APP/192.168.31.70:trip-booking-app:8082 - registration status: 204
+2025-11-18 16:21:16 - o.s.c.n.e.s.EurekaServiceRegistry - INFO - Unregistering application TRIP-BOOKING-APP with eureka with status DOWN
+2025-11-18 16:21:16 - c.netflix.discovery.DiscoveryClient - INFO - Saw local status change event StatusChangeEvent [timestamp=1763463076848, current=DOWN, previous=UP]
+2025-11-18 16:21:16 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-BOOKING-APP/192.168.31.70:trip-booking-app:8082: registering service...
+2025-11-18 16:21:16 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-18 16:21:16 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Graceful shutdown complete
+2025-11-18 16:21:16 - c.netflix.discovery.DiscoveryClient - INFO - Shutting down DiscoveryClient ...
+2025-11-18 16:21:16 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-BOOKING-APP/192.168.31.70:trip-booking-app:8082 - registration status: 204
+2025-11-18 16:21:16 - c.netflix.discovery.DiscoveryClient - INFO - Unregistering ...
+2025-11-18 16:21:16 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-BOOKING-APP/192.168.31.70:trip-booking-app:8082 - deregister  status: 200
+2025-11-18 16:21:16 - c.netflix.discovery.DiscoveryClient - INFO - Completed shut down of DiscoveryClient

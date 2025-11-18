@@ -1,0 +1,51 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "TripBookingAppApplication",
+            "request": "launch",
+            "mainClass": "TripBookingAppApplication",
+            "projectName": "trip-booking-app"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-EurekaServerDemoApplication<eureka-server-demo>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.pv.eureka_server_demo.EurekaServerDemoApplication",
+            "projectName": "eureka-server-demo",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-SpringCloudServerDemoApplication<spring-cloud-server-demo>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.pv.spring_cloud_server_demo.SpringCloudServerDemoApplication",
+            "projectName": "spring-cloud-server-demo",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-TripAppApplication<trip-app>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.pv.trip_app.TripAppApplication",
+            "projectName": "trip-app",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-TripBookingAppApplication<trip-booking-app>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.pv.trip_booking_app.TripBookingAppApplication",
+            "projectName": "trip-booking-app",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

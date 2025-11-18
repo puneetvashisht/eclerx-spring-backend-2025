@@ -3215,3 +3215,752 @@ Identify and stop the process that's listening on port 9091 or configure this ap
 2025-11-18 15:00:56 - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - INFO - Condition evaluation unchanged
 2025-11-18 15:00:56 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-APP/192.168.31.70:trip-app:9090 - registration status: 204
 2025-11-18 15:05:56 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-18 15:10:56 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-18 15:15:56 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-18 15:20:56 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-18 15:25:56 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-18 15:30:56 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-18 15:35:56 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-18 15:40:56 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-18 15:45:56 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-18 15:50:56 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-18 15:55:56 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-18 15:56:05 - o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - INFO - Restarting due to 6 class path changes (0 additions, 0 deletions, 6 modifications)
+2025-11-18 15:56:06 - o.s.c.n.e.s.EurekaServiceRegistry - INFO - Unregistering application TRIP-APP with eureka with status DOWN
+2025-11-18 15:56:06 - c.netflix.discovery.DiscoveryClient - INFO - Saw local status change event StatusChangeEvent [timestamp=1763461566001, current=DOWN, previous=UP]
+2025-11-18 15:56:06 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-APP/192.168.31.70:trip-app:9090: registering service...
+2025-11-18 15:56:06 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-18 15:56:06 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Graceful shutdown complete
+2025-11-18 15:56:06 - o.s.o.j.LocalContainerEntityManagerFactoryBean - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-18 15:56:06 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-3 - Shutdown initiated...
+2025-11-18 15:56:06 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-3 - Shutdown completed.
+2025-11-18 15:56:06 - c.netflix.discovery.DiscoveryClient - INFO - Shutting down DiscoveryClient ...
+2025-11-18 15:56:06 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-APP/192.168.31.70:trip-app:9090 - registration status: 204
+2025-11-18 15:56:06 - c.netflix.discovery.DiscoveryClient - INFO - Unregistering ...
+2025-11-18 15:56:06 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-APP/192.168.31.70:trip-app:9090 - deregister  status: 200
+2025-11-18 15:56:06 - c.netflix.discovery.DiscoveryClient - INFO - Completed shut down of DiscoveryClient
+2025-11-18 15:56:07 - com.pv.trip_app.TripAppApplication - INFO - Starting TripAppApplication using Java 17.0.8 with PID 18238 (/Users/puneetvashisht/work/trainings/eclerx-spring-backend-2025/microservices/trip-app/target/classes started by puneetvashisht in /Users/puneetvashisht/work/trainings/eclerx-spring-backend-2025/microservices/trip-app)
+2025-11-18 15:56:07 - com.pv.trip_app.TripAppApplication - INFO - No active profile set, falling back to 1 default profile: "default"
+2025-11-18 15:56:07 - o.s.c.c.c.ConfigServerConfigDataLoader - INFO - Fetching config from server at : http://localhost:8888
+2025-11-18 15:56:07 - o.s.c.c.c.ConfigServerConfigDataLoader - INFO - Located environment: name=trip-app, profiles=[default], label=null, version=b3847fe8d9f0efc4f08d14e7bb2c6e7558e4e9ad, state=
+2025-11-18 15:56:07 - o.s.d.r.c.RepositoryConfigurationDelegate - INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-18 15:56:07 - o.s.d.r.c.RepositoryConfigurationDelegate - INFO - Finished Spring Data repository scanning in 1 ms. Found 1 JPA repository interface.
+2025-11-18 15:56:07 - o.s.cloud.context.scope.GenericScope - INFO - BeanFactory id=894fce6c-f9c5-36ff-8b9b-8f4f3827e28a
+2025-11-18 15:56:07 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat initialized with port 9090 (http)
+2025-11-18 15:56:07 - o.a.catalina.core.StandardService - INFO - Starting service [Tomcat]
+2025-11-18 15:56:07 - o.a.catalina.core.StandardEngine - INFO - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-18 15:56:07 - o.a.c.c.C.[Tomcat].[localhost].[/] - INFO - Initializing Spring embedded WebApplicationContext
+2025-11-18 15:56:07 - o.s.b.w.s.c.ServletWebServerApplicationContext - INFO - Root WebApplicationContext: initialization completed in 139 ms
+2025-11-18 15:56:07 - o.h.jpa.internal.util.LogHelper - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-18 15:56:07 - o.h.c.i.RegionFactoryInitiator - INFO - HHH000026: Second-level cache disabled
+2025-11-18 15:56:07 - o.s.o.j.p.SpringPersistenceUnitInfo - INFO - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-18 15:56:07 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-4 - Starting...
+2025-11-18 15:56:07 - com.zaxxer.hikari.pool.HikariPool - INFO - HikariPool-4 - Added connection org.postgresql.jdbc.PgConnection@4a62756e
+2025-11-18 15:56:07 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-4 - Start completed.
+2025-11-18 15:56:07 - o.hibernate.orm.connections.pooling - INFO - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-4)']
+	Database driver: undefined/unknown
+	Database version: 17.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-18 15:56:07 - o.h.e.t.j.p.i.JtaPlatformInitiator - INFO - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-18 15:56:07 - o.s.o.j.LocalContainerEntityManagerFactoryBean - INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-18 15:56:07 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-18 15:56:07 - o.s.b.d.a.OptionalLiveReloadServer - WARN - Unable to start LiveReload server
+2025-11-18 15:56:07 - o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - INFO - Eureka HTTP Client uses RestTemplate.
+2025-11-18 15:56:07 - o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - WARN - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-11-18 15:56:07 - o.s.c.n.eureka.InstanceInfoFactory - INFO - Setting initial instance status as: STARTING
+2025-11-18 15:56:07 - c.netflix.discovery.DiscoveryClient - INFO - Initializing Eureka in region us-east-1
+2025-11-18 15:56:07 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-18 15:56:07 - c.netflix.discovery.DiscoveryClient - INFO - Disable delta property : false
+2025-11-18 15:56:07 - c.netflix.discovery.DiscoveryClient - INFO - Single vip registry refresh property : null
+2025-11-18 15:56:07 - c.netflix.discovery.DiscoveryClient - INFO - Force full registry fetch : false
+2025-11-18 15:56:07 - c.netflix.discovery.DiscoveryClient - INFO - Application is null : false
+2025-11-18 15:56:07 - c.netflix.discovery.DiscoveryClient - INFO - Registered Applications size is zero : true
+2025-11-18 15:56:07 - c.netflix.discovery.DiscoveryClient - INFO - Application version is -1: true
+2025-11-18 15:56:07 - c.netflix.discovery.DiscoveryClient - INFO - Getting all instance registry info from the eureka server
+2025-11-18 15:56:07 - c.netflix.discovery.DiscoveryClient - INFO - The response status is 200
+2025-11-18 15:56:07 - c.netflix.discovery.DiscoveryClient - INFO - Starting heartbeat executor: renew interval is: 30
+2025-11-18 15:56:07 - c.n.discovery.InstanceInfoReplicator - INFO - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-11-18 15:56:07 - c.netflix.discovery.DiscoveryClient - INFO - Discovery Client initialized at timestamp 1763461567552 with initial instances count: 2
+2025-11-18 15:56:07 - o.s.c.n.e.s.EurekaServiceRegistry - INFO - Registering application TRIP-APP with eureka with status UP
+2025-11-18 15:56:07 - c.netflix.discovery.DiscoveryClient - INFO - Saw local status change event StatusChangeEvent [timestamp=1763461567552, current=UP, previous=STARTING]
+2025-11-18 15:56:07 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-APP/192.168.31.70:trip-app:9090: registering service...
+2025-11-18 15:56:07 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat started on port 9090 (http) with context path '/'
+2025-11-18 15:56:07 - o.s.c.n.e.s.EurekaAutoServiceRegistration - INFO - Updating port to 9090
+2025-11-18 15:56:07 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-APP/192.168.31.70:trip-app:9090 - registration status: 204
+2025-11-18 15:56:07 - com.pv.trip_app.TripAppApplication - INFO - Started TripAppApplication in 1.464 seconds (process running for 3403.837)
+2025-11-18 15:56:07 - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - INFO - Condition evaluation unchanged
+2025-11-18 15:56:44 - o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - INFO - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-11-18 15:56:44 - o.s.c.n.e.s.EurekaServiceRegistry - INFO - Unregistering application TRIP-APP with eureka with status DOWN
+2025-11-18 15:56:44 - c.netflix.discovery.DiscoveryClient - INFO - Saw local status change event StatusChangeEvent [timestamp=1763461604188, current=DOWN, previous=UP]
+2025-11-18 15:56:44 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-APP/192.168.31.70:trip-app:9090: registering service...
+2025-11-18 15:56:44 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-18 15:56:44 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Graceful shutdown complete
+2025-11-18 15:56:44 - o.s.o.j.LocalContainerEntityManagerFactoryBean - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-18 15:56:44 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-APP/192.168.31.70:trip-app:9090 - registration status: 204
+2025-11-18 15:56:44 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-4 - Shutdown initiated...
+2025-11-18 15:56:44 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-4 - Shutdown completed.
+2025-11-18 15:56:44 - c.netflix.discovery.DiscoveryClient - INFO - Shutting down DiscoveryClient ...
+2025-11-18 15:56:47 - c.netflix.discovery.DiscoveryClient - INFO - Unregistering ...
+2025-11-18 15:56:47 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-APP/192.168.31.70:trip-app:9090 - deregister  status: 200
+2025-11-18 15:56:47 - c.netflix.discovery.DiscoveryClient - INFO - Completed shut down of DiscoveryClient
+2025-11-18 15:56:48 - com.pv.trip_app.TripAppApplication - INFO - Starting TripAppApplication using Java 17.0.8 with PID 18238 (/Users/puneetvashisht/work/trainings/eclerx-spring-backend-2025/microservices/trip-app/target/classes started by puneetvashisht in /Users/puneetvashisht/work/trainings/eclerx-spring-backend-2025/microservices/trip-app)
+2025-11-18 15:56:48 - com.pv.trip_app.TripAppApplication - INFO - No active profile set, falling back to 1 default profile: "default"
+2025-11-18 15:56:48 - o.s.c.c.c.ConfigServerConfigDataLoader - INFO - Fetching config from server at : http://localhost:8888
+2025-11-18 15:56:48 - o.s.c.c.c.ConfigServerConfigDataLoader - INFO - Located environment: name=trip-app, profiles=[default], label=null, version=b3847fe8d9f0efc4f08d14e7bb2c6e7558e4e9ad, state=
+2025-11-18 15:56:48 - o.s.d.r.c.RepositoryConfigurationDelegate - INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-18 15:56:48 - o.s.d.r.c.RepositoryConfigurationDelegate - INFO - Finished Spring Data repository scanning in 2 ms. Found 1 JPA repository interface.
+2025-11-18 15:56:48 - o.s.cloud.context.scope.GenericScope - INFO - BeanFactory id=894fce6c-f9c5-36ff-8b9b-8f4f3827e28a
+2025-11-18 15:56:48 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat initialized with port 9090 (http)
+2025-11-18 15:56:48 - o.a.catalina.core.StandardService - INFO - Starting service [Tomcat]
+2025-11-18 15:56:48 - o.a.catalina.core.StandardEngine - INFO - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-18 15:56:48 - o.a.c.c.C.[Tomcat].[localhost].[/] - INFO - Initializing Spring embedded WebApplicationContext
+2025-11-18 15:56:48 - o.s.b.w.s.c.ServletWebServerApplicationContext - INFO - Root WebApplicationContext: initialization completed in 138 ms
+2025-11-18 15:56:48 - o.h.jpa.internal.util.LogHelper - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-18 15:56:48 - o.h.c.i.RegionFactoryInitiator - INFO - HHH000026: Second-level cache disabled
+2025-11-18 15:56:48 - o.s.o.j.p.SpringPersistenceUnitInfo - INFO - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-18 15:56:48 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-5 - Starting...
+2025-11-18 15:56:48 - com.zaxxer.hikari.pool.HikariPool - INFO - HikariPool-5 - Added connection org.postgresql.jdbc.PgConnection@17a9c0fa
+2025-11-18 15:56:48 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-5 - Start completed.
+2025-11-18 15:56:48 - o.hibernate.orm.connections.pooling - INFO - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-5)']
+	Database driver: undefined/unknown
+	Database version: 17.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-18 15:56:48 - o.h.e.t.j.p.i.JtaPlatformInitiator - INFO - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-18 15:56:48 - o.s.o.j.LocalContainerEntityManagerFactoryBean - INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-18 15:56:48 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-18 15:56:48 - o.s.b.d.a.OptionalLiveReloadServer - WARN - Unable to start LiveReload server
+2025-11-18 15:56:48 - o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - INFO - Eureka HTTP Client uses RestTemplate.
+2025-11-18 15:56:48 - o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - WARN - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-11-18 15:56:48 - o.s.c.n.eureka.InstanceInfoFactory - INFO - Setting initial instance status as: STARTING
+2025-11-18 15:56:48 - c.netflix.discovery.DiscoveryClient - INFO - Initializing Eureka in region us-east-1
+2025-11-18 15:56:48 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-18 15:56:48 - c.netflix.discovery.DiscoveryClient - INFO - Disable delta property : false
+2025-11-18 15:56:48 - c.netflix.discovery.DiscoveryClient - INFO - Single vip registry refresh property : null
+2025-11-18 15:56:48 - c.netflix.discovery.DiscoveryClient - INFO - Force full registry fetch : false
+2025-11-18 15:56:48 - c.netflix.discovery.DiscoveryClient - INFO - Application is null : false
+2025-11-18 15:56:48 - c.netflix.discovery.DiscoveryClient - INFO - Registered Applications size is zero : true
+2025-11-18 15:56:48 - c.netflix.discovery.DiscoveryClient - INFO - Application version is -1: true
+2025-11-18 15:56:48 - c.netflix.discovery.DiscoveryClient - INFO - Getting all instance registry info from the eureka server
+2025-11-18 15:56:48 - c.netflix.discovery.DiscoveryClient - INFO - The response status is 200
+2025-11-18 15:56:48 - c.netflix.discovery.DiscoveryClient - INFO - Starting heartbeat executor: renew interval is: 30
+2025-11-18 15:56:48 - c.n.discovery.InstanceInfoReplicator - INFO - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-11-18 15:56:48 - c.netflix.discovery.DiscoveryClient - INFO - Discovery Client initialized at timestamp 1763461608500 with initial instances count: 2
+2025-11-18 15:56:48 - o.s.c.n.e.s.EurekaServiceRegistry - INFO - Registering application TRIP-APP with eureka with status UP
+2025-11-18 15:56:48 - c.netflix.discovery.DiscoveryClient - INFO - Saw local status change event StatusChangeEvent [timestamp=1763461608500, current=UP, previous=STARTING]
+2025-11-18 15:56:48 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-APP/192.168.31.70:trip-app:9090: registering service...
+2025-11-18 15:56:48 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat started on port 9090 (http) with context path '/'
+2025-11-18 15:56:48 - o.s.c.n.e.s.EurekaAutoServiceRegistration - INFO - Updating port to 9090
+2025-11-18 15:56:48 - com.pv.trip_app.TripAppApplication - INFO - Started TripAppApplication in 1.235 seconds (process running for 3444.787)
+2025-11-18 15:56:48 - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - INFO - Condition evaluation unchanged
+2025-11-18 15:56:48 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-APP/192.168.31.70:trip-app:9090 - registration status: 204
+2025-11-18 15:56:53 - o.a.c.c.C.[Tomcat].[localhost].[/] - INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-18 15:56:53 - o.s.web.servlet.DispatcherServlet - INFO - Initializing Servlet 'dispatcherServlet'
+2025-11-18 15:56:53 - o.s.web.servlet.DispatcherServlet - INFO - Completed initialization in 1 ms
+2025-11-18 16:00:05 - o.s.c.n.e.s.EurekaServiceRegistry - INFO - Unregistering application TRIP-APP with eureka with status DOWN
+2025-11-18 16:00:05 - c.netflix.discovery.DiscoveryClient - INFO - Saw local status change event StatusChangeEvent [timestamp=1763461805645, current=DOWN, previous=UP]
+2025-11-18 16:00:05 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-APP/192.168.31.70:trip-app:9090: registering service...
+2025-11-18 16:00:05 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-18 16:00:05 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Graceful shutdown complete
+2025-11-18 16:00:05 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-APP/192.168.31.70:trip-app:9090 - registration status: 204
+2025-11-18 16:00:05 - o.s.o.j.LocalContainerEntityManagerFactoryBean - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-18 16:00:05 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-5 - Shutdown initiated...
+2025-11-18 16:00:05 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-5 - Shutdown completed.
+2025-11-18 16:00:05 - c.netflix.discovery.DiscoveryClient - INFO - Shutting down DiscoveryClient ...
+2025-11-18 16:00:08 - c.netflix.discovery.DiscoveryClient - INFO - Unregistering ...
+2025-11-18 16:00:08 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-APP/192.168.31.70:trip-app:9090 - deregister  status: 200
+2025-11-18 16:00:08 - c.netflix.discovery.DiscoveryClient - INFO - Completed shut down of DiscoveryClient
+2025-11-18 16:00:12 - com.pv.trip_app.TripAppApplication - INFO - Starting TripAppApplication using Java 17.0.8 with PID 8507 (/Users/puneetvashisht/work/trainings/eclerx-spring-backend-2025/microservices/trip-app/target/classes started by puneetvashisht in /Users/puneetvashisht/work/trainings/eclerx-spring-backend-2025/microservices/trip-app)
+2025-11-18 16:00:12 - com.pv.trip_app.TripAppApplication - INFO - No active profile set, falling back to 1 default profile: "default"
+2025-11-18 16:00:12 - o.s.c.c.c.ConfigServerConfigDataLoader - INFO - Fetching config from server at : http://localhost:8888
+2025-11-18 16:00:12 - o.s.c.c.c.ConfigServerConfigDataLoader - INFO - Located environment: name=trip-app, profiles=[default], label=null, version=704d71ff509272c401e084046fb44a6b6e046d81, state=
+2025-11-18 16:00:12 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - INFO - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-18 16:00:12 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - INFO - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-18 16:00:12 - o.s.d.r.c.RepositoryConfigurationDelegate - INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-18 16:00:12 - o.s.d.r.c.RepositoryConfigurationDelegate - INFO - Finished Spring Data repository scanning in 67 ms. Found 1 JPA repository interface.
+2025-11-18 16:00:12 - o.s.cloud.context.scope.GenericScope - INFO - BeanFactory id=894fce6c-f9c5-36ff-8b9b-8f4f3827e28a
+2025-11-18 16:00:13 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat initialized with port 9090 (http)
+2025-11-18 16:00:13 - o.a.catalina.core.StandardService - INFO - Starting service [Tomcat]
+2025-11-18 16:00:13 - o.a.catalina.core.StandardEngine - INFO - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-18 16:00:13 - o.a.c.c.C.[Tomcat].[localhost].[/] - INFO - Initializing Spring embedded WebApplicationContext
+2025-11-18 16:00:13 - o.s.b.w.s.c.ServletWebServerApplicationContext - INFO - Root WebApplicationContext: initialization completed in 711 ms
+2025-11-18 16:00:13 - o.h.jpa.internal.util.LogHelper - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-18 16:00:13 - org.hibernate.Version - INFO - HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-18 16:00:13 - o.h.c.i.RegionFactoryInitiator - INFO - HHH000026: Second-level cache disabled
+2025-11-18 16:00:13 - o.s.o.j.p.SpringPersistenceUnitInfo - INFO - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-18 16:00:13 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Starting...
+2025-11-18 16:00:13 - com.zaxxer.hikari.pool.HikariPool - INFO - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@790b5d5e
+2025-11-18 16:00:13 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Start completed.
+2025-11-18 16:00:13 - o.hibernate.orm.connections.pooling - INFO - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-18 16:00:13 - o.h.e.t.j.p.i.JtaPlatformInitiator - INFO - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-18 16:00:13 - o.s.o.j.LocalContainerEntityManagerFactoryBean - INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-18 16:00:14 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-18 16:00:14 - o.s.b.d.a.OptionalLiveReloadServer - WARN - Unable to start LiveReload server
+2025-11-18 16:00:14 - o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - INFO - Eureka HTTP Client uses RestTemplate.
+2025-11-18 16:00:14 - o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - WARN - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-11-18 16:00:14 - o.s.c.n.eureka.InstanceInfoFactory - INFO - Setting initial instance status as: STARTING
+2025-11-18 16:00:14 - c.netflix.discovery.DiscoveryClient - INFO - Initializing Eureka in region us-east-1
+2025-11-18 16:00:14 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-18 16:00:14 - c.netflix.discovery.DiscoveryClient - INFO - Disable delta property : false
+2025-11-18 16:00:14 - c.netflix.discovery.DiscoveryClient - INFO - Single vip registry refresh property : null
+2025-11-18 16:00:14 - c.netflix.discovery.DiscoveryClient - INFO - Force full registry fetch : false
+2025-11-18 16:00:14 - c.netflix.discovery.DiscoveryClient - INFO - Application is null : false
+2025-11-18 16:00:14 - c.netflix.discovery.DiscoveryClient - INFO - Registered Applications size is zero : true
+2025-11-18 16:00:14 - c.netflix.discovery.DiscoveryClient - INFO - Application version is -1: true
+2025-11-18 16:00:14 - c.netflix.discovery.DiscoveryClient - INFO - Getting all instance registry info from the eureka server
+2025-11-18 16:00:14 - c.netflix.discovery.DiscoveryClient - INFO - The response status is 200
+2025-11-18 16:00:14 - c.netflix.discovery.DiscoveryClient - INFO - Starting heartbeat executor: renew interval is: 30
+2025-11-18 16:00:14 - c.n.discovery.InstanceInfoReplicator - INFO - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-11-18 16:00:14 - c.netflix.discovery.DiscoveryClient - INFO - Discovery Client initialized at timestamp 1763461814428 with initial instances count: 2
+2025-11-18 16:00:14 - o.s.c.n.e.s.EurekaServiceRegistry - INFO - Registering application TRIP-APP with eureka with status UP
+2025-11-18 16:00:14 - c.netflix.discovery.DiscoveryClient - INFO - Saw local status change event StatusChangeEvent [timestamp=1763461814430, current=UP, previous=STARTING]
+2025-11-18 16:00:14 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-APP/192.168.31.70:trip-app:9090: registering service...
+2025-11-18 16:00:14 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat started on port 9090 (http) with context path '/'
+2025-11-18 16:00:14 - o.s.c.n.e.s.EurekaAutoServiceRegistration - INFO - Updating port to 9090
+2025-11-18 16:00:14 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-APP/192.168.31.70:trip-app:9090 - registration status: 204
+2025-11-18 16:00:14 - com.pv.trip_app.TripAppApplication - INFO - Started TripAppApplication in 5.199 seconds (process running for 5.508)
+2025-11-18 16:00:52 - o.s.c.n.e.s.EurekaServiceRegistry - INFO - Unregistering application TRIP-APP with eureka with status DOWN
+2025-11-18 16:00:52 - c.netflix.discovery.DiscoveryClient - INFO - Saw local status change event StatusChangeEvent [timestamp=1763461852164, current=DOWN, previous=UP]
+2025-11-18 16:00:52 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-APP/192.168.31.70:trip-app:9090: registering service...
+2025-11-18 16:00:52 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-18 16:00:52 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Graceful shutdown complete
+2025-11-18 16:00:52 - c.n.d.s.t.d.RedirectingEurekaHttpClient - INFO - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on POST request for "http://localhost:8761/eureka/apps/TRIP-APP": Connect to http://localhost:8761 failed: Connection refused stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8761/eureka/apps/TRIP-APP": Connect to http://localhost:8761 failed: Connection refused
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:926)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:906)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:841)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:702)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.register(RestTemplateEurekaHttpClient.java:87)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:828)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:125)
+	at com.netflix.discovery.InstanceInfoReplicator$2.run(InstanceInfoReplicator.java:105)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 failed: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:215)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:497)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:144)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:151)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:112)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:117)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$2(RestTemplateTransportClientFactory.java:145)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:88)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:72)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:900)
+	... 21 more
+
+2025-11-18 16:00:52 - c.n.d.s.t.d.RetryableEurekaHttpClient - WARN - Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/TRIP-APP": Connect to http://localhost:8761 failed: Connection refused
+2025-11-18 16:00:52 - o.s.o.j.LocalContainerEntityManagerFactoryBean - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-18 16:00:52 - c.n.d.s.t.d.RedirectingEurekaHttpClient - INFO - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on POST request for "http://localhost:8761/eureka/apps/TRIP-APP": Connect to http://localhost:8761 failed: Connection refused stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8761/eureka/apps/TRIP-APP": Connect to http://localhost:8761 failed: Connection refused
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:926)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:906)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:841)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:702)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.register(RestTemplateEurekaHttpClient.java:87)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:828)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:125)
+	at com.netflix.discovery.InstanceInfoReplicator$2.run(InstanceInfoReplicator.java:105)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 failed: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:215)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:497)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:144)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:151)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:112)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:117)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$2(RestTemplateTransportClientFactory.java:145)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:88)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:72)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:900)
+	... 22 more
+
+2025-11-18 16:00:52 - c.n.d.s.t.d.RetryableEurekaHttpClient - WARN - Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/TRIP-APP": Connect to http://localhost:8761 failed: Connection refused
+2025-11-18 16:00:52 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Shutdown initiated...
+2025-11-18 16:00:52 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Shutdown completed.
+2025-11-18 16:00:52 - c.netflix.discovery.DiscoveryClient - WARN - DiscoveryClient_TRIP-APP/192.168.31.70:trip-app:9090 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:828)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:125)
+	at com.netflix.discovery.InstanceInfoReplicator$2.run(InstanceInfoReplicator.java:105)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2025-11-18 16:00:52 - c.netflix.discovery.DiscoveryClient - INFO - Shutting down DiscoveryClient ...
+2025-11-18 16:00:52 - c.n.discovery.InstanceInfoReplicator - WARN - There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:828)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:125)
+	at com.netflix.discovery.InstanceInfoReplicator$2.run(InstanceInfoReplicator.java:105)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2025-11-18 16:00:52 - c.netflix.discovery.DiscoveryClient - INFO - Unregistering ...
+2025-11-18 16:00:52 - c.n.d.s.t.d.RedirectingEurekaHttpClient - INFO - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on DELETE request for "http://localhost:8761/eureka/apps/TRIP-APP/192.168.31.70:trip-app:9090": Connect to http://localhost:8761 failed: Connection refused stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8761/eureka/apps/TRIP-APP/192.168.31.70:trip-app:9090": Connect to http://localhost:8761 failed: Connection refused
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:926)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:906)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:841)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:702)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.cancel(RestTemplateEurekaHttpClient.java:100)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:919)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:900)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:415)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:239)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:203)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:196)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:387)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:134)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:212)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:798)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:748)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1499)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:707)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1492)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1222)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1183)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:179)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1129)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:147)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:116)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 failed: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:215)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:497)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:144)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:151)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:112)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:117)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$2(RestTemplateTransportClientFactory.java:145)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:88)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:72)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:900)
+	... 40 more
+
+2025-11-18 16:00:52 - c.n.d.s.t.d.RetryableEurekaHttpClient - WARN - Request execution failed with message: I/O error on DELETE request for "http://localhost:8761/eureka/apps/TRIP-APP/192.168.31.70:trip-app:9090": Connect to http://localhost:8761 failed: Connection refused
+2025-11-18 16:00:52 - c.netflix.discovery.DiscoveryClient - ERROR - DiscoveryClient_TRIP-APP/192.168.31.70:trip-app:9090 - de-registration failedCannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:919)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:900)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:415)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:239)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:203)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:196)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:387)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:134)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:212)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:798)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:748)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1499)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:707)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1492)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1222)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1183)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:179)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1129)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:147)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:116)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2025-11-18 16:00:52 - c.netflix.discovery.DiscoveryClient - INFO - Completed shut down of DiscoveryClient
+2025-11-18 16:06:30 - com.pv.trip_app.TripAppApplication - INFO - Starting TripAppApplication using Java 17.0.8 with PID 19157 (/Users/puneetvashisht/work/trainings/eclerx-spring-backend-2025/microservices/trip-app/target/classes started by puneetvashisht in /Users/puneetvashisht/work/trainings/eclerx-spring-backend-2025/microservices/trip-app)
+2025-11-18 16:06:30 - com.pv.trip_app.TripAppApplication - INFO - No active profile set, falling back to 1 default profile: "default"
+2025-11-18 16:06:30 - o.s.c.c.c.ConfigServerConfigDataLoader - INFO - Fetching config from server at : http://localhost:8888
+2025-11-18 16:06:30 - o.s.c.c.c.ConfigServerConfigDataLoader - INFO - Located environment: name=trip-app, profiles=[default], label=null, version=a47fe9b65fdfd2defd138813f94e54886146e0c5, state=
+2025-11-18 16:06:30 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - INFO - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-18 16:06:30 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - INFO - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-18 16:06:31 - o.s.d.r.c.RepositoryConfigurationDelegate - INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-18 16:06:31 - o.s.d.r.c.RepositoryConfigurationDelegate - INFO - Finished Spring Data repository scanning in 55 ms. Found 1 JPA repository interface.
+2025-11-18 16:06:31 - o.s.cloud.context.scope.GenericScope - INFO - BeanFactory id=1e7f0709-1fe0-3884-877f-2b3650f8bc80
+2025-11-18 16:06:31 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat initialized with port 9090 (http)
+2025-11-18 16:06:31 - o.a.catalina.core.StandardService - INFO - Starting service [Tomcat]
+2025-11-18 16:06:31 - o.a.catalina.core.StandardEngine - INFO - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-18 16:06:31 - o.a.c.c.C.[Tomcat].[localhost].[/] - INFO - Initializing Spring embedded WebApplicationContext
+2025-11-18 16:06:31 - o.s.b.w.s.c.ServletWebServerApplicationContext - INFO - Root WebApplicationContext: initialization completed in 705 ms
+2025-11-18 16:06:31 - o.h.jpa.internal.util.LogHelper - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-18 16:06:31 - org.hibernate.Version - INFO - HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-18 16:06:31 - o.h.c.i.RegionFactoryInitiator - INFO - HHH000026: Second-level cache disabled
+2025-11-18 16:06:31 - o.s.o.j.p.SpringPersistenceUnitInfo - INFO - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-18 16:06:31 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Starting...
+2025-11-18 16:06:31 - com.zaxxer.hikari.pool.HikariPool - INFO - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3db298fa
+2025-11-18 16:06:31 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Start completed.
+2025-11-18 16:06:31 - o.hibernate.orm.connections.pooling - INFO - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-18 16:06:32 - o.h.e.t.j.p.i.JtaPlatformInitiator - INFO - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-18 16:06:32 - o.s.o.j.LocalContainerEntityManagerFactoryBean - INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-18 16:06:32 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-18 16:06:32 - o.s.b.d.a.OptionalLiveReloadServer - INFO - LiveReload server is running on port 35729
+2025-11-18 16:06:32 - o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - INFO - Eureka HTTP Client uses RestTemplate.
+2025-11-18 16:06:32 - o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - WARN - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-11-18 16:06:32 - o.s.c.n.eureka.InstanceInfoFactory - INFO - Setting initial instance status as: STARTING
+2025-11-18 16:06:32 - c.netflix.discovery.DiscoveryClient - INFO - Initializing Eureka in region us-east-1
+2025-11-18 16:06:32 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-18 16:06:32 - c.netflix.discovery.DiscoveryClient - INFO - Disable delta property : false
+2025-11-18 16:06:32 - c.netflix.discovery.DiscoveryClient - INFO - Single vip registry refresh property : null
+2025-11-18 16:06:32 - c.netflix.discovery.DiscoveryClient - INFO - Force full registry fetch : false
+2025-11-18 16:06:32 - c.netflix.discovery.DiscoveryClient - INFO - Application is null : false
+2025-11-18 16:06:32 - c.netflix.discovery.DiscoveryClient - INFO - Registered Applications size is zero : true
+2025-11-18 16:06:32 - c.netflix.discovery.DiscoveryClient - INFO - Application version is -1: true
+2025-11-18 16:06:32 - c.netflix.discovery.DiscoveryClient - INFO - Getting all instance registry info from the eureka server
+2025-11-18 16:06:33 - c.netflix.discovery.DiscoveryClient - INFO - The response status is 200
+2025-11-18 16:06:33 - c.netflix.discovery.DiscoveryClient - INFO - Starting heartbeat executor: renew interval is: 30
+2025-11-18 16:06:33 - c.n.discovery.InstanceInfoReplicator - INFO - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-11-18 16:06:33 - c.netflix.discovery.DiscoveryClient - INFO - Discovery Client initialized at timestamp 1763462193117 with initial instances count: 0
+2025-11-18 16:06:33 - o.s.c.n.e.s.EurekaServiceRegistry - INFO - Registering application TRIP-APP with eureka with status UP
+2025-11-18 16:06:33 - c.netflix.discovery.DiscoveryClient - INFO - Saw local status change event StatusChangeEvent [timestamp=1763462193119, current=UP, previous=STARTING]
+2025-11-18 16:06:33 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-APP/192.168.31.70:trip-app:9090: registering service...
+2025-11-18 16:06:33 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat started on port 9090 (http) with context path '/'
+2025-11-18 16:06:33 - o.s.c.n.e.s.EurekaAutoServiceRegistration - INFO - Updating port to 9090
+2025-11-18 16:06:33 - com.pv.trip_app.TripAppApplication - INFO - Started TripAppApplication in 5.178 seconds (process running for 5.501)
+2025-11-18 16:06:33 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-APP/192.168.31.70:trip-app:9090 - registration status: 204
+2025-11-18 16:07:03 - c.netflix.discovery.DiscoveryClient - INFO - Disable delta property : false
+2025-11-18 16:07:03 - c.netflix.discovery.DiscoveryClient - INFO - Single vip registry refresh property : null
+2025-11-18 16:07:03 - c.netflix.discovery.DiscoveryClient - INFO - Force full registry fetch : false
+2025-11-18 16:07:03 - c.netflix.discovery.DiscoveryClient - INFO - Application is null : false
+2025-11-18 16:07:03 - c.netflix.discovery.DiscoveryClient - INFO - Registered Applications size is zero : true
+2025-11-18 16:07:03 - c.netflix.discovery.DiscoveryClient - INFO - Application version is -1: false
+2025-11-18 16:07:03 - c.netflix.discovery.DiscoveryClient - INFO - Getting all instance registry info from the eureka server
+2025-11-18 16:07:03 - c.netflix.discovery.DiscoveryClient - INFO - The response status is 200
+2025-11-18 16:07:35 - o.a.c.c.C.[Tomcat].[localhost].[/] - INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-18 16:07:35 - o.s.web.servlet.DispatcherServlet - INFO - Initializing Servlet 'dispatcherServlet'
+2025-11-18 16:07:35 - o.s.web.servlet.DispatcherServlet - INFO - Completed initialization in 0 ms
+2025-11-18 16:09:45 - o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - INFO - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-11-18 16:09:45 - o.s.c.n.e.s.EurekaServiceRegistry - INFO - Unregistering application TRIP-APP with eureka with status DOWN
+2025-11-18 16:09:45 - c.netflix.discovery.DiscoveryClient - INFO - Saw local status change event StatusChangeEvent [timestamp=1763462385764, current=DOWN, previous=UP]
+2025-11-18 16:09:45 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-APP/192.168.31.70:trip-app:9090: registering service...
+2025-11-18 16:09:45 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-18 16:09:45 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Graceful shutdown complete
+2025-11-18 16:09:45 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-APP/192.168.31.70:trip-app:9090 - registration status: 204
+2025-11-18 16:09:45 - o.s.o.j.LocalContainerEntityManagerFactoryBean - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-18 16:09:45 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Shutdown initiated...
+2025-11-18 16:09:45 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Shutdown completed.
+2025-11-18 16:09:45 - c.netflix.discovery.DiscoveryClient - INFO - Shutting down DiscoveryClient ...
+2025-11-18 16:09:48 - c.netflix.discovery.DiscoveryClient - INFO - Unregistering ...
+2025-11-18 16:09:48 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-APP/192.168.31.70:trip-app:9090 - deregister  status: 200
+2025-11-18 16:09:48 - c.netflix.discovery.DiscoveryClient - INFO - Completed shut down of DiscoveryClient
+2025-11-18 16:09:49 - com.pv.trip_app.TripAppApplication - INFO - Starting TripAppApplication using Java 17.0.8 with PID 19157 (/Users/puneetvashisht/work/trainings/eclerx-spring-backend-2025/microservices/trip-app/target/classes started by puneetvashisht in /Users/puneetvashisht/work/trainings/eclerx-spring-backend-2025/microservices/trip-app)
+2025-11-18 16:09:49 - com.pv.trip_app.TripAppApplication - INFO - No active profile set, falling back to 1 default profile: "default"
+2025-11-18 16:09:49 - o.s.c.c.c.ConfigServerConfigDataLoader - INFO - Fetching config from server at : http://localhost:8888
+2025-11-18 16:09:49 - o.s.c.c.c.ConfigServerConfigDataLoader - INFO - Located environment: name=trip-app, profiles=[default], label=null, version=a47fe9b65fdfd2defd138813f94e54886146e0c5, state=
+2025-11-18 16:09:49 - o.s.d.r.c.RepositoryConfigurationDelegate - INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-18 16:09:49 - o.s.d.r.c.RepositoryConfigurationDelegate - INFO - Finished Spring Data repository scanning in 1 ms. Found 1 JPA repository interface.
+2025-11-18 16:09:49 - o.s.cloud.context.scope.GenericScope - INFO - BeanFactory id=1e7f0709-1fe0-3884-877f-2b3650f8bc80
+2025-11-18 16:09:49 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat initialized with port 9090 (http)
+2025-11-18 16:09:49 - o.a.catalina.core.StandardService - INFO - Starting service [Tomcat]
+2025-11-18 16:09:49 - o.a.catalina.core.StandardEngine - INFO - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-18 16:09:49 - o.a.c.c.C.[Tomcat].[localhost].[/] - INFO - Initializing Spring embedded WebApplicationContext
+2025-11-18 16:09:49 - o.s.b.w.s.c.ServletWebServerApplicationContext - INFO - Root WebApplicationContext: initialization completed in 155 ms
+2025-11-18 16:09:49 - o.h.jpa.internal.util.LogHelper - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-18 16:09:49 - o.h.c.i.RegionFactoryInitiator - INFO - HHH000026: Second-level cache disabled
+2025-11-18 16:09:49 - o.s.o.j.p.SpringPersistenceUnitInfo - INFO - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-18 16:09:49 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-2 - Starting...
+2025-11-18 16:09:49 - com.zaxxer.hikari.pool.HikariPool - INFO - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@7c742a89
+2025-11-18 16:09:49 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-2 - Start completed.
+2025-11-18 16:09:49 - o.hibernate.orm.connections.pooling - INFO - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 17.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-18 16:09:49 - o.h.e.t.j.p.i.JtaPlatformInitiator - INFO - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-18 16:09:49 - o.s.o.j.LocalContainerEntityManagerFactoryBean - INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-18 16:09:49 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-18 16:09:50 - o.s.b.d.a.OptionalLiveReloadServer - INFO - LiveReload server is running on port 35729
+2025-11-18 16:09:50 - o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - INFO - Eureka HTTP Client uses RestTemplate.
+2025-11-18 16:09:50 - o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - WARN - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-11-18 16:09:50 - o.s.c.n.eureka.InstanceInfoFactory - INFO - Setting initial instance status as: STARTING
+2025-11-18 16:09:50 - c.netflix.discovery.DiscoveryClient - INFO - Initializing Eureka in region us-east-1
+2025-11-18 16:09:50 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-18 16:09:50 - c.netflix.discovery.DiscoveryClient - INFO - Disable delta property : false
+2025-11-18 16:09:50 - c.netflix.discovery.DiscoveryClient - INFO - Single vip registry refresh property : null
+2025-11-18 16:09:50 - c.netflix.discovery.DiscoveryClient - INFO - Force full registry fetch : false
+2025-11-18 16:09:50 - c.netflix.discovery.DiscoveryClient - INFO - Application is null : false
+2025-11-18 16:09:50 - c.netflix.discovery.DiscoveryClient - INFO - Registered Applications size is zero : true
+2025-11-18 16:09:50 - c.netflix.discovery.DiscoveryClient - INFO - Application version is -1: true
+2025-11-18 16:09:50 - c.netflix.discovery.DiscoveryClient - INFO - Getting all instance registry info from the eureka server
+2025-11-18 16:09:50 - c.netflix.discovery.DiscoveryClient - INFO - The response status is 200
+2025-11-18 16:09:50 - c.netflix.discovery.DiscoveryClient - INFO - Starting heartbeat executor: renew interval is: 30
+2025-11-18 16:09:50 - c.n.discovery.InstanceInfoReplicator - INFO - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-11-18 16:09:50 - c.netflix.discovery.DiscoveryClient - INFO - Discovery Client initialized at timestamp 1763462390053 with initial instances count: 2
+2025-11-18 16:09:50 - o.s.c.n.e.s.EurekaServiceRegistry - INFO - Registering application TRIP-APP with eureka with status UP
+2025-11-18 16:09:50 - c.netflix.discovery.DiscoveryClient - INFO - Saw local status change event StatusChangeEvent [timestamp=1763462390053, current=UP, previous=STARTING]
+2025-11-18 16:09:50 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-APP/192.168.31.70:trip-app:9090: registering service...
+2025-11-18 16:09:50 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat started on port 9090 (http) with context path '/'
+2025-11-18 16:09:50 - o.s.c.n.e.s.EurekaAutoServiceRegistration - INFO - Updating port to 9090
+2025-11-18 16:09:50 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-APP/192.168.31.70:trip-app:9090 - registration status: 204
+2025-11-18 16:09:50 - com.pv.trip_app.TripAppApplication - INFO - Started TripAppApplication in 1.214 seconds (process running for 202.422)
+2025-11-18 16:09:50 - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - INFO - Condition evaluation unchanged
+2025-11-18 16:09:56 - o.a.c.c.C.[Tomcat].[localhost].[/] - INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-18 16:09:56 - o.s.web.servlet.DispatcherServlet - INFO - Initializing Servlet 'dispatcherServlet'
+2025-11-18 16:09:56 - o.s.web.servlet.DispatcherServlet - INFO - Completed initialization in 0 ms
+2025-11-18 16:09:56 - com.pv.trip_app.TripController - INFO - Fetching trip for destination: Tokyo
+2025-11-18 16:09:56 - com.pv.trip_app.TripController - INFO - Found trip: com.pv.trip_app.Trip@1c5a6b51
+2025-11-18 16:10:41 - com.pv.trip_app.TripController - INFO - Fetching trip for destination: Tokyo
+2025-11-18 16:10:41 - com.pv.trip_app.TripController - INFO - Found trip: com.pv.trip_app.Trip@32937c4
+2025-11-18 16:12:41 - o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - INFO - Restarting due to 6 class path changes (0 additions, 6 deletions, 0 modifications)
+2025-11-18 16:12:41 - o.s.c.n.e.s.EurekaServiceRegistry - INFO - Unregistering application TRIP-APP with eureka with status DOWN
+2025-11-18 16:12:41 - c.netflix.discovery.DiscoveryClient - INFO - Saw local status change event StatusChangeEvent [timestamp=1763462561757, current=DOWN, previous=UP]
+2025-11-18 16:12:41 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-18 16:12:41 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-APP/192.168.31.70:trip-app:9090: registering service...
+2025-11-18 16:12:41 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Graceful shutdown complete
+2025-11-18 16:12:41 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-APP/192.168.31.70:trip-app:9090 - registration status: 204
+2025-11-18 16:12:41 - o.s.o.j.LocalContainerEntityManagerFactoryBean - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-18 16:12:41 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-2 - Shutdown initiated...
+2025-11-18 16:12:41 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-2 - Shutdown completed.
+2025-11-18 16:12:41 - c.netflix.discovery.DiscoveryClient - INFO - Shutting down DiscoveryClient ...
+2025-11-18 16:12:44 - c.netflix.discovery.DiscoveryClient - INFO - Unregistering ...
+2025-11-18 16:12:44 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-APP/192.168.31.70:trip-app:9090 - deregister  status: 200
+2025-11-18 16:12:44 - c.netflix.discovery.DiscoveryClient - INFO - Completed shut down of DiscoveryClient
+2025-11-18 16:12:44 - o.s.b.d.LoggingFailureAnalysisReporter - ERROR - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+No spring.config.import property has been defined
+
+Action:
+
+Add a spring.config.import=configserver: property to your configuration.
+	If configuration is not required add spring.config.import=optional:configserver: instead.
+	To disable this check, set spring.cloud.config.enabled=false or 
+	spring.cloud.config.import-check.enabled=false.
+
+2025-11-18 16:18:06 - com.pv.trip_app.TripAppApplication - INFO - Starting TripAppApplication using Java 17.0.8 with PID 19157 (/Users/puneetvashisht/work/trainings/eclerx-spring-backend-2025/microservices/trip-app/target/classes started by puneetvashisht in /Users/puneetvashisht/work/trainings/eclerx-spring-backend-2025/microservices/trip-app)
+2025-11-18 16:18:06 - com.pv.trip_app.TripAppApplication - INFO - No active profile set, falling back to 1 default profile: "default"
+2025-11-18 16:18:06 - o.s.c.c.c.ConfigServerConfigDataLoader - INFO - Fetching config from server at : http://localhost:8888
+2025-11-18 16:18:06 - o.s.c.c.c.ConfigServerConfigDataLoader - INFO - Located environment: name=trip-app, profiles=[default], label=null, version=a47fe9b65fdfd2defd138813f94e54886146e0c5, state=
+2025-11-18 16:18:06 - o.s.d.r.c.RepositoryConfigurationDelegate - INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-18 16:18:06 - o.s.d.r.c.RepositoryConfigurationDelegate - INFO - Finished Spring Data repository scanning in 3 ms. Found 1 JPA repository interface.
+2025-11-18 16:18:06 - o.s.cloud.context.scope.GenericScope - INFO - BeanFactory id=1e7f0709-1fe0-3884-877f-2b3650f8bc80
+2025-11-18 16:18:06 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat initialized with port 9090 (http)
+2025-11-18 16:18:06 - o.a.catalina.core.StandardService - INFO - Starting service [Tomcat]
+2025-11-18 16:18:06 - o.a.catalina.core.StandardEngine - INFO - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-18 16:18:06 - o.a.c.c.C.[Tomcat].[localhost].[/] - INFO - Initializing Spring embedded WebApplicationContext
+2025-11-18 16:18:06 - o.s.b.w.s.c.ServletWebServerApplicationContext - INFO - Root WebApplicationContext: initialization completed in 110 ms
+2025-11-18 16:18:06 - o.h.jpa.internal.util.LogHelper - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-18 16:18:06 - o.h.c.i.RegionFactoryInitiator - INFO - HHH000026: Second-level cache disabled
+2025-11-18 16:18:06 - o.s.o.j.p.SpringPersistenceUnitInfo - INFO - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-18 16:18:06 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-3 - Starting...
+2025-11-18 16:18:06 - com.zaxxer.hikari.pool.HikariPool - INFO - HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@353b0e3e
+2025-11-18 16:18:06 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-3 - Start completed.
+2025-11-18 16:18:06 - o.hibernate.orm.connections.pooling - INFO - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 17.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-18 16:18:06 - o.h.e.t.j.p.i.JtaPlatformInitiator - INFO - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-18 16:18:06 - o.s.o.j.LocalContainerEntityManagerFactoryBean - INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-18 16:18:06 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-18 16:18:06 - o.s.b.d.a.OptionalLiveReloadServer - INFO - LiveReload server is running on port 35729
+2025-11-18 16:18:06 - o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - INFO - Eureka HTTP Client uses RestTemplate.
+2025-11-18 16:18:06 - o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - WARN - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-11-18 16:18:06 - o.s.c.n.eureka.InstanceInfoFactory - INFO - Setting initial instance status as: STARTING
+2025-11-18 16:18:06 - c.netflix.discovery.DiscoveryClient - INFO - Initializing Eureka in region us-east-1
+2025-11-18 16:18:06 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-18 16:18:06 - c.netflix.discovery.DiscoveryClient - INFO - Disable delta property : false
+2025-11-18 16:18:06 - c.netflix.discovery.DiscoveryClient - INFO - Single vip registry refresh property : null
+2025-11-18 16:18:06 - c.netflix.discovery.DiscoveryClient - INFO - Force full registry fetch : false
+2025-11-18 16:18:06 - c.netflix.discovery.DiscoveryClient - INFO - Application is null : false
+2025-11-18 16:18:06 - c.netflix.discovery.DiscoveryClient - INFO - Registered Applications size is zero : true
+2025-11-18 16:18:06 - c.netflix.discovery.DiscoveryClient - INFO - Application version is -1: true
+2025-11-18 16:18:06 - c.netflix.discovery.DiscoveryClient - INFO - Getting all instance registry info from the eureka server
+2025-11-18 16:18:06 - c.netflix.discovery.DiscoveryClient - INFO - The response status is 200
+2025-11-18 16:18:06 - c.netflix.discovery.DiscoveryClient - INFO - Starting heartbeat executor: renew interval is: 30
+2025-11-18 16:18:06 - c.n.discovery.InstanceInfoReplicator - INFO - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-11-18 16:18:06 - c.netflix.discovery.DiscoveryClient - INFO - Discovery Client initialized at timestamp 1763462886863 with initial instances count: 0
+2025-11-18 16:18:06 - o.s.c.n.e.s.EurekaServiceRegistry - INFO - Registering application TRIP-APP with eureka with status UP
+2025-11-18 16:18:06 - c.netflix.discovery.DiscoveryClient - INFO - Saw local status change event StatusChangeEvent [timestamp=1763462886864, current=UP, previous=STARTING]
+2025-11-18 16:18:06 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-APP/192.168.31.70:trip-app:9090: registering service...
+2025-11-18 16:18:06 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat started on port 9090 (http) with context path '/'
+2025-11-18 16:18:06 - o.s.c.n.e.s.EurekaAutoServiceRegistration - INFO - Updating port to 9090
+2025-11-18 16:18:06 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-APP/192.168.31.70:trip-app:9090 - registration status: 204
+2025-11-18 16:18:06 - com.pv.trip_app.TripAppApplication - INFO - Started TripAppApplication in 1.227 seconds (process running for 699.236)
+2025-11-18 16:18:06 - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - INFO - Condition evaluation unchanged
+2025-11-18 16:18:36 - c.netflix.discovery.DiscoveryClient - INFO - Disable delta property : false
+2025-11-18 16:18:36 - c.netflix.discovery.DiscoveryClient - INFO - Single vip registry refresh property : null
+2025-11-18 16:18:36 - c.netflix.discovery.DiscoveryClient - INFO - Force full registry fetch : false
+2025-11-18 16:18:36 - c.netflix.discovery.DiscoveryClient - INFO - Application is null : false
+2025-11-18 16:18:36 - c.netflix.discovery.DiscoveryClient - INFO - Registered Applications size is zero : true
+2025-11-18 16:18:36 - c.netflix.discovery.DiscoveryClient - INFO - Application version is -1: false
+2025-11-18 16:18:36 - c.netflix.discovery.DiscoveryClient - INFO - Getting all instance registry info from the eureka server
+2025-11-18 16:18:36 - c.netflix.discovery.DiscoveryClient - INFO - The response status is 200
+2025-11-18 16:18:44 - o.s.c.n.e.s.EurekaServiceRegistry - INFO - Unregistering application TRIP-APP with eureka with status DOWN
+2025-11-18 16:18:44 - c.netflix.discovery.DiscoveryClient - INFO - Saw local status change event StatusChangeEvent [timestamp=1763462924575, current=DOWN, previous=UP]
+2025-11-18 16:18:44 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-APP/192.168.31.70:trip-app:9090: registering service...
+2025-11-18 16:18:44 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-18 16:18:44 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Graceful shutdown complete
+2025-11-18 16:18:44 - o.s.o.j.LocalContainerEntityManagerFactoryBean - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-18 16:18:44 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-3 - Shutdown initiated...
+2025-11-18 16:18:44 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-APP/192.168.31.70:trip-app:9090 - registration status: 204
+2025-11-18 16:18:44 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-3 - Shutdown completed.
+2025-11-18 16:18:44 - c.netflix.discovery.DiscoveryClient - INFO - Shutting down DiscoveryClient ...
+2025-11-18 16:18:47 - c.netflix.discovery.DiscoveryClient - INFO - Unregistering ...
+2025-11-18 16:18:47 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-APP/192.168.31.70:trip-app:9090 - deregister  status: 200
+2025-11-18 16:18:47 - c.netflix.discovery.DiscoveryClient - INFO - Completed shut down of DiscoveryClient

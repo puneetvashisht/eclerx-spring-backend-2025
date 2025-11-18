@@ -7,8 +7,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
+import lombok.extern.slf4j.Slf4j;
+
 @RestController
 @RequestMapping("api/trip-bookings")
+
+@Slf4j
 public class TripBookingController {
 
     @Autowired
@@ -32,9 +36,12 @@ public class TripBookingController {
     @PostMapping("/feign")
     public TripBooking bookTripUsingFeign(@RequestBody TripBooking tripBooking) {
         // Placeholder for trip booking logic
+        log.info("Booking trip using Feign client for destination: {}", tripBooking.getDestination());
        
         // call the Trip app and get trip details for the destination
         Trip tripDetails = tripProxy.getTripDetails(tripBooking.getDestination());
+
+        log.info("Received trip details: {}", tripDetails);
 
         // multiply cost per traveler with number of travelers
         double totalCost = tripDetails.getPrice() * tripBooking.getNumberOfTravelers();
