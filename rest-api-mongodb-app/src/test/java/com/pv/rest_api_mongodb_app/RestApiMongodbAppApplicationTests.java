@@ -1,0 +1,13 @@
+package com.pv.rest_api_mongodb_app;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class RestApiMongodbAppApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
