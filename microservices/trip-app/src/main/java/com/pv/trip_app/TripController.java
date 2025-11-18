@@ -1,6 +1,7 @@
 package com.pv.trip_app;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -14,6 +15,9 @@ import org.springframework.http.HttpStatus;
 @RestController
 @RequestMapping("/api/trips")
 public class TripController {
+
+    @Value("${server.port}")
+    private Integer port;
 
     @Autowired
     private TripRepository tripRepository;
@@ -29,8 +33,10 @@ public class TripController {
         return tripRepository.findAll();
     }
 
-    @GetMapping("/{id}")
-    public Trip getTripById(@PathVariable int id) {
-        return tripRepository.findById(id).orElse(null);
+    @GetMapping("/{destination}")
+    public Trip getTripByDestination(@PathVariable String destination) {
+        Trip trip = tripRepository.findByDestination(destination);
+        trip.setPort(port);
+        return trip;
     }    
 }

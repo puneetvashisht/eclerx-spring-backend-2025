@@ -4,9 +4,10 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.Transient;
 
 @Entity
-class Trip {
+public class Trip {
     @Id
     @GeneratedValue(strategy =  GenerationType.AUTO)
     int id;
@@ -14,6 +15,8 @@ class Trip {
     private String startDate;
     private String endDate;
     private Double price;
+    @Transient
+    private Integer port;
      public Trip(){
 
      }
@@ -35,12 +38,24 @@ class Trip {
         return destination;
     }
 
+    public void setDestination(String destination) {
+        this.destination = destination;
+    }
+
     public String getStartDate() {
         return startDate;
     }
 
+    public void setStartDate(String startDate) {
+        this.startDate = startDate;
+    }
+
     public String getEndDate() {
         return endDate;
+    }
+
+    public void setEndDate(String endDate) {
+        this.endDate = endDate;
     }
 
     public Double getPrice() {
@@ -48,5 +63,11 @@ class Trip {
     }   
     public void setPrice(Double price) {
         this.price = price;
+    }
+    public Integer getPort() {
+        return port;
+    }
+    public void setPort(Integer port) {
+        this.port = port;
     }
 }
