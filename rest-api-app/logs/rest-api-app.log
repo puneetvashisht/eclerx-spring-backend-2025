@@ -1728,3 +1728,8 @@ Identify and stop the process that's listening on port 9090 or configure this ap
 2025-11-19 11:05:34 - o.s.o.j.LocalContainerEntityManagerFactoryBean - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
 2025-11-19 11:05:34 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Shutdown initiated...
 2025-11-19 11:05:34 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Shutdown completed.
+2025-11-19 11:27:31 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-19 11:27:31 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Graceful shutdown complete
+2025-11-19 11:27:31 - o.s.o.j.LocalContainerEntityManagerFactoryBean - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-19 11:27:31 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-12 - Shutdown initiated...
+2025-11-19 11:27:31 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-12 - Shutdown completed.
