@@ -3,6 +3,8 @@ package com.pv.rest_api_app.entities;
 import java.time.LocalDate;
 import java.util.List;
 
+import org.springframework.validation.annotation.Validated;
+
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -19,6 +21,7 @@ public class Trip {
     @GeneratedValue(strategy = GenerationType.AUTO)
     int id;
     @Column(unique = true)
+    // lengnth not less than 3 validation
     String destination;
     LocalDate startDate;
     LocalDate endDate;

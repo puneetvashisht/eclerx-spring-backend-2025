@@ -10,6 +10,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
+import org.springframework.web.bind.MethodArgumentNotValidException;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -18,6 +19,7 @@ import lombok.extern.slf4j.Slf4j;
 public class TripExceptionHandler {
 
     @ExceptionHandler(TripNotFoundException.class)
+    @ResponseStatus(HttpStatus.NOT_FOUND)
     public ResponseError handleTripNotFoundException(TripNotFoundException ex) {
         ResponseError error = new ResponseError();
         error.setError("Not Found");
@@ -40,7 +42,21 @@ public class TripExceptionHandler {
         return error;
     }
 
+    @ExceptionHandler(MethodArgumentNotValidException.class)
+    @ResponseStatus(HttpStatus.BAD_REQUEST)
+    public ResponseError handleValidationExceptions(MethodArgumentNotValidException ex) {
+        ResponseError error = new ResponseError();
+        error.setError("Validation Failed");
+        StringBuilder sb = new StringBuilder();
+        ex.getBindingResult().getFieldErrors().forEach(fe -> sb.append(fe.getField()).append(": ").append(fe.getDefaultMessage()).append("; "));
+        error.setMessage(sb.toString());
+        error.setStatus(HttpStatus.BAD_REQUEST.value());
+        error.setTimestamp(LocalDateTime.now());
+        return error;
+    }
+
     @ExceptionHandler(Exception.class)
+    @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
     public ResponseError handleAllExceptions(Exception ex) {
         ResponseError error = new ResponseError();
         error.setError("Internal Server Error");

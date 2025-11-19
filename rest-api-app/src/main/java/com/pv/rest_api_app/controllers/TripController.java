@@ -9,6 +9,8 @@ import org.springframework.boot.autoconfigure.data.web.SpringDataWebProperties.P
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 import org.springframework.http.HttpStatus;
+import org.springframework.stereotype.Service;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -22,11 +24,14 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 
 import org.springframework.web.bind.annotation.RestController;
 
+import com.pv.rest_api_app.dto.TripDTO;
 import com.pv.rest_api_app.entities.Itinerary;
 import com.pv.rest_api_app.entities.Trip;
 import com.pv.rest_api_app.repositories.TripRepository;
+import com.pv.rest_api_app.services.TripService;
 import com.pv.rest_api_app.utils.TripNotFoundException;
 
+import jakarta.validation.Valid;
 import lombok.extern.slf4j.Slf4j;
 
 @RestController
@@ -36,6 +41,9 @@ import lombok.extern.slf4j.Slf4j;
 public class TripController {
      @Autowired
     TripRepository TripRepository;
+
+    @Autowired
+    TripService tripService;
  
     @GetMapping("/trips")
     public List<Trip> getAllTrips() {
@@ -73,8 +81,23 @@ public class TripController {
 
     @PostMapping("/trips")
     @ResponseStatus(HttpStatus.CREATED)
-    public void addTrip(@RequestBody Trip emp) {
-        TripRepository.save(emp);
+    public void addTrip(@Valid @RequestBody TripDTO emp) throws Exception {
+        boolean validateDate = tripService.checkStartDateBeforeEndDate(emp.getStartDate(), emp.getEndDate());
+        log.info("Date validated " + validateDate);
+        if(!validateDate){
+            throw new Exception("Start Date isn't before End Date!");
+        }
+        TripRepository.save(convertToEntity(emp));
+        // TripRepository.save(emp);
+    }
+
+    private Trip convertToEntity(TripDTO emp) {
+        Trip trip = new Trip();
+        trip.setDestination(emp.getDestination());
+        trip.setStartDate(emp.getStartDate());
+        trip.setEndDate(emp.getEndDate());
+        trip.setItineraries(emp.getItineraries());
+        return trip;
     }
 
     @DeleteMapping("/trips/{id}")
