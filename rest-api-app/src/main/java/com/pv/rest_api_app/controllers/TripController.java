@@ -9,7 +9,6 @@ import org.springframework.boot.autoconfigure.data.web.SpringDataWebProperties.P
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 import org.springframework.http.HttpStatus;
-import org.springframework.stereotype.Service;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -28,7 +27,6 @@ import com.pv.rest_api_app.dto.TripDTO;
 import com.pv.rest_api_app.entities.Itinerary;
 import com.pv.rest_api_app.entities.Trip;
 import com.pv.rest_api_app.repositories.TripRepository;
-import com.pv.rest_api_app.services.TripService;
 import com.pv.rest_api_app.utils.TripNotFoundException;
 
 import jakarta.validation.Valid;
@@ -39,11 +37,8 @@ import lombok.extern.slf4j.Slf4j;
 @RequestMapping("/api")
 @CrossOrigin
 public class TripController {
-     @Autowired
-    TripRepository TripRepository;
-
     @Autowired
-    TripService tripService;
+    TripRepository TripRepository;
  
     @GetMapping("/trips")
     public List<Trip> getAllTrips() {
@@ -81,12 +76,7 @@ public class TripController {
 
     @PostMapping("/trips")
     @ResponseStatus(HttpStatus.CREATED)
-    public void addTrip(@Valid @RequestBody TripDTO emp) throws Exception {
-        boolean validateDate = tripService.checkStartDateBeforeEndDate(emp.getStartDate(), emp.getEndDate());
-        log.info("Date validated " + validateDate);
-        if(!validateDate){
-            throw new Exception("Start Date isn't before End Date!");
-        }
+    public void addTrip(@Valid @RequestBody TripDTO emp) {
         TripRepository.save(convertToEntity(emp));
         // TripRepository.save(emp);
     }
@@ -140,7 +130,7 @@ public class TripController {
     public List<Itinerary> getItinerariesByTripId(@PathVariable int id) {
         Trip trip = TripRepository.findById(id)
             .orElseThrow(() -> new TripNotFoundException("Trip with id " + id + " not found"));
-        
+
         return trip.getItineraries();
     }
 
