@@ -4099,3 +4099,132 @@ java.lang.Exception: StartDate cannot be less than end date
 2025-11-19 15:03:09 - o.a.c.c.C.[Tomcat].[localhost].[/] - INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2025-11-19 15:03:09 - o.s.web.servlet.DispatcherServlet - INFO - Initializing Servlet 'dispatcherServlet'
 2025-11-19 15:03:09 - o.s.web.servlet.DispatcherServlet - INFO - Completed initialization in 1 ms
+2025-11-19 15:11:29 - o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - INFO - Restarting due to 13 class path changes (0 additions, 0 deletions, 13 modifications)
+2025-11-19 15:11:29 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-19 15:11:29 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Graceful shutdown complete
+2025-11-19 15:11:29 - o.s.o.j.LocalContainerEntityManagerFactoryBean - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-19 15:11:29 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Shutdown initiated...
+2025-11-19 15:11:29 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Shutdown completed.
+2025-11-19 15:11:29 - c.p.r.RestApiAppApplication - INFO - Starting RestApiAppApplication using Java 17.0.8 with PID 4439 (/Users/puneetvashisht/work/trainings/eclerx-spring-backend-2025/rest-api-app/target/classes started by puneetvashisht in /Users/puneetvashisht/work/trainings/eclerx-spring-backend-2025/rest-api-app)
+2025-11-19 15:11:29 - c.p.r.RestApiAppApplication - DEBUG - Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-19 15:11:29 - c.p.r.RestApiAppApplication - INFO - No active profile set, falling back to 1 default profile: "default"
+2025-11-19 15:11:29 - o.s.d.r.c.RepositoryConfigurationDelegate - INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-19 15:11:29 - o.s.d.r.c.RepositoryConfigurationDelegate - INFO - Finished Spring Data repository scanning in 3 ms. Found 2 JPA repository interfaces.
+2025-11-19 15:11:29 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat initialized with port 9090 (http)
+2025-11-19 15:11:29 - o.a.catalina.core.StandardService - INFO - Starting service [Tomcat]
+2025-11-19 15:11:29 - o.a.catalina.core.StandardEngine - INFO - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-19 15:11:29 - o.a.c.c.C.[Tomcat].[localhost].[/] - INFO - Initializing Spring embedded WebApplicationContext
+2025-11-19 15:11:29 - o.s.b.w.s.c.ServletWebServerApplicationContext - INFO - Root WebApplicationContext: initialization completed in 123 ms
+2025-11-19 15:11:29 - o.h.jpa.internal.util.LogHelper - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-19 15:11:29 - o.h.c.i.RegionFactoryInitiator - INFO - HHH000026: Second-level cache disabled
+2025-11-19 15:11:29 - o.s.o.j.p.SpringPersistenceUnitInfo - INFO - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-19 15:11:29 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-2 - Starting...
+2025-11-19 15:11:29 - com.zaxxer.hikari.pool.HikariPool - INFO - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2625eb6c
+2025-11-19 15:11:29 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-2 - Start completed.
+2025-11-19 15:11:29 - o.hibernate.orm.connections.pooling - INFO - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-19 15:11:29 - o.h.e.t.j.p.i.JtaPlatformInitiator - INFO - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-19 15:11:29 - o.s.o.j.LocalContainerEntityManagerFactoryBean - INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-19 15:11:29 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-19 15:11:29 - o.s.b.d.a.OptionalLiveReloadServer - INFO - LiveReload server is running on port 35729
+2025-11-19 15:11:29 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat started on port 9090 (http) with context path '/'
+2025-11-19 15:11:29 - c.p.r.RestApiAppApplication - INFO - Started RestApiAppApplication in 0.329 seconds (process running for 541.219)
+2025-11-19 15:11:29 - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - INFO - Condition evaluation unchanged
+2025-11-19 15:12:14 - o.a.c.c.C.[Tomcat].[localhost].[/] - INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-19 15:12:14 - o.s.web.servlet.DispatcherServlet - INFO - Initializing Servlet 'dispatcherServlet'
+2025-11-19 15:12:14 - o.s.web.servlet.DispatcherServlet - INFO - Completed initialization in 1 ms
+2025-11-19 15:12:14 - o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - WARN - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource swagger-ui.html.]
+2025-11-19 15:12:14 - o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - WARN - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2025-11-19 15:12:28 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-19 15:12:28 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Graceful shutdown complete
+2025-11-19 15:12:28 - o.s.o.j.LocalContainerEntityManagerFactoryBean - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-19 15:12:28 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-2 - Shutdown initiated...
+2025-11-19 15:12:28 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-2 - Shutdown completed.
+2025-11-19 15:12:30 - c.p.r.RestApiAppApplication - INFO - Starting RestApiAppApplication using Java 17.0.8 with PID 7439 (/Users/puneetvashisht/work/trainings/eclerx-spring-backend-2025/rest-api-app/target/classes started by puneetvashisht in /Users/puneetvashisht/work/trainings/eclerx-spring-backend-2025/rest-api-app)
+2025-11-19 15:12:30 - c.p.r.RestApiAppApplication - DEBUG - Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-19 15:12:30 - c.p.r.RestApiAppApplication - INFO - No active profile set, falling back to 1 default profile: "default"
+2025-11-19 15:12:30 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - INFO - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-19 15:12:30 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - INFO - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-19 15:12:31 - o.s.d.r.c.RepositoryConfigurationDelegate - INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-19 15:12:31 - o.s.d.r.c.RepositoryConfigurationDelegate - INFO - Finished Spring Data repository scanning in 19 ms. Found 2 JPA repository interfaces.
+2025-11-19 15:12:31 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat initialized with port 9090 (http)
+2025-11-19 15:12:31 - o.a.catalina.core.StandardService - INFO - Starting service [Tomcat]
+2025-11-19 15:12:31 - o.a.catalina.core.StandardEngine - INFO - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-19 15:12:31 - o.a.c.c.C.[Tomcat].[localhost].[/] - INFO - Initializing Spring embedded WebApplicationContext
+2025-11-19 15:12:31 - o.s.b.w.s.c.ServletWebServerApplicationContext - INFO - Root WebApplicationContext: initialization completed in 622 ms
+2025-11-19 15:12:31 - o.h.jpa.internal.util.LogHelper - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-19 15:12:31 - org.hibernate.Version - INFO - HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-19 15:12:31 - o.h.c.i.RegionFactoryInitiator - INFO - HHH000026: Second-level cache disabled
+2025-11-19 15:12:31 - o.s.o.j.p.SpringPersistenceUnitInfo - INFO - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-19 15:12:31 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Starting...
+2025-11-19 15:12:31 - com.zaxxer.hikari.pool.HikariPool - INFO - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@120007cf
+2025-11-19 15:12:31 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Start completed.
+2025-11-19 15:12:32 - o.hibernate.orm.connections.pooling - INFO - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-19 15:12:32 - o.h.e.t.j.p.i.JtaPlatformInitiator - INFO - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-19 15:12:32 - o.s.o.j.LocalContainerEntityManagerFactoryBean - INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-19 15:12:32 - o.s.d.j.r.query.QueryEnhancerFactory - INFO - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-19 15:12:32 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-19 15:12:33 - o.s.b.d.a.OptionalLiveReloadServer - INFO - LiveReload server is running on port 35729
+2025-11-19 15:12:33 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat started on port 9090 (http) with context path '/'
+2025-11-19 15:12:33 - c.p.r.RestApiAppApplication - INFO - Started RestApiAppApplication in 2.351 seconds (process running for 2.541)
+2025-11-19 15:12:39 - o.a.c.c.C.[Tomcat].[localhost].[/] - INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-19 15:12:39 - o.s.web.servlet.DispatcherServlet - INFO - Initializing Servlet 'dispatcherServlet'
+2025-11-19 15:12:39 - o.s.web.servlet.DispatcherServlet - INFO - Completed initialization in 1 ms
+2025-11-19 15:12:40 - o.s.api.AbstractOpenApiResource - INFO - Init duration for springdoc-openapi is: 157 ms
+2025-11-19 15:16:24 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-19 15:16:24 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Graceful shutdown complete
+2025-11-19 15:16:24 - o.s.o.j.LocalContainerEntityManagerFactoryBean - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-19 15:16:24 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Shutdown initiated...
+2025-11-19 15:16:24 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Shutdown completed.
+2025-11-19 15:16:25 - c.p.r.RestApiAppApplication - INFO - Starting RestApiAppApplication using Java 17.0.8 with PID 8917 (/Users/puneetvashisht/work/trainings/eclerx-spring-backend-2025/rest-api-app/target/classes started by puneetvashisht in /Users/puneetvashisht/work/trainings/eclerx-spring-backend-2025/rest-api-app)
+2025-11-19 15:16:25 - c.p.r.RestApiAppApplication - DEBUG - Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-19 15:16:25 - c.p.r.RestApiAppApplication - INFO - No active profile set, falling back to 1 default profile: "default"
+2025-11-19 15:16:25 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - INFO - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-19 15:16:25 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - INFO - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-19 15:16:26 - o.s.d.r.c.RepositoryConfigurationDelegate - INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-19 15:16:26 - o.s.d.r.c.RepositoryConfigurationDelegate - INFO - Finished Spring Data repository scanning in 17 ms. Found 2 JPA repository interfaces.
+2025-11-19 15:16:26 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat initialized with port 9090 (http)
+2025-11-19 15:16:26 - o.a.catalina.core.StandardService - INFO - Starting service [Tomcat]
+2025-11-19 15:16:26 - o.a.catalina.core.StandardEngine - INFO - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-19 15:16:26 - o.a.c.c.C.[Tomcat].[localhost].[/] - INFO - Initializing Spring embedded WebApplicationContext
+2025-11-19 15:16:26 - o.s.b.w.s.c.ServletWebServerApplicationContext - INFO - Root WebApplicationContext: initialization completed in 625 ms
+2025-11-19 15:16:26 - o.h.jpa.internal.util.LogHelper - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-19 15:16:26 - org.hibernate.Version - INFO - HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-19 15:16:26 - o.h.c.i.RegionFactoryInitiator - INFO - HHH000026: Second-level cache disabled
+2025-11-19 15:16:26 - o.s.o.j.p.SpringPersistenceUnitInfo - INFO - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-19 15:16:26 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Starting...
+2025-11-19 15:16:26 - com.zaxxer.hikari.pool.HikariPool - INFO - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@42908ed
+2025-11-19 15:16:26 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Start completed.
+2025-11-19 15:16:26 - o.hibernate.orm.connections.pooling - INFO - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-19 15:16:27 - o.h.e.t.j.p.i.JtaPlatformInitiator - INFO - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-19 15:16:27 - o.s.o.j.LocalContainerEntityManagerFactoryBean - INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-19 15:16:27 - o.s.d.j.r.query.QueryEnhancerFactory - INFO - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-19 15:16:27 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-19 15:16:27 - o.s.b.d.a.OptionalLiveReloadServer - INFO - LiveReload server is running on port 35729
+2025-11-19 15:16:27 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat started on port 9090 (http) with context path '/'
+2025-11-19 15:16:27 - c.p.r.RestApiAppApplication - INFO - Started RestApiAppApplication in 2.275 seconds (process running for 2.472)
+2025-11-19 15:16:40 - o.a.c.c.C.[Tomcat].[localhost].[/] - INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-19 15:16:40 - o.s.web.servlet.DispatcherServlet - INFO - Initializing Servlet 'dispatcherServlet'
+2025-11-19 15:16:40 - o.s.web.servlet.DispatcherServlet - INFO - Completed initialization in 2 ms
+2025-11-19 15:16:40 - o.s.api.AbstractOpenApiResource - INFO - Init duration for springdoc-openapi is: 156 ms
+2025-11-19 15:18:43 - o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - WARN - Resolved [java.lang.RuntimeException: StartDate cannot be less than end date]

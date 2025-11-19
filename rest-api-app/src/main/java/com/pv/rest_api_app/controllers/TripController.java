@@ -4,6 +4,9 @@ import java.time.LocalDate;
 import java.util.List;
 
 import com.pv.rest_api_app.services.TripService;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
+import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import org.hibernate.query.Page;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.data.web.SpringDataWebProperties.Pageable;
@@ -51,6 +54,12 @@ public class TripController {
         return TripRepository.findAll();
     }
 
+
+    @Operation(summary = "Get a Trip by id", description = "Returns a trip as per the id, includes the itinerary")
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "200", description = "Successfully retrieved"),
+            @ApiResponse(responseCode = "404", description = "Not found - The trip was not found")
+    })
     @GetMapping("/trips/{id}")
     public Trip getTripById(@PathVariable int id) {
         return TripRepository.findById(id)
