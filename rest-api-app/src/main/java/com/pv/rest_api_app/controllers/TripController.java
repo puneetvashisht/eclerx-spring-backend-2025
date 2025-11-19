@@ -3,9 +3,11 @@ package com.pv.rest_api_app.controllers;
 import java.time.LocalDate;
 import java.util.List;
 
+import com.pv.rest_api_app.services.TripService;
 import org.hibernate.query.Page;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.data.web.SpringDataWebProperties.Pageable;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 import org.springframework.http.HttpStatus;
@@ -39,7 +41,11 @@ import lombok.extern.slf4j.Slf4j;
 public class TripController {
     @Autowired
     TripRepository TripRepository;
- 
+
+    @Autowired
+    TripService tripService;
+
+    @Cacheable("trips")
     @GetMapping("/trips")
     public List<Trip> getAllTrips() {
         return TripRepository.findAll();
@@ -52,6 +58,7 @@ public class TripController {
     }
 
     // count of trips
+    @Cacheable("count")
     @GetMapping("/trips/count")
     public long getTripCount() {
         return TripRepository.count();
@@ -76,8 +83,9 @@ public class TripController {
 
     @PostMapping("/trips")
     @ResponseStatus(HttpStatus.CREATED)
-    public void addTrip(@Valid @RequestBody TripDTO emp) {
-        TripRepository.save(convertToEntity(emp));
+    public void addTrip(@Valid @RequestBody TripDTO emp) throws Exception {
+        Trip trip = convertToEntity(emp);
+        tripService.addTrip(trip);
         // TripRepository.save(emp);
     }
 
