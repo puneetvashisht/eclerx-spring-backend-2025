@@ -4228,3 +4228,1516 @@ java.lang.Exception: StartDate cannot be less than end date
 2025-11-19 15:16:40 - o.s.web.servlet.DispatcherServlet - INFO - Completed initialization in 2 ms
 2025-11-19 15:16:40 - o.s.api.AbstractOpenApiResource - INFO - Init duration for springdoc-openapi is: 156 ms
 2025-11-19 15:18:43 - o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - WARN - Resolved [java.lang.RuntimeException: StartDate cannot be less than end date]
+2025-11-19 16:02:39 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-19 16:02:39 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Graceful shutdown complete
+2025-11-19 16:02:39 - o.s.o.j.LocalContainerEntityManagerFactoryBean - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-19 16:02:39 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Shutdown initiated...
+2025-11-19 16:02:39 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Shutdown completed.
+2025-11-19 16:16:46 - c.p.r.RestApiAppApplication - INFO - Starting RestApiAppApplication using Java 17.0.8 with PID 35165 (/Users/puneetvashisht/work/trainings/eclerx-spring-backend-2025/rest-api-app/target/classes started by puneetvashisht in /Users/puneetvashisht/work/trainings/eclerx-spring-backend-2025/rest-api-app)
+2025-11-19 16:16:46 - c.p.r.RestApiAppApplication - DEBUG - Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-19 16:16:46 - c.p.r.RestApiAppApplication - INFO - No active profile set, falling back to 1 default profile: "default"
+2025-11-19 16:16:46 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - INFO - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-19 16:16:46 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - INFO - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-19 16:16:46 - o.s.d.r.c.RepositoryConfigurationDelegate - INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-19 16:16:47 - o.s.d.r.c.RepositoryConfigurationDelegate - INFO - Finished Spring Data repository scanning in 55 ms. Found 2 JPA repository interfaces.
+2025-11-19 16:16:47 - o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - INFO - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2025-11-19 16:16:47 - o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - INFO - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2025-11-19 16:16:47 - o.s.cloud.context.scope.GenericScope - INFO - BeanFactory id=606d13e2-61c7-3aa5-b19d-d90a63ff3783
+2025-11-19 16:16:47 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat initialized with port 9090 (http)
+2025-11-19 16:16:47 - o.a.catalina.core.StandardService - INFO - Starting service [Tomcat]
+2025-11-19 16:16:47 - o.a.catalina.core.StandardEngine - INFO - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-19 16:16:47 - o.a.c.c.C.[Tomcat].[localhost].[/] - INFO - Initializing Spring embedded WebApplicationContext
+2025-11-19 16:16:47 - o.s.b.w.s.c.ServletWebServerApplicationContext - INFO - Root WebApplicationContext: initialization completed in 904 ms
+2025-11-19 16:16:47 - o.h.jpa.internal.util.LogHelper - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-19 16:16:47 - org.hibernate.Version - INFO - HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-19 16:16:47 - o.h.c.i.RegionFactoryInitiator - INFO - HHH000026: Second-level cache disabled
+2025-11-19 16:16:47 - o.s.o.j.p.SpringPersistenceUnitInfo - INFO - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-19 16:16:47 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Starting...
+2025-11-19 16:16:47 - com.zaxxer.hikari.pool.HikariPool - INFO - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@78a8411c
+2025-11-19 16:16:47 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Start completed.
+2025-11-19 16:16:47 - o.hibernate.orm.connections.pooling - INFO - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-19 16:16:48 - o.h.e.t.j.p.i.JtaPlatformInitiator - INFO - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-19 16:16:48 - o.s.o.j.LocalContainerEntityManagerFactoryBean - INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-19 16:16:48 - o.s.d.j.r.query.QueryEnhancerFactory - INFO - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-19 16:16:48 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-19 16:16:49 - o.s.b.d.a.OptionalLiveReloadServer - INFO - LiveReload server is running on port 35729
+2025-11-19 16:16:49 - o.s.c.f.c.c.BeanFactoryAwareFunctionRegistry - WARN - Failed to locate function 'busConsumer' for function definition 'busConsumer'. Returning null.
+2025-11-19 16:16:49 - o.s.c.s.m.DirectWithAttributesChannel - INFO - Channel 'rest-api-app.springCloudBusInput' has 1 subscriber(s).
+2025-11-19 16:16:49 - o.s.i.endpoint.EventDrivenConsumer - INFO - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2025-11-19 16:16:49 - o.s.i.c.PublishSubscribeChannel - INFO - Channel 'rest-api-app.errorChannel' has 1 subscriber(s).
+2025-11-19 16:16:49 - o.s.i.endpoint.EventDrivenConsumer - INFO - started bean '_org.springframework.integration.errorLogger'
+2025-11-19 16:16:49 - o.s.c.s.binder.DefaultBinderFactory - INFO - Creating binder: kafka
+2025-11-19 16:16:49 - o.s.c.s.binder.DefaultBinderFactory - INFO - Constructing binder child context for kafka
+2025-11-19 16:16:49 - o.s.c.s.binder.DefaultBinderFactory - INFO - Caching the binder: kafka
+2025-11-19 16:16:49 - o.a.k.c.admin.AdminClientConfig - INFO - AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.controllers = []
+	bootstrap.servers = [localhost:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	enable.metrics.push = true
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2025-11-19 16:16:49 - o.a.kafka.common.utils.AppInfoParser - INFO - Kafka version: 3.9.1
+2025-11-19 16:16:49 - o.a.kafka.common.utils.AppInfoParser - INFO - Kafka commitId: f745dfdcee2b9851
+2025-11-19 16:16:49 - o.a.kafka.common.utils.AppInfoParser - INFO - Kafka startTimeMs: 1763549209283
+2025-11-19 16:16:49 - o.a.kafka.common.utils.AppInfoParser - INFO - App info kafka.admin.client for adminclient-1 unregistered
+2025-11-19 16:16:49 - o.a.kafka.common.metrics.Metrics - INFO - Metrics scheduler closed
+2025-11-19 16:16:49 - o.a.kafka.common.metrics.Metrics - INFO - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2025-11-19 16:16:49 - o.a.kafka.common.metrics.Metrics - INFO - Metrics reporters closed
+2025-11-19 16:16:49 - o.a.k.c.consumer.ConsumerConfig - INFO - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 100
+	auto.include.jmx.reporter = true
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	enable.metrics.push = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b
+	group.instance.id = null
+	group.protocol = classic
+	group.remote.assignor = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+
+2025-11-19 16:16:49 - o.a.k.c.t.i.KafkaMetricsCollector - INFO - initializing Kafka metrics collector
+2025-11-19 16:16:49 - o.a.kafka.common.utils.AppInfoParser - INFO - Kafka version: 3.9.1
+2025-11-19 16:16:49 - o.a.kafka.common.utils.AppInfoParser - INFO - Kafka commitId: f745dfdcee2b9851
+2025-11-19 16:16:49 - o.a.kafka.common.utils.AppInfoParser - INFO - Kafka startTimeMs: 1763549209549
+2025-11-19 16:16:49 - org.apache.kafka.clients.Metadata - INFO - [Consumer clientId=consumer-anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b-1, groupId=anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b] Cluster ID: QEgLeFHPSf--YbIV2TxFDg
+2025-11-19 16:16:49 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b-1, groupId=anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b] Resetting generation and member id due to: consumer pro-actively leaving the group
+2025-11-19 16:16:49 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b-1, groupId=anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b] Request joining group due to: consumer pro-actively leaving the group
+2025-11-19 16:16:49 - o.a.kafka.common.metrics.Metrics - INFO - Metrics scheduler closed
+2025-11-19 16:16:49 - o.a.kafka.common.metrics.Metrics - INFO - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2025-11-19 16:16:49 - o.a.kafka.common.metrics.Metrics - INFO - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2025-11-19 16:16:49 - o.a.kafka.common.metrics.Metrics - INFO - Metrics reporters closed
+2025-11-19 16:16:49 - o.a.kafka.common.utils.AppInfoParser - INFO - App info kafka.consumer for consumer-anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b-1 unregistered
+2025-11-19 16:16:49 - o.s.c.s.binder.BinderErrorChannel - INFO - Channel 'kafka-1194092981.springCloudBusInput.errors' has 1 subscriber(s).
+2025-11-19 16:16:49 - o.s.c.s.binder.BinderErrorChannel - INFO - Channel 'kafka-1194092981.springCloudBusInput.errors' has 0 subscriber(s).
+2025-11-19 16:16:49 - o.s.c.s.binder.BinderErrorChannel - INFO - Channel 'kafka-1194092981.springCloudBusInput.errors' has 1 subscriber(s).
+2025-11-19 16:16:49 - o.s.c.s.binder.BinderErrorChannel - INFO - Channel 'kafka-1194092981.springCloudBusInput.errors' has 2 subscriber(s).
+2025-11-19 16:16:49 - o.a.k.c.consumer.ConsumerConfig - INFO - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 100
+	auto.include.jmx.reporter = true
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b-2
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	enable.metrics.push = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b
+	group.instance.id = null
+	group.protocol = classic
+	group.remote.assignor = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+
+2025-11-19 16:16:49 - o.a.k.c.t.i.KafkaMetricsCollector - INFO - initializing Kafka metrics collector
+2025-11-19 16:16:49 - o.a.kafka.common.utils.AppInfoParser - INFO - Kafka version: 3.9.1
+2025-11-19 16:16:49 - o.a.kafka.common.utils.AppInfoParser - INFO - Kafka commitId: f745dfdcee2b9851
+2025-11-19 16:16:49 - o.a.kafka.common.utils.AppInfoParser - INFO - Kafka startTimeMs: 1763549209581
+2025-11-19 16:16:49 - o.a.k.c.c.i.ClassicKafkaConsumer - INFO - [Consumer clientId=consumer-anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b-2, groupId=anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b] Subscribed to topic(s): springCloudBus
+2025-11-19 16:16:49 - o.s.i.k.i.KafkaMessageDrivenChannelAdapter - INFO - started org.springframework.integration.kafka.inbound.KafkaMessageDrivenChannelAdapter@1234a8d0
+2025-11-19 16:16:49 - org.apache.kafka.clients.Metadata - INFO - [Consumer clientId=consumer-anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b-2, groupId=anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b] Cluster ID: QEgLeFHPSf--YbIV2TxFDg
+2025-11-19 16:16:49 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b-2, groupId=anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b] Discovered group coordinator localhost:9092 (id: 2147483646 rack: null)
+2025-11-19 16:16:49 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat started on port 9090 (http) with context path '/'
+2025-11-19 16:16:49 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b-2, groupId=anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b] (Re-)joining group
+2025-11-19 16:16:49 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b-2, groupId=anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b] Request joining group due to: need to re-join with the given member-id: consumer-anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b-2-ece47451-e7af-4489-91fa-2e1d574e3993
+2025-11-19 16:16:49 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b-2, groupId=anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b] (Re-)joining group
+2025-11-19 16:16:49 - c.p.r.RestApiAppApplication - INFO - Started RestApiAppApplication in 3.343 seconds (process running for 3.662)
+2025-11-19 16:16:52 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b-2, groupId=anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b] Successfully joined group with generation Generation{generationId=1, memberId='consumer-anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b-2-ece47451-e7af-4489-91fa-2e1d574e3993', protocol='range'}
+2025-11-19 16:16:52 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b-2, groupId=anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b] Finished assignment for group at generation 1: {consumer-anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b-2-ece47451-e7af-4489-91fa-2e1d574e3993=Assignment(partitions=[springCloudBus-0])}
+2025-11-19 16:16:52 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b-2, groupId=anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b] Successfully synced group in generation Generation{generationId=1, memberId='consumer-anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b-2-ece47451-e7af-4489-91fa-2e1d574e3993', protocol='range'}
+2025-11-19 16:16:52 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b-2, groupId=anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b] Notifying assignor about the new Assignment(partitions=[springCloudBus-0])
+2025-11-19 16:16:52 - o.a.k.c.c.i.ConsumerRebalanceListenerInvoker - INFO - [Consumer clientId=consumer-anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b-2, groupId=anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b] Adding newly assigned partitions: springCloudBus-0
+2025-11-19 16:16:52 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b-2, groupId=anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b] Found no committed offset for partition springCloudBus-0
+2025-11-19 16:16:52 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b-2, groupId=anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b] Found no committed offset for partition springCloudBus-0
+2025-11-19 16:16:52 - o.a.k.c.c.i.SubscriptionState - INFO - [Consumer clientId=consumer-anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b-2, groupId=anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b] Resetting offset for partition springCloudBus-0 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1 rack: null)], epoch=0}}.
+2025-11-19 16:16:52 - o.s.c.s.b.k.KafkaMessageChannelBinder$2 - INFO - anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b: partitions assigned: [springCloudBus-0]
+2025-11-19 16:17:02 - o.a.c.c.C.[Tomcat].[localhost].[/] - INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-19 16:17:02 - o.s.web.servlet.DispatcherServlet - INFO - Initializing Servlet 'dispatcherServlet'
+2025-11-19 16:17:02 - o.s.web.servlet.DispatcherServlet - INFO - Completed initialization in 2 ms
+2025-11-19 16:17:02 - o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - WARN - Resolved [java.lang.RuntimeException: StartDate cannot be less than end date]
+2025-11-19 16:17:07 - o.a.k.c.producer.ProducerConfig - INFO - ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = rest-api-app-producer-1
+	compression.gzip.level = -1
+	compression.lz4.level = 9
+	compression.type = none
+	compression.zstd.level = 3
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	enable.metrics.push = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+
+2025-11-19 16:17:07 - o.a.k.c.t.i.KafkaMetricsCollector - INFO - initializing Kafka metrics collector
+2025-11-19 16:17:07 - o.a.k.clients.producer.KafkaProducer - INFO - [Producer clientId=rest-api-app-producer-1] Instantiated an idempotent producer.
+2025-11-19 16:17:07 - o.a.kafka.common.utils.AppInfoParser - INFO - Kafka version: 3.9.1
+2025-11-19 16:17:07 - o.a.kafka.common.utils.AppInfoParser - INFO - Kafka commitId: f745dfdcee2b9851
+2025-11-19 16:17:07 - o.a.kafka.common.utils.AppInfoParser - INFO - Kafka startTimeMs: 1763549227642
+2025-11-19 16:17:07 - org.apache.kafka.clients.Metadata - INFO - [Producer clientId=rest-api-app-producer-1] Cluster ID: QEgLeFHPSf--YbIV2TxFDg
+2025-11-19 16:17:07 - o.a.k.c.p.i.TransactionManager - INFO - [Producer clientId=rest-api-app-producer-1] ProducerId set to 2 with epoch 0
+2025-11-19 16:17:07 - o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - WARN - Resolved [org.apache.kafka.common.errors.SerializationException: Can't convert value of class java.lang.String to class org.apache.kafka.common.serialization.ByteArraySerializer specified in value.serializer]
+2025-11-19 16:19:06 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-19 16:19:06 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Graceful shutdown complete
+2025-11-19 16:19:06 - o.a.k.c.c.i.ConsumerRebalanceListenerInvoker - INFO - [Consumer clientId=consumer-anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b-2, groupId=anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b] Revoke previously assigned partitions springCloudBus-0
+2025-11-19 16:19:06 - o.s.c.s.b.k.KafkaMessageChannelBinder$2 - INFO - anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b: partitions revoked: [springCloudBus-0]
+2025-11-19 16:19:06 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b-2, groupId=anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b] Member consumer-anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b-2-ece47451-e7af-4489-91fa-2e1d574e3993 sending LeaveGroup request to coordinator localhost:9092 (id: 2147483646 rack: null) due to the consumer unsubscribed from all topics
+2025-11-19 16:19:06 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b-2, groupId=anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b] Resetting generation and member id due to: consumer pro-actively leaving the group
+2025-11-19 16:19:06 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b-2, groupId=anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b] Request joining group due to: consumer pro-actively leaving the group
+2025-11-19 16:19:06 - o.a.k.c.c.i.ClassicKafkaConsumer - INFO - [Consumer clientId=consumer-anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b-2, groupId=anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b] Unsubscribed all topics or patterns and assigned partitions
+2025-11-19 16:19:06 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b-2, groupId=anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b] Resetting generation and member id due to: consumer pro-actively leaving the group
+2025-11-19 16:19:06 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b-2, groupId=anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b] Request joining group due to: consumer pro-actively leaving the group
+2025-11-19 16:19:06 - o.a.kafka.common.metrics.Metrics - INFO - Metrics scheduler closed
+2025-11-19 16:19:06 - o.a.kafka.common.metrics.Metrics - INFO - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2025-11-19 16:19:06 - o.a.kafka.common.metrics.Metrics - INFO - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2025-11-19 16:19:06 - o.a.kafka.common.metrics.Metrics - INFO - Metrics reporters closed
+2025-11-19 16:19:06 - o.a.kafka.common.utils.AppInfoParser - INFO - App info kafka.consumer for consumer-anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b-2 unregistered
+2025-11-19 16:19:06 - o.s.k.l.KafkaMessageListenerContainer - INFO - anonymous.65b459b2-c183-49e0-a9c1-f5ae87b4b44b: Consumer stopped
+2025-11-19 16:19:06 - o.s.i.k.i.KafkaMessageDrivenChannelAdapter - INFO - stopped org.springframework.integration.kafka.inbound.KafkaMessageDrivenChannelAdapter@1234a8d0
+2025-11-19 16:19:06 - o.s.c.s.binder.BinderErrorChannel - INFO - Channel 'rest-api-app.kafka-1194092981.springCloudBusInput.errors' has 1 subscriber(s).
+2025-11-19 16:19:06 - o.s.c.s.binder.BinderErrorChannel - INFO - Channel 'rest-api-app.kafka-1194092981.springCloudBusInput.errors' has 0 subscriber(s).
+2025-11-19 16:19:06 - o.a.k.clients.producer.KafkaProducer - INFO - [Producer clientId=rest-api-app-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2025-11-19 16:19:06 - o.a.kafka.common.metrics.Metrics - INFO - Metrics scheduler closed
+2025-11-19 16:19:06 - o.a.kafka.common.metrics.Metrics - INFO - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2025-11-19 16:19:06 - o.a.kafka.common.metrics.Metrics - INFO - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2025-11-19 16:19:06 - o.a.kafka.common.metrics.Metrics - INFO - Metrics reporters closed
+2025-11-19 16:19:06 - o.a.kafka.common.utils.AppInfoParser - INFO - App info kafka.producer for rest-api-app-producer-1 unregistered
+2025-11-19 16:19:06 - o.s.i.endpoint.EventDrivenConsumer - INFO - Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2025-11-19 16:19:06 - o.s.i.c.PublishSubscribeChannel - INFO - Channel 'rest-api-app.errorChannel' has 0 subscriber(s).
+2025-11-19 16:19:06 - o.s.i.endpoint.EventDrivenConsumer - INFO - stopped bean '_org.springframework.integration.errorLogger'
+2025-11-19 16:19:06 - o.s.o.j.LocalContainerEntityManagerFactoryBean - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-19 16:19:06 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Shutdown initiated...
+2025-11-19 16:19:06 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Shutdown completed.
+2025-11-19 16:19:08 - c.p.r.RestApiAppApplication - INFO - Starting RestApiAppApplication using Java 17.0.8 with PID 36046 (/Users/puneetvashisht/work/trainings/eclerx-spring-backend-2025/rest-api-app/target/classes started by puneetvashisht in /Users/puneetvashisht/work/trainings/eclerx-spring-backend-2025/rest-api-app)
+2025-11-19 16:19:08 - c.p.r.RestApiAppApplication - DEBUG - Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-19 16:19:08 - c.p.r.RestApiAppApplication - INFO - No active profile set, falling back to 1 default profile: "default"
+2025-11-19 16:19:08 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - INFO - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-19 16:19:08 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - INFO - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-19 16:19:08 - o.s.d.r.c.RepositoryConfigurationDelegate - INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-19 16:19:08 - o.s.d.r.c.RepositoryConfigurationDelegate - INFO - Finished Spring Data repository scanning in 54 ms. Found 2 JPA repository interfaces.
+2025-11-19 16:19:08 - o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - INFO - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2025-11-19 16:19:08 - o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - INFO - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2025-11-19 16:19:08 - o.s.cloud.context.scope.GenericScope - INFO - BeanFactory id=606d13e2-61c7-3aa5-b19d-d90a63ff3783
+2025-11-19 16:19:08 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat initialized with port 9090 (http)
+2025-11-19 16:19:08 - o.a.catalina.core.StandardService - INFO - Starting service [Tomcat]
+2025-11-19 16:19:08 - o.a.catalina.core.StandardEngine - INFO - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-19 16:19:08 - o.a.c.c.C.[Tomcat].[localhost].[/] - INFO - Initializing Spring embedded WebApplicationContext
+2025-11-19 16:19:08 - o.s.b.w.s.c.ServletWebServerApplicationContext - INFO - Root WebApplicationContext: initialization completed in 868 ms
+2025-11-19 16:19:09 - o.h.jpa.internal.util.LogHelper - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-19 16:19:09 - org.hibernate.Version - INFO - HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-19 16:19:09 - o.h.c.i.RegionFactoryInitiator - INFO - HHH000026: Second-level cache disabled
+2025-11-19 16:19:09 - o.s.o.j.p.SpringPersistenceUnitInfo - INFO - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-19 16:19:09 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Starting...
+2025-11-19 16:19:09 - com.zaxxer.hikari.pool.HikariPool - INFO - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@36cebdb9
+2025-11-19 16:19:09 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Start completed.
+2025-11-19 16:19:09 - o.hibernate.orm.connections.pooling - INFO - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-19 16:19:09 - o.h.e.t.j.p.i.JtaPlatformInitiator - INFO - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-19 16:19:09 - o.s.o.j.LocalContainerEntityManagerFactoryBean - INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-19 16:19:09 - o.s.d.j.r.query.QueryEnhancerFactory - INFO - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-19 16:19:10 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-19 16:19:10 - o.s.b.d.a.OptionalLiveReloadServer - INFO - LiveReload server is running on port 35729
+2025-11-19 16:19:10 - o.s.c.f.c.c.BeanFactoryAwareFunctionRegistry - WARN - Failed to locate function 'busConsumer' for function definition 'busConsumer'. Returning null.
+2025-11-19 16:19:10 - o.s.c.s.m.DirectWithAttributesChannel - INFO - Channel 'rest-api-app.springCloudBusInput' has 1 subscriber(s).
+2025-11-19 16:19:10 - o.s.i.endpoint.EventDrivenConsumer - INFO - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2025-11-19 16:19:10 - o.s.i.c.PublishSubscribeChannel - INFO - Channel 'rest-api-app.errorChannel' has 1 subscriber(s).
+2025-11-19 16:19:10 - o.s.i.endpoint.EventDrivenConsumer - INFO - started bean '_org.springframework.integration.errorLogger'
+2025-11-19 16:19:10 - o.s.c.s.binder.DefaultBinderFactory - INFO - Creating binder: kafka
+2025-11-19 16:19:10 - o.s.c.s.binder.DefaultBinderFactory - INFO - Constructing binder child context for kafka
+2025-11-19 16:19:10 - o.s.c.s.binder.DefaultBinderFactory - INFO - Caching the binder: kafka
+2025-11-19 16:19:10 - o.a.k.c.admin.AdminClientConfig - INFO - AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.controllers = []
+	bootstrap.servers = [localhost:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	enable.metrics.push = true
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2025-11-19 16:19:10 - o.a.kafka.common.utils.AppInfoParser - INFO - Kafka version: 3.9.1
+2025-11-19 16:19:10 - o.a.kafka.common.utils.AppInfoParser - INFO - Kafka commitId: f745dfdcee2b9851
+2025-11-19 16:19:10 - o.a.kafka.common.utils.AppInfoParser - INFO - Kafka startTimeMs: 1763549350681
+2025-11-19 16:19:10 - o.a.kafka.common.utils.AppInfoParser - INFO - App info kafka.admin.client for adminclient-1 unregistered
+2025-11-19 16:19:10 - o.a.kafka.common.metrics.Metrics - INFO - Metrics scheduler closed
+2025-11-19 16:19:10 - o.a.kafka.common.metrics.Metrics - INFO - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2025-11-19 16:19:10 - o.a.kafka.common.metrics.Metrics - INFO - Metrics reporters closed
+2025-11-19 16:19:10 - o.a.k.c.consumer.ConsumerConfig - INFO - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 100
+	auto.include.jmx.reporter = true
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	enable.metrics.push = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e
+	group.instance.id = null
+	group.protocol = classic
+	group.remote.assignor = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+
+2025-11-19 16:19:10 - o.a.k.c.t.i.KafkaMetricsCollector - INFO - initializing Kafka metrics collector
+2025-11-19 16:19:10 - o.a.kafka.common.utils.AppInfoParser - INFO - Kafka version: 3.9.1
+2025-11-19 16:19:10 - o.a.kafka.common.utils.AppInfoParser - INFO - Kafka commitId: f745dfdcee2b9851
+2025-11-19 16:19:10 - o.a.kafka.common.utils.AppInfoParser - INFO - Kafka startTimeMs: 1763549350884
+2025-11-19 16:19:10 - org.apache.kafka.clients.Metadata - INFO - [Consumer clientId=consumer-anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e-1, groupId=anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e] Cluster ID: QEgLeFHPSf--YbIV2TxFDg
+2025-11-19 16:19:10 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e-1, groupId=anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e] Resetting generation and member id due to: consumer pro-actively leaving the group
+2025-11-19 16:19:10 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e-1, groupId=anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e] Request joining group due to: consumer pro-actively leaving the group
+2025-11-19 16:19:10 - o.a.kafka.common.metrics.Metrics - INFO - Metrics scheduler closed
+2025-11-19 16:19:10 - o.a.kafka.common.metrics.Metrics - INFO - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2025-11-19 16:19:10 - o.a.kafka.common.metrics.Metrics - INFO - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2025-11-19 16:19:10 - o.a.kafka.common.metrics.Metrics - INFO - Metrics reporters closed
+2025-11-19 16:19:10 - o.a.kafka.common.utils.AppInfoParser - INFO - App info kafka.consumer for consumer-anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e-1 unregistered
+2025-11-19 16:19:10 - o.s.c.s.binder.BinderErrorChannel - INFO - Channel 'kafka-130945609.springCloudBusInput.errors' has 1 subscriber(s).
+2025-11-19 16:19:10 - o.s.c.s.binder.BinderErrorChannel - INFO - Channel 'kafka-130945609.springCloudBusInput.errors' has 0 subscriber(s).
+2025-11-19 16:19:10 - o.s.c.s.binder.BinderErrorChannel - INFO - Channel 'kafka-130945609.springCloudBusInput.errors' has 1 subscriber(s).
+2025-11-19 16:19:10 - o.s.c.s.binder.BinderErrorChannel - INFO - Channel 'kafka-130945609.springCloudBusInput.errors' has 2 subscriber(s).
+2025-11-19 16:19:10 - o.a.k.c.consumer.ConsumerConfig - INFO - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 100
+	auto.include.jmx.reporter = true
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e-2
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	enable.metrics.push = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e
+	group.instance.id = null
+	group.protocol = classic
+	group.remote.assignor = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+
+2025-11-19 16:19:10 - o.a.k.c.t.i.KafkaMetricsCollector - INFO - initializing Kafka metrics collector
+2025-11-19 16:19:10 - o.a.kafka.common.utils.AppInfoParser - INFO - Kafka version: 3.9.1
+2025-11-19 16:19:10 - o.a.kafka.common.utils.AppInfoParser - INFO - Kafka commitId: f745dfdcee2b9851
+2025-11-19 16:19:10 - o.a.kafka.common.utils.AppInfoParser - INFO - Kafka startTimeMs: 1763549350916
+2025-11-19 16:19:10 - o.a.k.c.c.i.ClassicKafkaConsumer - INFO - [Consumer clientId=consumer-anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e-2, groupId=anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e] Subscribed to topic(s): springCloudBus
+2025-11-19 16:19:10 - o.s.i.k.i.KafkaMessageDrivenChannelAdapter - INFO - started org.springframework.integration.kafka.inbound.KafkaMessageDrivenChannelAdapter@692c0d4
+2025-11-19 16:19:10 - org.apache.kafka.clients.Metadata - INFO - [Consumer clientId=consumer-anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e-2, groupId=anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e] Cluster ID: QEgLeFHPSf--YbIV2TxFDg
+2025-11-19 16:19:10 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e-2, groupId=anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e] Discovered group coordinator localhost:9092 (id: 2147483646 rack: null)
+2025-11-19 16:19:10 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat started on port 9090 (http) with context path '/'
+2025-11-19 16:19:10 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e-2, groupId=anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e] (Re-)joining group
+2025-11-19 16:19:10 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e-2, groupId=anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e] Request joining group due to: need to re-join with the given member-id: consumer-anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e-2-4f09f584-ec3e-4317-bc51-50b3a99fd261
+2025-11-19 16:19:10 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e-2, groupId=anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e] (Re-)joining group
+2025-11-19 16:19:10 - c.p.r.RestApiAppApplication - INFO - Started RestApiAppApplication in 3.153 seconds (process running for 3.462)
+2025-11-19 16:19:13 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e-2, groupId=anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e] Successfully joined group with generation Generation{generationId=1, memberId='consumer-anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e-2-4f09f584-ec3e-4317-bc51-50b3a99fd261', protocol='range'}
+2025-11-19 16:19:13 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e-2, groupId=anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e] Finished assignment for group at generation 1: {consumer-anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e-2-4f09f584-ec3e-4317-bc51-50b3a99fd261=Assignment(partitions=[springCloudBus-0])}
+2025-11-19 16:19:13 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e-2, groupId=anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e] Successfully synced group in generation Generation{generationId=1, memberId='consumer-anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e-2-4f09f584-ec3e-4317-bc51-50b3a99fd261', protocol='range'}
+2025-11-19 16:19:13 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e-2, groupId=anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e] Notifying assignor about the new Assignment(partitions=[springCloudBus-0])
+2025-11-19 16:19:13 - o.a.k.c.c.i.ConsumerRebalanceListenerInvoker - INFO - [Consumer clientId=consumer-anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e-2, groupId=anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e] Adding newly assigned partitions: springCloudBus-0
+2025-11-19 16:19:13 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e-2, groupId=anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e] Found no committed offset for partition springCloudBus-0
+2025-11-19 16:19:13 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e-2, groupId=anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e] Found no committed offset for partition springCloudBus-0
+2025-11-19 16:19:13 - o.a.k.c.c.i.SubscriptionState - INFO - [Consumer clientId=consumer-anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e-2, groupId=anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e] Resetting offset for partition springCloudBus-0 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1 rack: null)], epoch=0}}.
+2025-11-19 16:19:13 - o.s.c.s.b.k.KafkaMessageChannelBinder$2 - INFO - anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e: partitions assigned: [springCloudBus-0]
+2025-11-19 16:19:27 - o.a.c.c.C.[Tomcat].[localhost].[/] - INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-19 16:19:27 - o.s.web.servlet.DispatcherServlet - INFO - Initializing Servlet 'dispatcherServlet'
+2025-11-19 16:19:27 - o.s.web.servlet.DispatcherServlet - INFO - Completed initialization in 1 ms
+2025-11-19 16:19:27 - o.a.k.c.producer.ProducerConfig - INFO - ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = rest-api-app-producer-1
+	compression.gzip.level = -1
+	compression.lz4.level = 9
+	compression.type = none
+	compression.zstd.level = 3
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	enable.metrics.push = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.springframework.kafka.support.serializer.StringOrBytesSerializer
+
+2025-11-19 16:19:27 - o.a.k.c.t.i.KafkaMetricsCollector - INFO - initializing Kafka metrics collector
+2025-11-19 16:19:27 - o.a.k.clients.producer.KafkaProducer - INFO - [Producer clientId=rest-api-app-producer-1] Instantiated an idempotent producer.
+2025-11-19 16:19:27 - o.a.kafka.common.utils.AppInfoParser - INFO - Kafka version: 3.9.1
+2025-11-19 16:19:27 - o.a.kafka.common.utils.AppInfoParser - INFO - Kafka commitId: f745dfdcee2b9851
+2025-11-19 16:19:27 - o.a.kafka.common.utils.AppInfoParser - INFO - Kafka startTimeMs: 1763549367125
+2025-11-19 16:19:27 - org.apache.kafka.clients.Metadata - INFO - [Producer clientId=rest-api-app-producer-1] Cluster ID: QEgLeFHPSf--YbIV2TxFDg
+2025-11-19 16:19:27 - o.a.k.c.p.i.TransactionManager - INFO - [Producer clientId=rest-api-app-producer-1] ProducerId set to 3 with epoch 0
+2025-11-19 16:24:08 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-19 16:24:08 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Graceful shutdown complete
+2025-11-19 16:24:08 - o.a.k.c.c.i.ConsumerRebalanceListenerInvoker - INFO - [Consumer clientId=consumer-anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e-2, groupId=anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e] Revoke previously assigned partitions springCloudBus-0
+2025-11-19 16:24:08 - o.s.c.s.b.k.KafkaMessageChannelBinder$2 - INFO - anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e: partitions revoked: [springCloudBus-0]
+2025-11-19 16:24:08 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e-2, groupId=anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e] Member consumer-anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e-2-4f09f584-ec3e-4317-bc51-50b3a99fd261 sending LeaveGroup request to coordinator localhost:9092 (id: 2147483646 rack: null) due to the consumer unsubscribed from all topics
+2025-11-19 16:24:08 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e-2, groupId=anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e] Resetting generation and member id due to: consumer pro-actively leaving the group
+2025-11-19 16:24:08 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e-2, groupId=anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e] Request joining group due to: consumer pro-actively leaving the group
+2025-11-19 16:24:08 - o.a.k.c.c.i.ClassicKafkaConsumer - INFO - [Consumer clientId=consumer-anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e-2, groupId=anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e] Unsubscribed all topics or patterns and assigned partitions
+2025-11-19 16:24:08 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e-2, groupId=anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e] Resetting generation and member id due to: consumer pro-actively leaving the group
+2025-11-19 16:24:08 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e-2, groupId=anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e] Request joining group due to: consumer pro-actively leaving the group
+2025-11-19 16:24:08 - o.a.kafka.common.metrics.Metrics - INFO - Metrics scheduler closed
+2025-11-19 16:24:08 - o.a.kafka.common.metrics.Metrics - INFO - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2025-11-19 16:24:08 - o.a.kafka.common.metrics.Metrics - INFO - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2025-11-19 16:24:08 - o.a.kafka.common.metrics.Metrics - INFO - Metrics reporters closed
+2025-11-19 16:24:08 - o.a.kafka.common.utils.AppInfoParser - INFO - App info kafka.consumer for consumer-anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e-2 unregistered
+2025-11-19 16:24:08 - o.s.k.l.KafkaMessageListenerContainer - INFO - anonymous.bc7bf41c-4294-4b77-b03d-840fc8909b5e: Consumer stopped
+2025-11-19 16:24:08 - o.s.i.k.i.KafkaMessageDrivenChannelAdapter - INFO - stopped org.springframework.integration.kafka.inbound.KafkaMessageDrivenChannelAdapter@692c0d4
+2025-11-19 16:24:08 - o.s.c.s.binder.BinderErrorChannel - INFO - Channel 'rest-api-app.kafka-130945609.springCloudBusInput.errors' has 1 subscriber(s).
+2025-11-19 16:24:08 - o.s.c.s.binder.BinderErrorChannel - INFO - Channel 'rest-api-app.kafka-130945609.springCloudBusInput.errors' has 0 subscriber(s).
+2025-11-19 16:24:08 - o.a.k.clients.producer.KafkaProducer - INFO - [Producer clientId=rest-api-app-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2025-11-19 16:24:08 - o.a.kafka.common.metrics.Metrics - INFO - Metrics scheduler closed
+2025-11-19 16:24:08 - o.a.kafka.common.metrics.Metrics - INFO - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2025-11-19 16:24:08 - o.a.kafka.common.metrics.Metrics - INFO - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2025-11-19 16:24:08 - o.a.kafka.common.metrics.Metrics - INFO - Metrics reporters closed
+2025-11-19 16:24:08 - o.a.kafka.common.utils.AppInfoParser - INFO - App info kafka.producer for rest-api-app-producer-1 unregistered
+2025-11-19 16:24:08 - o.s.i.endpoint.EventDrivenConsumer - INFO - Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2025-11-19 16:24:08 - o.s.i.c.PublishSubscribeChannel - INFO - Channel 'rest-api-app.errorChannel' has 0 subscriber(s).
+2025-11-19 16:24:08 - o.s.i.endpoint.EventDrivenConsumer - INFO - stopped bean '_org.springframework.integration.errorLogger'
+2025-11-19 16:24:08 - o.s.o.j.LocalContainerEntityManagerFactoryBean - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-19 16:24:08 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Shutdown initiated...
+2025-11-19 16:24:08 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Shutdown completed.
+2025-11-19 16:24:10 - c.p.r.RestApiAppApplication - INFO - Starting RestApiAppApplication using Java 17.0.8 with PID 37925 (/Users/puneetvashisht/work/trainings/eclerx-spring-backend-2025/rest-api-app/target/classes started by puneetvashisht in /Users/puneetvashisht/work/trainings/eclerx-spring-backend-2025/rest-api-app)
+2025-11-19 16:24:10 - c.p.r.RestApiAppApplication - DEBUG - Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-19 16:24:10 - c.p.r.RestApiAppApplication - INFO - No active profile set, falling back to 1 default profile: "default"
+2025-11-19 16:24:10 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - INFO - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-19 16:24:10 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - INFO - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-19 16:24:10 - o.s.d.r.c.RepositoryConfigurationDelegate - INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-19 16:24:10 - o.s.d.r.c.RepositoryConfigurationDelegate - INFO - Finished Spring Data repository scanning in 53 ms. Found 2 JPA repository interfaces.
+2025-11-19 16:24:10 - o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - INFO - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2025-11-19 16:24:10 - o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor - INFO - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2025-11-19 16:24:10 - o.s.cloud.context.scope.GenericScope - INFO - BeanFactory id=606d13e2-61c7-3aa5-b19d-d90a63ff3783
+2025-11-19 16:24:11 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat initialized with port 9090 (http)
+2025-11-19 16:24:11 - o.a.catalina.core.StandardService - INFO - Starting service [Tomcat]
+2025-11-19 16:24:11 - o.a.catalina.core.StandardEngine - INFO - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-19 16:24:11 - o.a.c.c.C.[Tomcat].[localhost].[/] - INFO - Initializing Spring embedded WebApplicationContext
+2025-11-19 16:24:11 - o.s.b.w.s.c.ServletWebServerApplicationContext - INFO - Root WebApplicationContext: initialization completed in 854 ms
+2025-11-19 16:24:11 - o.h.jpa.internal.util.LogHelper - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-19 16:24:11 - org.hibernate.Version - INFO - HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-19 16:24:11 - o.h.c.i.RegionFactoryInitiator - INFO - HHH000026: Second-level cache disabled
+2025-11-19 16:24:11 - o.s.o.j.p.SpringPersistenceUnitInfo - INFO - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-19 16:24:11 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Starting...
+2025-11-19 16:24:11 - com.zaxxer.hikari.pool.HikariPool - INFO - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4ad290ab
+2025-11-19 16:24:11 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Start completed.
+2025-11-19 16:24:11 - o.hibernate.orm.connections.pooling - INFO - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-19 16:24:11 - o.h.e.t.j.p.i.JtaPlatformInitiator - INFO - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-19 16:24:11 - o.s.o.j.LocalContainerEntityManagerFactoryBean - INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-19 16:24:12 - o.s.d.j.r.query.QueryEnhancerFactory - INFO - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-19 16:24:12 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-19 16:24:12 - o.s.b.d.a.OptionalLiveReloadServer - INFO - LiveReload server is running on port 35729
+2025-11-19 16:24:12 - o.s.c.f.c.c.BeanFactoryAwareFunctionRegistry - WARN - Failed to locate function 'busConsumer' for function definition 'busConsumer'. Returning null.
+2025-11-19 16:24:12 - o.s.c.s.m.DirectWithAttributesChannel - INFO - Channel 'rest-api-app.springCloudBusInput' has 1 subscriber(s).
+2025-11-19 16:24:12 - o.s.i.endpoint.EventDrivenConsumer - INFO - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2025-11-19 16:24:12 - o.s.i.c.PublishSubscribeChannel - INFO - Channel 'rest-api-app.errorChannel' has 1 subscriber(s).
+2025-11-19 16:24:12 - o.s.i.endpoint.EventDrivenConsumer - INFO - started bean '_org.springframework.integration.errorLogger'
+2025-11-19 16:24:12 - o.s.c.s.binder.DefaultBinderFactory - INFO - Creating binder: kafka
+2025-11-19 16:24:12 - o.s.c.s.binder.DefaultBinderFactory - INFO - Constructing binder child context for kafka
+2025-11-19 16:24:12 - o.s.c.s.binder.DefaultBinderFactory - INFO - Caching the binder: kafka
+2025-11-19 16:24:12 - o.a.k.c.admin.AdminClientConfig - INFO - AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.controllers = []
+	bootstrap.servers = [localhost:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	enable.metrics.push = true
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2025-11-19 16:24:12 - o.a.kafka.common.utils.AppInfoParser - INFO - Kafka version: 3.9.1
+2025-11-19 16:24:12 - o.a.kafka.common.utils.AppInfoParser - INFO - Kafka commitId: f745dfdcee2b9851
+2025-11-19 16:24:12 - o.a.kafka.common.utils.AppInfoParser - INFO - Kafka startTimeMs: 1763549652897
+2025-11-19 16:24:13 - o.a.kafka.common.utils.AppInfoParser - INFO - App info kafka.admin.client for adminclient-1 unregistered
+2025-11-19 16:24:13 - o.a.kafka.common.metrics.Metrics - INFO - Metrics scheduler closed
+2025-11-19 16:24:13 - o.a.kafka.common.metrics.Metrics - INFO - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2025-11-19 16:24:13 - o.a.kafka.common.metrics.Metrics - INFO - Metrics reporters closed
+2025-11-19 16:24:13 - o.a.k.c.consumer.ConsumerConfig - INFO - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 100
+	auto.include.jmx.reporter = true
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	enable.metrics.push = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d
+	group.instance.id = null
+	group.protocol = classic
+	group.remote.assignor = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+
+2025-11-19 16:24:13 - o.a.k.c.t.i.KafkaMetricsCollector - INFO - initializing Kafka metrics collector
+2025-11-19 16:24:13 - o.a.kafka.common.utils.AppInfoParser - INFO - Kafka version: 3.9.1
+2025-11-19 16:24:13 - o.a.kafka.common.utils.AppInfoParser - INFO - Kafka commitId: f745dfdcee2b9851
+2025-11-19 16:24:13 - o.a.kafka.common.utils.AppInfoParser - INFO - Kafka startTimeMs: 1763549653088
+2025-11-19 16:24:13 - org.apache.kafka.clients.Metadata - INFO - [Consumer clientId=consumer-anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d-1, groupId=anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d] Cluster ID: QEgLeFHPSf--YbIV2TxFDg
+2025-11-19 16:24:13 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d-1, groupId=anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d] Resetting generation and member id due to: consumer pro-actively leaving the group
+2025-11-19 16:24:13 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d-1, groupId=anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d] Request joining group due to: consumer pro-actively leaving the group
+2025-11-19 16:24:13 - o.a.kafka.common.metrics.Metrics - INFO - Metrics scheduler closed
+2025-11-19 16:24:13 - o.a.kafka.common.metrics.Metrics - INFO - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2025-11-19 16:24:13 - o.a.kafka.common.metrics.Metrics - INFO - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2025-11-19 16:24:13 - o.a.kafka.common.metrics.Metrics - INFO - Metrics reporters closed
+2025-11-19 16:24:13 - o.a.kafka.common.utils.AppInfoParser - INFO - App info kafka.consumer for consumer-anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d-1 unregistered
+2025-11-19 16:24:13 - o.s.c.s.binder.BinderErrorChannel - INFO - Channel 'kafka-1680082512.springCloudBusInput.errors' has 1 subscriber(s).
+2025-11-19 16:24:13 - o.s.c.s.binder.BinderErrorChannel - INFO - Channel 'kafka-1680082512.springCloudBusInput.errors' has 0 subscriber(s).
+2025-11-19 16:24:13 - o.s.c.s.binder.BinderErrorChannel - INFO - Channel 'kafka-1680082512.springCloudBusInput.errors' has 1 subscriber(s).
+2025-11-19 16:24:13 - o.s.c.s.binder.BinderErrorChannel - INFO - Channel 'kafka-1680082512.springCloudBusInput.errors' has 2 subscriber(s).
+2025-11-19 16:24:13 - o.a.k.c.consumer.ConsumerConfig - INFO - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 100
+	auto.include.jmx.reporter = true
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d-2
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	enable.metrics.push = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d
+	group.instance.id = null
+	group.protocol = classic
+	group.remote.assignor = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.ByteArrayDeserializer
+
+2025-11-19 16:24:13 - o.a.k.c.t.i.KafkaMetricsCollector - INFO - initializing Kafka metrics collector
+2025-11-19 16:24:13 - o.a.kafka.common.utils.AppInfoParser - INFO - Kafka version: 3.9.1
+2025-11-19 16:24:13 - o.a.kafka.common.utils.AppInfoParser - INFO - Kafka commitId: f745dfdcee2b9851
+2025-11-19 16:24:13 - o.a.kafka.common.utils.AppInfoParser - INFO - Kafka startTimeMs: 1763549653119
+2025-11-19 16:24:13 - o.a.k.c.c.i.ClassicKafkaConsumer - INFO - [Consumer clientId=consumer-anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d-2, groupId=anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d] Subscribed to topic(s): springCloudBus
+2025-11-19 16:24:13 - o.s.i.k.i.KafkaMessageDrivenChannelAdapter - INFO - started org.springframework.integration.kafka.inbound.KafkaMessageDrivenChannelAdapter@3abcccf8
+2025-11-19 16:24:13 - org.apache.kafka.clients.Metadata - INFO - [Consumer clientId=consumer-anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d-2, groupId=anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d] Cluster ID: QEgLeFHPSf--YbIV2TxFDg
+2025-11-19 16:24:13 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat started on port 9090 (http) with context path '/'
+2025-11-19 16:24:13 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d-2, groupId=anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d] Discovered group coordinator localhost:9092 (id: 2147483646 rack: null)
+2025-11-19 16:24:13 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d-2, groupId=anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d] (Re-)joining group
+2025-11-19 16:24:13 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d-2, groupId=anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d] Request joining group due to: need to re-join with the given member-id: consumer-anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d-2-736ed421-777d-4b75-be6a-bacca61c674e
+2025-11-19 16:24:13 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d-2, groupId=anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d] (Re-)joining group
+2025-11-19 16:24:13 - c.p.r.RestApiAppApplication - INFO - Started RestApiAppApplication in 3.144 seconds (process running for 3.442)
+2025-11-19 16:24:16 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d-2, groupId=anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d] Successfully joined group with generation Generation{generationId=1, memberId='consumer-anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d-2-736ed421-777d-4b75-be6a-bacca61c674e', protocol='range'}
+2025-11-19 16:24:16 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d-2, groupId=anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d] Finished assignment for group at generation 1: {consumer-anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d-2-736ed421-777d-4b75-be6a-bacca61c674e=Assignment(partitions=[springCloudBus-0])}
+2025-11-19 16:24:16 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d-2, groupId=anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d] Successfully synced group in generation Generation{generationId=1, memberId='consumer-anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d-2-736ed421-777d-4b75-be6a-bacca61c674e', protocol='range'}
+2025-11-19 16:24:16 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d-2, groupId=anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d] Notifying assignor about the new Assignment(partitions=[springCloudBus-0])
+2025-11-19 16:24:16 - o.a.k.c.c.i.ConsumerRebalanceListenerInvoker - INFO - [Consumer clientId=consumer-anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d-2, groupId=anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d] Adding newly assigned partitions: springCloudBus-0
+2025-11-19 16:24:16 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d-2, groupId=anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d] Found no committed offset for partition springCloudBus-0
+2025-11-19 16:24:16 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d-2, groupId=anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d] Found no committed offset for partition springCloudBus-0
+2025-11-19 16:24:16 - o.a.k.c.c.i.SubscriptionState - INFO - [Consumer clientId=consumer-anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d-2, groupId=anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d] Resetting offset for partition springCloudBus-0 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1 rack: null)], epoch=0}}.
+2025-11-19 16:24:16 - o.s.c.s.b.k.KafkaMessageChannelBinder$2 - INFO - anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d: partitions assigned: [springCloudBus-0]
+2025-11-19 16:24:23 - o.a.c.c.C.[Tomcat].[localhost].[/] - INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-19 16:24:23 - o.s.web.servlet.DispatcherServlet - INFO - Initializing Servlet 'dispatcherServlet'
+2025-11-19 16:24:23 - o.s.web.servlet.DispatcherServlet - INFO - Completed initialization in 1 ms
+2025-11-19 16:24:23 - o.a.k.c.producer.ProducerConfig - INFO - ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = rest-api-app-producer-1
+	compression.gzip.level = -1
+	compression.lz4.level = 9
+	compression.type = none
+	compression.zstd.level = 3
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	enable.metrics.push = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.ByteArraySerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.header.urlencode = false
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
+
+2025-11-19 16:24:23 - o.a.k.c.t.i.KafkaMetricsCollector - INFO - initializing Kafka metrics collector
+2025-11-19 16:24:23 - o.a.k.clients.producer.KafkaProducer - INFO - [Producer clientId=rest-api-app-producer-1] Instantiated an idempotent producer.
+2025-11-19 16:24:23 - o.a.kafka.common.utils.AppInfoParser - INFO - Kafka version: 3.9.1
+2025-11-19 16:24:23 - o.a.kafka.common.utils.AppInfoParser - INFO - Kafka commitId: f745dfdcee2b9851
+2025-11-19 16:24:23 - o.a.kafka.common.utils.AppInfoParser - INFO - Kafka startTimeMs: 1763549663827
+2025-11-19 16:24:23 - org.apache.kafka.clients.Metadata - INFO - [Producer clientId=rest-api-app-producer-1] Cluster ID: QEgLeFHPSf--YbIV2TxFDg
+2025-11-19 16:24:23 - o.a.k.c.p.i.TransactionManager - INFO - [Producer clientId=rest-api-app-producer-1] ProducerId set to 4 with epoch 0
+2025-11-19 17:33:38 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-19 17:33:38 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Graceful shutdown complete
+2025-11-19 17:33:38 - o.a.k.c.c.i.ConsumerRebalanceListenerInvoker - INFO - [Consumer clientId=consumer-anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d-2, groupId=anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d] Revoke previously assigned partitions springCloudBus-0
+2025-11-19 17:33:38 - o.s.c.s.b.k.KafkaMessageChannelBinder$2 - INFO - anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d: partitions revoked: [springCloudBus-0]
+2025-11-19 17:33:38 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d-2, groupId=anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d] Member consumer-anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d-2-736ed421-777d-4b75-be6a-bacca61c674e sending LeaveGroup request to coordinator localhost:9092 (id: 2147483646 rack: null) due to the consumer unsubscribed from all topics
+2025-11-19 17:33:38 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d-2, groupId=anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d] Resetting generation and member id due to: consumer pro-actively leaving the group
+2025-11-19 17:33:38 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d-2, groupId=anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d] Request joining group due to: consumer pro-actively leaving the group
+2025-11-19 17:33:38 - o.a.k.c.c.i.ClassicKafkaConsumer - INFO - [Consumer clientId=consumer-anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d-2, groupId=anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d] Unsubscribed all topics or patterns and assigned partitions
+2025-11-19 17:33:38 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d-2, groupId=anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d] Resetting generation and member id due to: consumer pro-actively leaving the group
+2025-11-19 17:33:38 - o.a.k.c.c.i.ConsumerCoordinator - INFO - [Consumer clientId=consumer-anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d-2, groupId=anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d] Request joining group due to: consumer pro-actively leaving the group
+2025-11-19 17:33:38 - o.a.kafka.common.metrics.Metrics - INFO - Metrics scheduler closed
+2025-11-19 17:33:38 - o.a.kafka.common.metrics.Metrics - INFO - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2025-11-19 17:33:38 - o.a.kafka.common.metrics.Metrics - INFO - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2025-11-19 17:33:38 - o.a.kafka.common.metrics.Metrics - INFO - Metrics reporters closed
+2025-11-19 17:33:38 - o.a.kafka.common.utils.AppInfoParser - INFO - App info kafka.consumer for consumer-anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d-2 unregistered
+2025-11-19 17:33:38 - o.s.k.l.KafkaMessageListenerContainer - INFO - anonymous.c451e44d-6cee-485e-ad8a-608fd974d58d: Consumer stopped
+2025-11-19 17:33:38 - o.s.i.k.i.KafkaMessageDrivenChannelAdapter - INFO - stopped org.springframework.integration.kafka.inbound.KafkaMessageDrivenChannelAdapter@3abcccf8
+2025-11-19 17:33:38 - o.s.c.s.binder.BinderErrorChannel - INFO - Channel 'rest-api-app.kafka-1680082512.springCloudBusInput.errors' has 1 subscriber(s).
+2025-11-19 17:33:38 - o.s.c.s.binder.BinderErrorChannel - INFO - Channel 'rest-api-app.kafka-1680082512.springCloudBusInput.errors' has 0 subscriber(s).
+2025-11-19 17:33:38 - o.a.k.clients.producer.KafkaProducer - INFO - [Producer clientId=rest-api-app-producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2025-11-19 17:33:38 - o.a.kafka.common.metrics.Metrics - INFO - Metrics scheduler closed
+2025-11-19 17:33:38 - o.a.kafka.common.metrics.Metrics - INFO - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2025-11-19 17:33:38 - o.a.kafka.common.metrics.Metrics - INFO - Closing reporter org.apache.kafka.common.telemetry.internals.ClientTelemetryReporter
+2025-11-19 17:33:38 - o.a.kafka.common.metrics.Metrics - INFO - Metrics reporters closed
+2025-11-19 17:33:38 - o.a.kafka.common.utils.AppInfoParser - INFO - App info kafka.producer for rest-api-app-producer-1 unregistered
+2025-11-19 17:33:38 - o.s.i.endpoint.EventDrivenConsumer - INFO - Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2025-11-19 17:33:38 - o.s.i.c.PublishSubscribeChannel - INFO - Channel 'rest-api-app.errorChannel' has 0 subscriber(s).
+2025-11-19 17:33:38 - o.s.i.endpoint.EventDrivenConsumer - INFO - stopped bean '_org.springframework.integration.errorLogger'
+2025-11-19 17:33:38 - o.s.o.j.LocalContainerEntityManagerFactoryBean - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-19 17:33:38 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Shutdown initiated...
+2025-11-19 17:33:38 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Shutdown completed.
