@@ -110,3 +110,99 @@
 2025-11-21 15:03:55 - com.pv.trip_app.TripController - INFO - Found trip: com.pv.trip_app.Trip@502f3721
 2025-11-21 15:04:19 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
 2025-11-21 15:04:41 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-21 15:09:19 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-21 15:09:41 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-21 15:14:19 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-21 15:14:41 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-21 15:19:19 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-21 15:19:41 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-21 15:24:19 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-21 15:24:41 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-21 15:29:19 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-21 15:29:41 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-21 15:34:19 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-21 15:34:41 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-21 15:39:20 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-21 15:39:41 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-21 15:44:20 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-21 15:44:41 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-21 15:49:20 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-21 15:49:41 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-21 15:54:03 - o.a.c.c.C.[Tomcat].[localhost].[/] - INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-21 15:54:03 - o.s.web.servlet.DispatcherServlet - INFO - Initializing Servlet 'dispatcherServlet'
+2025-11-21 15:54:03 - o.s.web.servlet.DispatcherServlet - INFO - Completed initialization in 4 ms
+2025-11-21 15:54:03 - o.s.w.s.m.s.DefaultHandlerExceptionResolver - WARN - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2025-11-21 15:54:20 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-21 15:54:33 - o.s.w.s.m.s.DefaultHandlerExceptionResolver - WARN - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2025-11-21 15:54:37 - c.p.t.TripBookingController - INFO - Booking trip using Feign client for destination: Tokyo
+2025-11-21 15:54:37 - com.pv.trip_app.TripController - INFO - Fetching trip for destination: Tokyo
+2025-11-21 15:54:37 - com.pv.trip_app.TripController - INFO - Found trip: com.pv.trip_app.Trip@3321ea88
+2025-11-21 15:54:37 - c.p.t.TripBookingController - INFO - Received trip details: Trip(id=2, destination=Tokyo, startDate=2025/12/12, endDate=2025/12/12, price=40000.0, port=9090)
+2025-11-21 15:54:37 - o.a.c.c.C.[.[.[.[dispatcherServlet] - ERROR - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "com.pv.trip_booking_app.TripBooking.getNumberOfTravelers()" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "com.pv.trip_booking_app.TripBooking.getNumberOfTravelers()" is null
+	at com.pv.trip_booking_app.TripBookingController.bookTripUsingFeign(TripBookingController.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2025-11-21 15:54:41 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-21 15:59:20 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-21 15:59:41 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-21 16:04:20 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-21 16:04:41 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-21 16:09:20 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-21 16:09:41 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-21 16:14:20 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-21 16:14:41 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-21 16:19:20 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-21 16:19:41 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration

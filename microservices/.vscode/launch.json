@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Application",
+            "request": "launch",
+            "mainClass": "gateway.Application"
+        },
+        {
+            "type": "java",
             "name": "TripBookingAppApplication",
             "request": "launch",
             "mainClass": "TripBookingAppApplication",
