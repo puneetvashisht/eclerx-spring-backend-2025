@@ -34,14 +34,21 @@ public class TripService {
 
     @Transactional(Transactional.TxType.REQUIRED)
     public void addTrip( Trip trip) throws Exception {
+
+        //create a transaction
+
+        // begin tx tx.begin()
         tripRepository.save(trip);
         if(!checkStartDateBeforeEndDate(trip.getStartDate(), trip.getEndDate())){
 //            throw new RuntimeException("StartDate cannot be less than end date");
             throw new RuntimeException("StartDate cannot be less than end date");
             // for transaction rollback happens only for RuntiTime exception
+            // tx.rollback
         }
 
         this.sendMessage("quickstart-events", new Activity("TRIP-CREATED"));
+
+        //commit tx tx.commit()
     }
     
 }

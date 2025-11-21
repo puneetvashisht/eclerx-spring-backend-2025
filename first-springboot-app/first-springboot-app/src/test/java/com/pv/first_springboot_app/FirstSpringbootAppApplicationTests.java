@@ -1,5 +1,7 @@
 package com.pv.first_springboot_app;
 
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -7,7 +9,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 class FirstSpringbootAppApplicationTests {
 
 	@Test
-	void contextLoads() {
+	public void simplestTestCaseEver(){
+		assertTrue(true);
 	}
 
 }
