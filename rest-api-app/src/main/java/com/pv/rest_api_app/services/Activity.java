@@ -7,8 +7,10 @@ public class Activity {
     public Activity(){
 
     }
-    public Activity(String description){
+    public Activity(String id, String description){
+        this.id = id;
         this.description = description;
     }
+    String id;
     String description;
 }

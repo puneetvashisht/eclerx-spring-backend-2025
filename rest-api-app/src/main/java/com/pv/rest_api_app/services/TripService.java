@@ -46,7 +46,7 @@ public class TripService {
             // tx.rollback
         }
 
-        this.sendMessage("quickstart-events", new Activity("TRIP-CREATED"));
+        this.sendMessage("quickstart-events", new Activity(trip.getId() + "", "TRIP-CREATED"));
 
         //commit tx tx.commit()
     }
