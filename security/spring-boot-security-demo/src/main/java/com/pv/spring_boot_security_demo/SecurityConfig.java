@@ -3,9 +3,7 @@ package com.pv.spring_boot_security_demo;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.Customizer;
-import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
 import org.springframework.security.config.annotation.method.configuration.EnableMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.core.userdetails.User;
@@ -27,7 +25,7 @@ public class SecurityConfig {
         httpSecurity
         .csrf(csrf -> csrf.disable())
         .authorizeHttpRequests(auth -> 
-            auth.requestMatchers("/auth/**", "/api/public/**").permitAll()
+            auth.requestMatchers("/api/public/**").permitAll()
             .requestMatchers("/api/admin/**").hasRole("ADMIN")
             .anyRequest().authenticated()
         )
@@ -50,12 +48,6 @@ public class SecurityConfig {
         .build();
 
         return new InMemoryUserDetailsManager(user, admin);
-    }
-
-
-    @Bean
-    public AuthenticationManager authenticationManager(AuthenticationConfiguration config) throws Exception{
-        return config.getAuthenticationManager();
     }
 
     @Bean
