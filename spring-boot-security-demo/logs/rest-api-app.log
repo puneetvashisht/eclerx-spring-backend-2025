@@ -3615,3 +3615,8 @@ io.jsonwebtoken.MalformedJwtException: JWT strings must contain exactly 2 period
 2025-11-24 15:18:16 - o.a.c.c.C.[Tomcat].[localhost].[/] - INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2025-11-24 15:18:16 - o.s.web.servlet.DispatcherServlet - INFO - Initializing Servlet 'dispatcherServlet'
 2025-11-24 15:18:16 - o.s.web.servlet.DispatcherServlet - INFO - Completed initialization in 0 ms
+2025-11-24 16:25:46 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-24 16:25:48 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Graceful shutdown complete
+2025-11-24 16:25:48 - o.s.o.j.LocalContainerEntityManagerFactoryBean - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-24 16:25:48 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Shutdown initiated...
+2025-11-24 16:25:48 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Shutdown completed.

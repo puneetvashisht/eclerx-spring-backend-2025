@@ -18,6 +18,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Application {
 
+	@Autowired
+	AuthenticationFilter authFilter;
+
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
 	}
@@ -41,7 +44,8 @@ public class Application {
 
                 .route("trip-booking-app", r -> r.path("/api/trip-bookings/**")
                         .uri("lb://trip-booking-app"))
-                .route("trip-app", r -> r.path("/api/trips/**")
+                .route("trip-app", r -> r.path("/api/trips/**"))
+						filters(f -> f.filter(authFilter))
                         .uri("http://localhost:9090/api/trips/"))
 //                .build();
 			.build();
