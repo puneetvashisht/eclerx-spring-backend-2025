@@ -22,6 +22,9 @@ public class ChatController {
     @GetMapping("/chat")
     public String chat(@RequestParam String message){
         // call the open ai to get response
-        return this.chatClient.prompt(message).call().content();
+        return this.chatClient.prompt()
+        // .system("You are a polite assistant who responds concisely.")
+        .user(message)
+        .call().content();
     }
 }
