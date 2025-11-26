@@ -2761,3 +2761,16 @@ com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct in
 2025-11-25 15:30:00 - o.a.c.c.C.[Tomcat].[localhost].[/] - INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2025-11-25 15:30:00 - o.s.web.servlet.DispatcherServlet - INFO - Initializing Servlet 'dispatcherServlet'
 2025-11-25 15:30:00 - o.s.web.servlet.DispatcherServlet - INFO - Completed initialization in 0 ms
+2025-11-25 15:31:43 - o.s.c.n.e.s.EurekaServiceRegistry - INFO - Unregistering application TRIP-APP with eureka with status DOWN
+2025-11-25 15:31:43 - c.netflix.discovery.DiscoveryClient - INFO - Saw local status change event StatusChangeEvent [timestamp=1764064903888, current=DOWN, previous=UP]
+2025-11-25 15:31:43 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-APP/192.168.31.70:trip-app:9090: registering service...
+2025-11-25 15:31:43 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-25 15:31:43 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Graceful shutdown complete
+2025-11-25 15:31:43 - o.s.o.j.LocalContainerEntityManagerFactoryBean - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-25 15:31:43 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-APP/192.168.31.70:trip-app:9090 - registration status: 204
+2025-11-25 15:31:43 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-24 - Shutdown initiated...
+2025-11-25 15:31:43 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-24 - Shutdown completed.
+2025-11-25 15:31:43 - c.netflix.discovery.DiscoveryClient - INFO - Shutting down DiscoveryClient ...
+2025-11-25 15:31:46 - c.netflix.discovery.DiscoveryClient - INFO - Unregistering ...
+2025-11-25 15:31:46 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-APP/192.168.31.70:trip-app:9090 - deregister  status: 200
+2025-11-25 15:31:46 - c.netflix.discovery.DiscoveryClient - INFO - Completed shut down of DiscoveryClient

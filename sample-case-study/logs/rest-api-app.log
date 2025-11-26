@@ -1,0 +1,459 @@
+2025-11-26 10:23:18 - com.pv.trip_app.TripAppApplication - INFO - Starting TripAppApplication using Java 17.0.8 with PID 6155 (/Users/puneetvashisht/work/trainings/eclerx-spring-backend-2025/sample-case-study/trip-app/target/classes started by puneetvashisht in /Users/puneetvashisht/work/trainings/eclerx-spring-backend-2025/sample-case-study)
+2025-11-26 10:23:18 - com.pv.trip_app.TripAppApplication - INFO - No active profile set, falling back to 1 default profile: "default"
+2025-11-26 10:23:18 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - INFO - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-26 10:23:18 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - INFO - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-26 10:23:18 - o.s.d.r.c.RepositoryConfigurationDelegate - INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-26 10:23:18 - o.s.d.r.c.RepositoryConfigurationDelegate - INFO - Finished Spring Data repository scanning in 73 ms. Found 1 JPA repository interface.
+2025-11-26 10:23:19 - o.s.cloud.context.scope.GenericScope - INFO - BeanFactory id=7bc5705c-a601-3b9d-84b6-69013b209842
+2025-11-26 10:23:19 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat initialized with port 9090 (http)
+2025-11-26 10:23:19 - o.a.catalina.core.StandardService - INFO - Starting service [Tomcat]
+2025-11-26 10:23:19 - o.a.catalina.core.StandardEngine - INFO - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-11-26 10:23:19 - o.a.c.c.C.[Tomcat].[localhost].[/] - INFO - Initializing Spring embedded WebApplicationContext
+2025-11-26 10:23:19 - o.s.b.w.s.c.ServletWebServerApplicationContext - INFO - Root WebApplicationContext: initialization completed in 829 ms
+2025-11-26 10:23:19 - o.h.jpa.internal.util.LogHelper - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-26 10:23:19 - org.hibernate.Version - INFO - HHH000412: Hibernate ORM core version 6.6.36.Final
+2025-11-26 10:23:19 - o.h.c.i.RegionFactoryInitiator - INFO - HHH000026: Second-level cache disabled
+2025-11-26 10:23:19 - o.s.o.j.p.SpringPersistenceUnitInfo - INFO - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-26 10:23:19 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Starting...
+2025-11-26 10:23:19 - com.zaxxer.hikari.pool.HikariPool - INFO - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@74ff7df
+2025-11-26 10:23:19 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Start completed.
+2025-11-26 10:23:19 - o.hibernate.orm.connections.pooling - INFO - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-26 10:23:20 - o.h.e.t.j.p.i.JtaPlatformInitiator - INFO - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-26 10:23:20 - o.s.o.j.LocalContainerEntityManagerFactoryBean - INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-26 10:23:20 - o.s.d.j.r.query.QueryEnhancerFactory - INFO - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-26 10:23:20 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-26 10:23:20 - o.s.b.d.a.OptionalLiveReloadServer - WARN - Unable to start LiveReload server
+2025-11-26 10:23:20 - o.s.c.o.FeignClientFactoryBean - INFO - For 'trip-ai-app' URL not provided. Will try picking an instance via load-balancing.
+2025-11-26 10:23:20 - o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - INFO - Eureka HTTP Client uses RestTemplate.
+2025-11-26 10:23:20 - o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - WARN - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-11-26 10:23:20 - o.s.c.n.eureka.InstanceInfoFactory - INFO - Setting initial instance status as: STARTING
+2025-11-26 10:23:20 - c.netflix.discovery.DiscoveryClient - INFO - Initializing Eureka in region us-east-1
+2025-11-26 10:23:20 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-26 10:23:20 - c.netflix.discovery.DiscoveryClient - INFO - Disable delta property : false
+2025-11-26 10:23:20 - c.netflix.discovery.DiscoveryClient - INFO - Single vip registry refresh property : null
+2025-11-26 10:23:20 - c.netflix.discovery.DiscoveryClient - INFO - Force full registry fetch : false
+2025-11-26 10:23:20 - c.netflix.discovery.DiscoveryClient - INFO - Application is null : false
+2025-11-26 10:23:20 - c.netflix.discovery.DiscoveryClient - INFO - Registered Applications size is zero : true
+2025-11-26 10:23:20 - c.netflix.discovery.DiscoveryClient - INFO - Application version is -1: true
+2025-11-26 10:23:20 - c.netflix.discovery.DiscoveryClient - INFO - Getting all instance registry info from the eureka server
+2025-11-26 10:23:21 - c.netflix.discovery.DiscoveryClient - INFO - The response status is 200
+2025-11-26 10:23:21 - c.netflix.discovery.DiscoveryClient - INFO - Starting heartbeat executor: renew interval is: 30
+2025-11-26 10:23:21 - c.n.discovery.InstanceInfoReplicator - INFO - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-11-26 10:23:21 - c.netflix.discovery.DiscoveryClient - INFO - Discovery Client initialized at timestamp 1764132801059 with initial instances count: 1
+2025-11-26 10:23:21 - o.s.c.n.e.s.EurekaServiceRegistry - INFO - Registering application TRIP-APP with eureka with status UP
+2025-11-26 10:23:21 - c.netflix.discovery.DiscoveryClient - INFO - Saw local status change event StatusChangeEvent [timestamp=1764132801061, current=UP, previous=STARTING]
+2025-11-26 10:23:21 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-APP/192.168.31.70:trip-app:9090: registering service...
+2025-11-26 10:23:21 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat started on port 9090 (http) with context path '/'
+2025-11-26 10:23:21 - o.s.c.n.e.s.EurekaAutoServiceRegistration - INFO - Updating port to 9090
+2025-11-26 10:23:21 - com.pv.trip_app.TripAppApplication - INFO - Started TripAppApplication in 2.8 seconds (process running for 3.113)
+2025-11-26 10:23:21 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-APP/192.168.31.70:trip-app:9090 - registration status: 204
+2025-11-26 10:24:01 - o.a.c.c.C.[Tomcat].[localhost].[/] - INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-26 10:24:01 - o.s.web.servlet.DispatcherServlet - INFO - Initializing Servlet 'dispatcherServlet'
+2025-11-26 10:24:01 - o.s.web.servlet.DispatcherServlet - INFO - Completed initialization in 4 ms
+2025-11-26 10:24:31 - o.s.w.s.m.s.DefaultHandlerExceptionResolver - WARN - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "2025/12/12": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '2025/12/12' could not be parsed at index 4]
+2025-11-26 10:25:34 - o.s.w.s.m.s.DefaultHandlerExceptionResolver - WARN - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "2025/12/12": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '2025/12/12' could not be parsed at index 4]
+2025-11-26 10:25:51 - o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - INFO - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-11-26 10:25:51 - o.s.c.n.e.s.EurekaServiceRegistry - INFO - Unregistering application TRIP-APP with eureka with status DOWN
+2025-11-26 10:25:51 - c.netflix.discovery.DiscoveryClient - INFO - Saw local status change event StatusChangeEvent [timestamp=1764132951482, current=DOWN, previous=UP]
+2025-11-26 10:25:51 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-APP/192.168.31.70:trip-app:9090: registering service...
+2025-11-26 10:25:51 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-26 10:25:51 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-APP/192.168.31.70:trip-app:9090 - registration status: 204
+2025-11-26 10:25:51 - o.s.b.w.e.tomcat.GracefulShutdown - INFO - Graceful shutdown complete
+2025-11-26 10:25:51 - o.s.o.j.LocalContainerEntityManagerFactoryBean - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-26 10:25:51 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Shutdown initiated...
+2025-11-26 10:25:51 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Shutdown completed.
+2025-11-26 10:25:51 - c.netflix.discovery.DiscoveryClient - INFO - Shutting down DiscoveryClient ...
+2025-11-26 10:25:54 - c.netflix.discovery.DiscoveryClient - INFO - Unregistering ...
+2025-11-26 10:25:54 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-APP/192.168.31.70:trip-app:9090 - deregister  status: 200
+2025-11-26 10:25:54 - c.netflix.discovery.DiscoveryClient - INFO - Completed shut down of DiscoveryClient
+2025-11-26 10:25:54 - com.pv.trip_app.TripAppApplication - INFO - Starting TripAppApplication using Java 17.0.8 with PID 6155 (/Users/puneetvashisht/work/trainings/eclerx-spring-backend-2025/sample-case-study/trip-app/target/classes started by puneetvashisht in /Users/puneetvashisht/work/trainings/eclerx-spring-backend-2025/sample-case-study)
+2025-11-26 10:25:54 - com.pv.trip_app.TripAppApplication - INFO - No active profile set, falling back to 1 default profile: "default"
+2025-11-26 10:25:54 - o.s.d.r.c.RepositoryConfigurationDelegate - INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-26 10:25:54 - o.s.d.r.c.RepositoryConfigurationDelegate - INFO - Finished Spring Data repository scanning in 3 ms. Found 1 JPA repository interface.
+2025-11-26 10:25:54 - o.s.cloud.context.scope.GenericScope - INFO - BeanFactory id=7bc5705c-a601-3b9d-84b6-69013b209842
+2025-11-26 10:25:54 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat initialized with port 9090 (http)
+2025-11-26 10:25:54 - o.a.catalina.core.StandardService - INFO - Starting service [Tomcat]
+2025-11-26 10:25:54 - o.a.catalina.core.StandardEngine - INFO - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-11-26 10:25:54 - o.a.c.c.C.[Tomcat].[localhost].[/] - INFO - Initializing Spring embedded WebApplicationContext
+2025-11-26 10:25:54 - o.s.b.w.s.c.ServletWebServerApplicationContext - INFO - Root WebApplicationContext: initialization completed in 207 ms
+2025-11-26 10:25:54 - o.h.jpa.internal.util.LogHelper - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-26 10:25:54 - o.h.c.i.RegionFactoryInitiator - INFO - HHH000026: Second-level cache disabled
+2025-11-26 10:25:54 - o.s.o.j.p.SpringPersistenceUnitInfo - INFO - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-26 10:25:54 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-2 - Starting...
+2025-11-26 10:25:54 - com.zaxxer.hikari.pool.HikariPool - INFO - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@39cabe17
+2025-11-26 10:25:54 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-2 - Start completed.
+2025-11-26 10:25:54 - o.hibernate.orm.connections.pooling - INFO - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-26 10:25:54 - o.h.e.t.j.p.i.JtaPlatformInitiator - INFO - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-26 10:25:54 - o.s.o.j.LocalContainerEntityManagerFactoryBean - INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-26 10:25:54 - o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - WARN - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tripController': Lookup method resolution failed
+2025-11-26 10:25:54 - o.s.o.j.LocalContainerEntityManagerFactoryBean - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-26 10:25:54 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-2 - Shutdown initiated...
+2025-11-26 10:25:54 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-2 - Shutdown completed.
+2025-11-26 10:25:54 - o.a.catalina.core.StandardService - INFO - Stopping service [Tomcat]
+2025-11-26 10:25:54 - o.s.b.a.l.ConditionEvaluationReportLogger - INFO - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-11-26 10:25:54 - o.s.boot.SpringApplication - ERROR - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tripController': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:498) ~[spring-beans-6.2.14.jar:6.2.14]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:368) ~[spring-beans-6.2.14.jar:6.2.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1334) ~[spring-beans-6.2.14.jar:6.2.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1229) ~[spring-beans-6.2.14.jar:6.2.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.14.jar:6.2.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.14.jar:6.2.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.14.jar:6.2.14]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.14.jar:6.2.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.14.jar:6.2.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.14.jar:6.2.14]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1228) ~[spring-beans-6.2.14.jar:6.2.14]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1194) ~[spring-beans-6.2.14.jar:6.2.14]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1130) ~[spring-beans-6.2.14.jar:6.2.14]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:990) ~[spring-context-6.2.14.jar:6.2.14]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.14.jar:6.2.14]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.8.jar:3.5.8]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.8.jar:3.5.8]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.8.jar:3.5.8]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.8.jar:3.5.8]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.8.jar:3.5.8]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.8.jar:3.5.8]
+	at com.pv.trip_app.TripAppApplication.main(TripAppApplication.java:13) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.8.jar:3.5.8]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.pv.trip_app.controllers.TripController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3b60b8ab]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483) ~[spring-core-6.2.14.jar:6.2.14]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320) ~[spring-core-6.2.14.jar:6.2.14]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:476) ~[spring-beans-6.2.14.jar:6.2.14]
+	... 26 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: CountryCities
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465) ~[spring-core-6.2.14.jar:6.2.14]
+	... 28 common frames omitted
+Caused by: java.lang.ClassNotFoundException: CountryCities
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121) ~[spring-boot-devtools-3.5.8.jar:3.5.8]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	... 32 common frames omitted
+2025-11-26 10:26:01 - com.pv.trip_app.TripAppApplication - INFO - Starting TripAppApplication using Java 17.0.8 with PID 6155 (/Users/puneetvashisht/work/trainings/eclerx-spring-backend-2025/sample-case-study/trip-app/target/classes started by puneetvashisht in /Users/puneetvashisht/work/trainings/eclerx-spring-backend-2025/sample-case-study)
+2025-11-26 10:26:01 - com.pv.trip_app.TripAppApplication - INFO - No active profile set, falling back to 1 default profile: "default"
+2025-11-26 10:26:01 - o.s.d.r.c.RepositoryConfigurationDelegate - INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-26 10:26:01 - o.s.d.r.c.RepositoryConfigurationDelegate - INFO - Finished Spring Data repository scanning in 2 ms. Found 1 JPA repository interface.
+2025-11-26 10:26:01 - o.s.cloud.context.scope.GenericScope - INFO - BeanFactory id=7bc5705c-a601-3b9d-84b6-69013b209842
+2025-11-26 10:26:01 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat initialized with port 9090 (http)
+2025-11-26 10:26:01 - o.a.catalina.core.StandardService - INFO - Starting service [Tomcat]
+2025-11-26 10:26:01 - o.a.catalina.core.StandardEngine - INFO - Starting Servlet engine: [Apache Tomcat/10.1.49]
+2025-11-26 10:26:01 - o.a.c.c.C.[Tomcat-1].[localhost].[/] - INFO - Initializing Spring embedded WebApplicationContext
+2025-11-26 10:26:01 - o.s.b.w.s.c.ServletWebServerApplicationContext - INFO - Root WebApplicationContext: initialization completed in 145 ms
+2025-11-26 10:26:01 - o.h.jpa.internal.util.LogHelper - INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-26 10:26:01 - o.h.c.i.RegionFactoryInitiator - INFO - HHH000026: Second-level cache disabled
+2025-11-26 10:26:01 - o.s.o.j.p.SpringPersistenceUnitInfo - INFO - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-26 10:26:01 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-3 - Starting...
+2025-11-26 10:26:01 - com.zaxxer.hikari.pool.HikariPool - INFO - HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@75feacfe
+2025-11-26 10:26:01 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-3 - Start completed.
+2025-11-26 10:26:01 - o.hibernate.orm.connections.pooling - INFO - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 8.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-26 10:26:01 - o.h.e.t.j.p.i.JtaPlatformInitiator - INFO - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-26 10:26:01 - o.s.o.j.LocalContainerEntityManagerFactoryBean - INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-26 10:26:01 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-26 10:26:01 - o.s.b.d.a.OptionalLiveReloadServer - WARN - Unable to start LiveReload server
+2025-11-26 10:26:01 - o.s.c.o.FeignClientFactoryBean - INFO - For 'trip-ai-app' URL not provided. Will try picking an instance via load-balancing.
+2025-11-26 10:26:01 - o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - INFO - Eureka HTTP Client uses RestTemplate.
+2025-11-26 10:26:01 - o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - WARN - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-11-26 10:26:01 - o.s.c.n.eureka.InstanceInfoFactory - INFO - Setting initial instance status as: STARTING
+2025-11-26 10:26:01 - c.netflix.discovery.DiscoveryClient - INFO - Initializing Eureka in region us-east-1
+2025-11-26 10:26:01 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-26 10:26:01 - c.netflix.discovery.DiscoveryClient - INFO - Disable delta property : false
+2025-11-26 10:26:01 - c.netflix.discovery.DiscoveryClient - INFO - Single vip registry refresh property : null
+2025-11-26 10:26:01 - c.netflix.discovery.DiscoveryClient - INFO - Force full registry fetch : false
+2025-11-26 10:26:01 - c.netflix.discovery.DiscoveryClient - INFO - Application is null : false
+2025-11-26 10:26:01 - c.netflix.discovery.DiscoveryClient - INFO - Registered Applications size is zero : true
+2025-11-26 10:26:01 - c.netflix.discovery.DiscoveryClient - INFO - Application version is -1: true
+2025-11-26 10:26:01 - c.netflix.discovery.DiscoveryClient - INFO - Getting all instance registry info from the eureka server
+2025-11-26 10:26:01 - c.netflix.discovery.DiscoveryClient - INFO - The response status is 200
+2025-11-26 10:26:01 - c.netflix.discovery.DiscoveryClient - INFO - Starting heartbeat executor: renew interval is: 30
+2025-11-26 10:26:01 - c.n.discovery.InstanceInfoReplicator - INFO - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-11-26 10:26:01 - c.netflix.discovery.DiscoveryClient - INFO - Discovery Client initialized at timestamp 1764132961747 with initial instances count: 1
+2025-11-26 10:26:01 - o.s.c.n.e.s.EurekaServiceRegistry - INFO - Registering application TRIP-APP with eureka with status UP
+2025-11-26 10:26:01 - c.netflix.discovery.DiscoveryClient - INFO - Saw local status change event StatusChangeEvent [timestamp=1764132961748, current=UP, previous=STARTING]
+2025-11-26 10:26:01 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-APP/192.168.31.70:trip-app:9090: registering service...
+2025-11-26 10:26:01 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat started on port 9090 (http) with context path '/'
+2025-11-26 10:26:01 - o.s.c.n.e.s.EurekaAutoServiceRegistration - INFO - Updating port to 9090
+2025-11-26 10:26:01 - c.netflix.discovery.DiscoveryClient - INFO - DiscoveryClient_TRIP-APP/192.168.31.70:trip-app:9090 - registration status: 204
+2025-11-26 10:26:01 - com.pv.trip_app.TripAppApplication - INFO - Started TripAppApplication in 0.353 seconds (process running for 163.787)
+2025-11-26 10:26:01 - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - INFO - Condition evaluation unchanged
+2025-11-26 10:26:54 - o.a.c.c.C.[Tomcat-1].[localhost].[/] - INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-26 10:26:54 - o.s.web.servlet.DispatcherServlet - INFO - Initializing Servlet 'dispatcherServlet'
+2025-11-26 10:26:54 - o.s.web.servlet.DispatcherServlet - INFO - Completed initialization in 1 ms
+2025-11-26 10:27:13 - o.h.e.jdbc.spi.SqlExceptionHelper - WARN - SQL Error: 1062, SQLState: 23000
+2025-11-26 10:27:13 - o.h.e.jdbc.spi.SqlExceptionHelper - ERROR - Duplicate entry 'Tokyo' for key 'trip.UK174e3wnrckuggmywdtfosuix3'
+2025-11-26 10:27:13 - o.a.c.c.C.[.[.[.[dispatcherServlet] - ERROR - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: could not execute statement [Duplicate entry 'Tokyo' for key 'trip.UK174e3wnrckuggmywdtfosuix3'] [insert into trip (destination,end_date,start_date,id) values (?,?,?,?)]; SQL [insert into trip (destination,end_date,start_date,id) values (?,?,?,?)]; constraint [trip.UK174e3wnrckuggmywdtfosuix3]] with root cause
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'Tokyo' for key 'trip.UK174e3wnrckuggmywdtfosuix3'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109) ~[mysql-connector-j-9.5.0.jar:9.5.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114) ~[mysql-connector-j-9.5.0.jar:9.5.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988) ~[mysql-connector-j-9.5.0.jar:9.5.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1166) ~[mysql-connector-j-9.5.0.jar:9.5.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1101) ~[mysql-connector-j-9.5.0.jar:9.5.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1448) ~[mysql-connector-j-9.5.0.jar:9.5.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1084) ~[mysql-connector-j-9.5.0.jar:9.5.0]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-6.3.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-6.3.3.jar:na]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194) ~[hibernate-core-6.6.36.Final.jar:6.6.36.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:134) ~[hibernate-core-6.6.36.Final.jar:6.6.36.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:55) ~[hibernate-core-6.6.36.Final.jar:6.6.36.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55) ~[hibernate-core-6.6.36.Final.jar:6.6.36.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.doStaticInserts(InsertCoordinatorStandard.java:194) ~[hibernate-core-6.6.36.Final.jar:6.6.36.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.coordinateInsert(InsertCoordinatorStandard.java:132) ~[hibernate-core-6.6.36.Final.jar:6.6.36.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.insert(InsertCoordinatorStandard.java:104) ~[hibernate-core-6.6.36.Final.jar:6.6.36.Final]
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:110) ~[hibernate-core-6.6.36.Final.jar:6.6.36.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:644) ~[hibernate-core-6.6.36.Final.jar:6.6.36.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:511) ~[hibernate-core-6.6.36.Final.jar:6.6.36.Final]
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:414) ~[hibernate-core-6.6.36.Final.jar:6.6.36.Final]
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:41) ~[hibernate-core-6.6.36.Final.jar:6.6.36.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127) ~[hibernate-core-6.6.36.Final.jar:6.6.36.Final]
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1429) ~[hibernate-core-6.6.36.Final.jar:6.6.36.Final]
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:491) ~[hibernate-core-6.6.36.Final.jar:6.6.36.Final]
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2354) ~[hibernate-core-6.6.36.Final.jar:6.6.36.Final]
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:1978) ~[hibernate-core-6.6.36.Final.jar:6.6.36.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:439) ~[hibernate-core-6.6.36.Final.jar:6.6.36.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:169) ~[hibernate-core-6.6.36.Final.jar:6.6.36.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:267) ~[hibernate-core-6.6.36.Final.jar:6.6.36.Final]
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101) ~[hibernate-core-6.6.36.Final.jar:6.6.36.Final]
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:563) ~[spring-orm-6.2.14.jar:6.2.14]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:795) ~[spring-tx-6.2.14.jar:6.2.14]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:758) ~[spring-tx-6.2.14.jar:6.2.14]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:698) ~[spring-tx-6.2.14.jar:6.2.14]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:416) ~[spring-tx-6.2.14.jar:6.2.14]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.2.14.jar:6.2.14]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.14.jar:6.2.14]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138) ~[spring-tx-6.2.14.jar:6.2.14]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.14.jar:6.2.14]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165) ~[spring-data-jpa-3.5.6.jar:3.5.6]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.14.jar:6.2.14]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223) ~[spring-aop-6.2.14.jar:6.2.14]
+	at jdk.proxy6/jdk.proxy6.$Proxy174.save(Unknown Source) ~[na:na]
+	at com.pv.trip_app.controllers.TripController.addTrip(TripController.java:83) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.14.jar:6.2.14]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.14.jar:6.2.14]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.14.jar:6.2.14]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.14.jar:6.2.14]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.14.jar:6.2.14]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.14.jar:6.2.14]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.14.jar:6.2.14]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.14.jar:6.2.14]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.14.jar:6.2.14]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.14.jar:6.2.14]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.49.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.14.jar:6.2.14]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.49.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.49.jar:10.1.49]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.14.jar:6.2.14]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.14.jar:6.2.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.14.jar:6.2.14]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.14.jar:6.2.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.14.jar:6.2.14]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.14.jar:6.2.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+2025-11-26 10:31:01 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-26 10:36:01 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-26 10:41:01 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-26 10:46:01 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-26 10:50:41 - o.a.c.c.C.[.[.[.[dispatcherServlet] - ERROR - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: feign.FeignException$InternalServerError: [500] during [GET] to [http://trip-ai-app/api/chat?message] [TripAIProxy#getTripIdeas(String)]: [{"timestamp":"2025-11-26T05:20:41.223+00:00","status":500,"error":"Internal Server Error","trace":"java.lang.IllegalArgumentException: text cannot be null or empty\n\tat org.springframework.util.Asser... (5328 bytes)]] with root cause
+feign.FeignException$InternalServerError: [500] during [GET] to [http://trip-ai-app/api/chat?message] [TripAIProxy#getTripIdeas(String)]: [{"timestamp":"2025-11-26T05:20:41.223+00:00","status":500,"error":"Internal Server Error","trace":"java.lang.IllegalArgumentException: text cannot be null or empty\n\tat org.springframework.util.Asser... (5328 bytes)]
+	at feign.FeignException.serverErrorStatus(FeignException.java:281) ~[feign-core-13.6.jar:na]
+	at feign.FeignException.errorStatus(FeignException.java:226) ~[feign-core-13.6.jar:na]
+	at feign.FeignException.errorStatus(FeignException.java:213) ~[feign-core-13.6.jar:na]
+	at feign.codec.ErrorDecoder$Default.decode(ErrorDecoder.java:103) ~[feign-core-13.6.jar:na]
+	at feign.InvocationContext.decodeError(InvocationContext.java:133) ~[feign-core-13.6.jar:na]
+	at feign.InvocationContext.proceed(InvocationContext.java:80) ~[feign-core-13.6.jar:na]
+	at feign.ResponseHandler.handleResponse(ResponseHandler.java:69) ~[feign-core-13.6.jar:na]
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:109) ~[feign-core-13.6.jar:na]
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:53) ~[feign-core-13.6.jar:na]
+	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:104) ~[feign-core-13.6.jar:na]
+	at jdk.proxy6/jdk.proxy6.$Proxy175.getTripIdeas(Unknown Source) ~[na:na]
+	at com.pv.trip_app.controllers.TripController.getSomeTripIdeas(TripController.java:51) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.14.jar:6.2.14]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.14.jar:6.2.14]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.14.jar:6.2.14]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.14.jar:6.2.14]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.14.jar:6.2.14]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.14.jar:6.2.14]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.14.jar:6.2.14]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.14.jar:6.2.14]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.14.jar:6.2.14]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.14.jar:6.2.14]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.49.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.14.jar:6.2.14]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.49.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.49.jar:10.1.49]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.14.jar:6.2.14]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.14.jar:6.2.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.14.jar:6.2.14]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.14.jar:6.2.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.14.jar:6.2.14]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.14.jar:6.2.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+2025-11-26 10:51:01 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-26 10:52:08 - o.s.w.s.m.s.DefaultHandlerExceptionResolver - WARN - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'message' for method parameter type String is not present]
+2025-11-26 10:56:01 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
+2025-11-26 10:59:41 - o.a.c.c.C.[.[.[.[dispatcherServlet] - ERROR - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: feign.RetryableException: Read timed out executing GET http://trip-ai-app/api/chat?message=What%20is%20the%20best%20destination%20in%20February] with root cause
+java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:283) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:309) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[na:na]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966) ~[na:na]
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:244) ~[na:na]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:284) ~[na:na]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:827) ~[na:na]
+	at java.base/sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:762) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1688) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589) ~[na:na]
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:529) ~[na:na]
+	at feign.Client$Default.convertResponse(Client.java:114) ~[feign-core-13.6.jar:na]
+	at feign.Client$Default.execute(Client.java:110) ~[feign-core-13.6.jar:na]
+	at org.springframework.cloud.openfeign.loadbalancer.LoadBalancerUtils.executeWithLoadBalancerLifecycleProcessing(LoadBalancerUtils.java:56) ~[spring-cloud-openfeign-core-4.3.0.jar:4.3.0]
+	at org.springframework.cloud.openfeign.loadbalancer.LoadBalancerUtils.executeWithLoadBalancerLifecycleProcessing(LoadBalancerUtils.java:91) ~[spring-cloud-openfeign-core-4.3.0.jar:4.3.0]
+	at org.springframework.cloud.openfeign.loadbalancer.FeignBlockingLoadBalancerClient.execute(FeignBlockingLoadBalancerClient.java:137) ~[spring-cloud-openfeign-core-4.3.0.jar:4.3.0]
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:92) ~[feign-core-13.6.jar:na]
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:53) ~[feign-core-13.6.jar:na]
+	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:104) ~[feign-core-13.6.jar:na]
+	at jdk.proxy6/jdk.proxy6.$Proxy175.getTripIdeas(Unknown Source) ~[na:na]
+	at com.pv.trip_app.controllers.TripController.getSomeTripIdeas(TripController.java:51) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.14.jar:6.2.14]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.14.jar:6.2.14]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.14.jar:6.2.14]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.14.jar:6.2.14]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.14.jar:6.2.14]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.14.jar:6.2.14]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.14.jar:6.2.14]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.14.jar:6.2.14]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.14.jar:6.2.14]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.14.jar:6.2.14]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.49.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.14.jar:6.2.14]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.49.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.49.jar:10.1.49]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.14.jar:6.2.14]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.14.jar:6.2.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.14.jar:6.2.14]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.14.jar:6.2.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.14.jar:6.2.14]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.14.jar:6.2.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.49.jar:10.1.49]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+2025-11-26 11:01:01 - c.n.d.s.r.aws.ConfigClusterResolver - INFO - Resolving eureka endpoints via configuration
