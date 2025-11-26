@@ -23,12 +23,14 @@ public class StructuredOutputController {
     
     public StructuredOutputController(ChatClient.Builder chatClientBuilder){
         this.chatClient = chatClientBuilder
-        .defaultAdvisors(new SimpleLoggerAdvisor()).build();
+        // .defaultAdvisors(new SimpleLoggerAdvisor())
+        .build();
     }
 
      @GetMapping("/chat")
      public String chat(@RequestParam String message){
         return chatClient.prompt()
+        .system("Give short and fast answer, need not be too acurate")
         .user(message)
         .call().content();
      }
